@@ -1,1 +1,1 @@
-# superpreklady
+# superpreklady.sk
