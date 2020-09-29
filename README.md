@@ -8,7 +8,7 @@
 ### Dizajn
 - podľa **grafického návrhu**, ktorý sa nachádza v repozitári
 - ikony a obrázky pushnem do repozitára hneď, ako budú hotové, zatiaľ kľudne používajte placeholders
-- textový obsah stránky sa nachádza v dokumente v repozitári
+- textový obsah stránky pošlem pushnem do repozitára čím skôr
 
 ### Funkcionalita
 - pri kliknutí na menu link v headeri smooth scroll na danú časť webstránky
