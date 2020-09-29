@@ -7,8 +7,7 @@
 
 ### Dizajn
 - podľa **grafického návrhu**, ktorý sa nachádza v repozitári
-
-**! Ikony a obrázky pushnem do repozitára hneď, ako budú**
+- ikony a obrázky pushnem do repozitára hneď, ako budú hotové
 
 ### Funkcionalita
 - pri kliknutí na menu link v headeri smooth scroll na danú časť webstránky
