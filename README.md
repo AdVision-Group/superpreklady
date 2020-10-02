@@ -14,6 +14,7 @@
 - pri kliknutí na menu link v headeri smooth scroll na danú časť webstránky
 - kontaktný formulár
 - responzívny dizajn, optimalizované pre mobilné zariadenia
+- po kliknutí na službu v časti "Služby" sa zmení content po službami na danú službu a smooth scrollne sa to do tej služby. Takisto sa zmení aj cenník pre danú službu
 
 ### Odovzdanie
 - všetok CSS kód v jednom súbore
