@@ -10,6 +10,13 @@
 - ikony a obrázky pushnem do repozitára hneď, ako budú hotové, zatiaľ kľudne používajte placeholders
 - textový obsah stránky pushnem do repozitára čím skôr
 
+### Farby
+- #333333 - čierne nadpisy, mobile menu hamburger
+- #343434 - footer background
+- #3250D1 - modrá na nadpisy a buttony
+- #E3E3E3 - šedá na landing page background
+- #9A9A9A - šedá na texty
+
 ### Funkcionalita
 - pri kliknutí na menu link v headeri smooth scroll na danú časť webstránky
 - kontaktný formulár
