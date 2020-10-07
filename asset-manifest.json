@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.078a0cee.chunk.css",
-    "main.js": "/static/js/main.4c19201c.chunk.js",
-    "main.js.map": "/static/js/main.4c19201c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/js/2.8ac1f32b.chunk.js": "/static/js/2.8ac1f32b.chunk.js",
-    "static/js/2.8ac1f32b.chunk.js.map": "/static/js/2.8ac1f32b.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8426f832f5ab576782072239d50f7366.js": "/precache-manifest.8426f832f5ab576782072239d50f7366.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.078a0cee.chunk.css.map": "/static/css/main.078a0cee.chunk.css.map",
-    "static/js/2.8ac1f32b.chunk.js.LICENSE.txt": "/static/js/2.8ac1f32b.chunk.js.LICENSE.txt",
-    "static/media/article-black-18dp.svg": "/static/media/article-black-18dp.ef6da18b.svg",
-    "static/media/phone-black-18dp.svg": "/static/media/phone-black-18dp.b4175d5a.svg",
-    "static/media/superpreklady-about-image.jpg": "/static/media/superpreklady-about-image.6fac293e.jpg",
-    "static/media/superpreklady-icon-home.png": "/static/media/superpreklady-icon-home.9c1fdafa.png"
+    "main.css": "/superpreklady/static/css/main.078a0cee.chunk.css",
+    "main.js": "/superpreklady/static/js/main.1fa751c2.chunk.js",
+    "main.js.map": "/superpreklady/static/js/main.1fa751c2.chunk.js.map",
+    "runtime-main.js": "/superpreklady/static/js/runtime-main.03d6905b.js",
+    "runtime-main.js.map": "/superpreklady/static/js/runtime-main.03d6905b.js.map",
+    "static/js/2.1f698964.chunk.js": "/superpreklady/static/js/2.1f698964.chunk.js",
+    "static/js/2.1f698964.chunk.js.map": "/superpreklady/static/js/2.1f698964.chunk.js.map",
+    "index.html": "/superpreklady/index.html",
+    "precache-manifest.ce32178e02c058e9070e8780e8ac0ac3.js": "/superpreklady/precache-manifest.ce32178e02c058e9070e8780e8ac0ac3.js",
+    "service-worker.js": "/superpreklady/service-worker.js",
+    "static/css/main.078a0cee.chunk.css.map": "/superpreklady/static/css/main.078a0cee.chunk.css.map",
+    "static/js/2.1f698964.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.1f698964.chunk.js.LICENSE.txt",
+    "static/media/article-black-18dp.svg": "/superpreklady/static/media/article-black-18dp.ef6da18b.svg",
+    "static/media/phone-black-18dp.svg": "/superpreklady/static/media/phone-black-18dp.b4175d5a.svg",
+    "static/media/superpreklady-about-image.jpg": "/superpreklady/static/media/superpreklady-about-image.6fac293e.jpg",
+    "static/media/superpreklady-icon-home.png": "/superpreklady/static/media/superpreklady-icon-home.9c1fdafa.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.09b85ec0.js",
-    "static/js/2.8ac1f32b.chunk.js",
+    "static/js/runtime-main.03d6905b.js",
+    "static/js/2.1f698964.chunk.js",
     "static/css/main.078a0cee.chunk.css",
-    "static/js/main.4c19201c.chunk.js"
+    "static/js/main.1fa751c2.chunk.js"
   ]
 }
