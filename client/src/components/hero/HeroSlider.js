@@ -6,7 +6,8 @@ import {HeroSliderContainer,
     HeroHeadingContainer,
     HeroTextContainer,
     HeroButtonContainer,
-    HeroImg
+    HeroImg,
+    Button,H1,P
 
 } from "./HeroSlider.styled"
 import HeroImageSource from "../../images/superpreklady-icon-home.png";
@@ -17,27 +18,23 @@ const HeroSlider = () => {
             <HeroSliderInnerContainer>
                 <HeroLeftContainer>
                     <HeroHeadingContainer>
-                      <h1>DODAM VAM NAJVYSSIU<br/>KVALITU PREKLADOV</h1>
+                      <H1>DODÁM VÁM NAJVYŠŠIU<br/>KVALITU PREKLADOV</H1>
                     </HeroHeadingContainer>
                     <HeroTextContainer>
-                        <h3>
-                            Moja prekldatelska ponuka Vam zabezpeci<br/>
-                            vsetko,co budete potrebovat
-                        </h3>
+                        <P>
+                            Moja prekladateľská ponuka Vám zabezpečí<br/>všetko, čo budete potrebovať
+                        </P>
                     </HeroTextContainer>
                     <HeroButtonContainer>
-                        <button>
-                            Hello
-                        </button>
-
+                        <Button>
+                            ZISTI VIAC
+                        </Button>
                     </HeroButtonContainer>
-
                 </HeroLeftContainer>
                 <HeroRightContainer>
                         <HeroImg src={HeroImageSource}
                                  alt="mainLogo"
                         />
-
                 </HeroRightContainer>
             </HeroSliderInnerContainer>
         </HeroSliderContainer>

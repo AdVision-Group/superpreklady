@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink,Link } from 'react-router-dom'
 import {AboutContainer,
     AboutInnerContainer,
     AboutLeftContainer,
@@ -10,7 +11,8 @@ import {AboutContainer,
     AboutHeadingContainerMain,
     AboutHeadingContainerSubMain,
     AboutText,
-    AboutButton
+    AboutButton,
+    Button,H3,H1,P
 } from "./About.styled"
 import AboutImageSource from "../../images/superpreklady-about-image.jpg"
 
@@ -29,19 +31,22 @@ const About = () => {
                 <AboutRightContainer>
                     <AboutRightInnerContainer>
                         <AboutHeadingContainerTop>
-                            <h3>O MNE</h3>
+                            <H3>O MNE</H3>
                         </AboutHeadingContainerTop>
                         <AboutHeadingContainerMain>
-                            <h1>KTO SOM A CO ROBIM</h1>
+                            <H1>KTO SOM A ČO ROBÍM</H1>
                         </AboutHeadingContainerMain>
                         <AboutHeadingContainerSubMain>
-                            <h3>ING. PAVEL POLONYI</h3>
+                            <H3>ING. PAVEL POLÓNYI</H3>
                         </AboutHeadingContainerSubMain>
                         <AboutText>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</P>
                         </AboutText>
                         <AboutButton>
-                            <button>Zivotopis</button>
+                            <NavLink to="/zivotopis">
+                                <Button>ŽIVOTOPIS</Button>
+                            </NavLink>
+
                         </AboutButton>
 
                     </AboutRightInnerContainer>

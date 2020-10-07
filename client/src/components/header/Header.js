@@ -4,7 +4,13 @@ import {HeaderMainDiv,
     MenuContainer,
     ButtonContainer,
     LogoInnerContainer,
-    LogoImg
+    LogoInnerContainerContent,
+    Heading,
+    SubHeading,
+    LogoImg,
+    H3,
+    H4,
+    Button
 } from "./Header.styled"
 import Menu from "./Menu"
 import Logo from  "../../images/superpreklady-logo.png"
@@ -17,12 +23,20 @@ const Header = () => {
                     <LogoImg src={Logo}
                           alt="mainLogo"/>
                 </LogoInnerContainer>
+                <LogoInnerContainerContent>
+                    <Heading>
+                        <H3>SUPERPREKLADY</H3>
+                    </Heading>
+                    <SubHeading>
+                        <H4>Ing.Pavel Polónyi</H4>
+                    </SubHeading>
+                </LogoInnerContainerContent>
             </LogoContainer>
             <MenuContainer>
                 <Menu/>
             </MenuContainer>
             <ButtonContainer>
-                <button>Hello</button>
+                <Button>KONTAKTUJTE MA</Button>
             </ButtonContainer>
         </HeaderMainDiv>
     )

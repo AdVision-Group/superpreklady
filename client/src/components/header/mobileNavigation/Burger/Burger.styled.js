@@ -4,24 +4,32 @@ export const StyledBurger = styled.button`
 	padding: 1px;
 	margin: 1px 10px 1px -25px;
 	position: fixed;
-	top: 50%;
+	top: 5%;
 	z-index: 99999;
 	left: 96%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	width: 3rem;
+	width: 2.5rem;
 	height: 2rem;
 	background: transparent;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	transform: rotate(90deg);
 	@media only screen and (max-width: ${({ theme }) =>
 			theme.brakePoints.lmw}) {
 		width: 2.2rem;
 		height: 1.5rem;
+		
 	}
+	@media only screen and (min-width: ${({ theme }) =>
+	theme.brakePoints.lmw}) {
+		width: 2.2rem;
+		height: 1.5rem;
+		display: none;
+		
+	}
+
 
 	span {
 		cursor: pointer;
@@ -36,6 +44,7 @@ export const StyledBurger = styled.button`
 				theme.brakePoints.lmw}) {
 			width: 2.2rem;
 			height: 0.15rem;
+	
 		}
 
 		:first-child {

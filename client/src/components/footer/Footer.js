@@ -18,10 +18,21 @@ import {FooterContainer,
     ScopeContainerModule,
     Menu,
     ContactContainerModule,
-    ContactContent
+    ContactContent,Phone
 
 
 } from "./Footer.Styled"
+import {
+    H3,
+    H4,
+    HeaderMainDiv,
+    LogoImg,
+    LogoInnerContainer,
+    LogoInnerContainerContent,
+    SubHeading
+} from "../header/Header.styled";
+import Logo from "../../images/superpreklady-logo.png";
+import PhoneIcon from "../../images/phone-black-18dp.svg"
 
 const Footer = () => {
     return (
@@ -29,11 +40,24 @@ const Footer = () => {
             <FooterInnerContainer>
                 <RowOneContainer>
                     <LogoContainer>
-
+                        <LogoInnerContainer>
+                            <LogoImg src={Logo}
+                                     alt="mainLogo"/>
+                        </LogoInnerContainer>
+                        <LogoInnerContainerContent>
+                            <Heading>
+                                <H3>SUPERPREKLADY</H3>
+                            </Heading>
+                            <SubHeading>
+                                <H4>Ing.Pavel Polónyi</H4>
+                            </SubHeading>
+                        </LogoInnerContainerContent>
                     </LogoContainer>
                     <PhoneContainer>
                         <IconContainer>
-
+                            <Phone src={PhoneIcon}
+                                      alt="mainLogo">
+                            </Phone>
                         </IconContainer>
                         <PhoneContactContainer>
                             <Number>
@@ -50,9 +74,7 @@ const Footer = () => {
                         <Heading>
                             <h3>O MNE</h3>
                         </Heading>
-                        <Separator>
-
-                        </Separator>
+                        <Separator/>
                         <AboutContent>
                             <p> five centuries, but also the leap into electronic typesetting, remaining essenti</p>
                         </AboutContent>
@@ -72,9 +94,7 @@ const Footer = () => {
                         <Heading>
                             <h3>OBSAH</h3>
                         </Heading>
-                        <Separator>
-
-                        </Separator>
+                        <Separator/>
                         <Menu>
                             <ul>
                                 <li>Domov</li>
@@ -82,26 +102,23 @@ const Footer = () => {
                                 <li>Cennik</li>
                                 <li>O mne</li>
                                 <li>Kontatk</li>
-
                             </ul>
                         </Menu>
                     </ScopeContainerModule>
                     <ContactContainerModule>
                         <Heading>
-                            KONTAKT
+                            <h3>KONTAKT</h3>
                         </Heading>
-                        <Separator>
-
-                        </Separator>
+                        <Separator/>
                         <ContactContent>
                             <p>
-                                five centuries, but also the leap into electronic typesetting, remaining essenti
+                                five centuries, but also the leap
+                                into electronic typesetting, remaining
+                                essenti
                             </p>
                         </ContactContent>
                     </ContactContainerModule>
-
                 </RowTwoContainer>
-
             </FooterInnerContainer>
         </FooterContainer>
 

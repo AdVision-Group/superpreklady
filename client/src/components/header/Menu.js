@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom'
 import {MenuMainDiv,
     MenuInnerContainer,
     MenuFirstLineContainer,
@@ -17,10 +18,10 @@ const Menu = () => {
             <MenuInnerContainer>
                 <MenuFirstLineContainer>
                     <MenuNumberContainer>
-                        <p>Number : 0910780445</p>
+                        <p><span style={{color:"#e4e4e4e0"}}>Telefón:</span> +421 908 728 274</p>
                     </MenuNumberContainer>
                     <MenuEmailContainer>
-                        <p>Email : sadecky.marek@gmail.com</p>
+                        <p><span style={{color:"#e4e4e4e0"}}>E-mail:</span> pavel@superpreklady.sk</p>
                     </MenuEmailContainer>
                     <MenuSocialContainer>
                         <p>Face, Twitter, Google+</p>
@@ -28,17 +29,17 @@ const Menu = () => {
                 </MenuFirstLineContainer>
                 <MenuSecondLineContainer>
                     <MenuInnerNavigationContainer>
-                        <MenuItem>Domov</MenuItem>
-                        <MenuItem>Uradne Preklady</MenuItem>
-                        <MenuItem>Neuradne Preklady</MenuItem>
-                        <MenuItem>Tlmocenie</MenuItem>
-                        <MenuItem>O mne</MenuItem>
-                        <MenuItem>Kontakt</MenuItem>
+                        <MenuItem>DOMOV</MenuItem>
+                        <MenuItem>ÚRADNÉ PREKLADY</MenuItem>
+                        <MenuItem>NEÚRADNÉ PREKLADY</MenuItem>
+                        <MenuItem>TLMOČENIE</MenuItem>
+                        <MenuItem>O MNE</MenuItem>
+                        <MenuItem>
+                            <NavLink to="/kontakt">KONTAKT</NavLink>
+                        </MenuItem>
                     </MenuInnerNavigationContainer>
-
                 </MenuSecondLineContainer>
             </MenuInnerContainer>
-
         </MenuMainDiv>
     )
 }

@@ -5,9 +5,9 @@ export default function ContactMain() {
     return (
         <div>
             <Header/>
-            <div>
-                <p>Zivotopis</p>
-            </div>
+                <div>
+                    <p>Kontakt</p>
+                </div>
             <Footer/>
         </div>
     )

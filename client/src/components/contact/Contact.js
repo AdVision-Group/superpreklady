@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 import {ContactContainer,
     ContactInnerContainer,
     HeadingContactContainer,
@@ -10,11 +11,16 @@ import {ContactContainer,
     Heading,
     ContactCardContainer,
     FormRightSide,
-    FormConactFormular,
+    FormContactFormular,
     RowOne,
     RowTwo,
     RowThree,
-    Input
+    InputName,
+    InputEmail,
+    InputText,
+    H3,
+    H1,
+    Button
 
 
 } from "./Contact.styled"
@@ -24,64 +30,71 @@ const Contact = () => {
         <ContactContainer>
             <ContactInnerContainer>
                 <HeadingContactContainer>
-                    <h3>KONTAKT</h3>
-                    <h1>SPOJTE SA SO MNOU</h1>
+                    <H3 style={{color:'#3250D1'}}>KONTAKT</H3>
+                    <H1>SPOJTE SA SO MNOU</H1>
                 </HeadingContactContainer>
                 <ContactFormContainer>
                     <FormLeftSide>
                         <Heading>
-                            <h1>Kontaktne Udajte</h1>
+                            <H1>Kontaktné Údaje</H1>
                         </Heading>
                         <ContactCardContainer>
                             <CardHeading>
-                                <h3>Adresa</h3>
+                                <H3>Adresa</H3>
                             </CardHeading>
                             <CardText>
                                 <p>Ambroso 10 , 851 02 Bratislava 5</p>
                             </CardText>
-                            <CardSeparator>
-
-                            </CardSeparator>
+                            <CardSeparator/>
                         </ContactCardContainer>
                         <ContactCardContainer>
                             <CardHeading>
-                                <h3>Adresa</h3>
+                                <H3>Telefón</H3>
                             </CardHeading>
                             <CardText>
-                                <p>Ambroso 10 , 851 02 Bratislava 5</p>
+                                <p>+421 908 72 82 74</p>
                             </CardText>
-                            <CardSeparator>
-
-                            </CardSeparator>
+                            <CardSeparator/>
                         </ContactCardContainer>
                         <ContactCardContainer>
                             <CardHeading>
-                                <h3>Adresa</h3>
+                                <H3>E-mail</H3>
                             </CardHeading>
                             <CardText>
-                                <p>Ambroso 10 , 851 02 Bratislava 5</p>
+                                <p>pavel@superpreklady.sk</p>
                             </CardText>
-                            <CardSeparator>
-
-                            </CardSeparator>
                         </ContactCardContainer>
+                        <div>
+                            <NavLink to="/kontakt">
+                                <Button>KONTAKTNÉ ÚDAJE</Button>
+                            </NavLink>
+
+                        </div>
                     </FormLeftSide>
                     <FormRightSide>
                         <Heading>
-                            <h1>Poslite mi spravu</h1>
+                            <H1>Pošlite mi správu</H1>
                         </Heading>
-                        <FormConactFormular>
+                        <FormContactFormular>
                             <RowOne>
-                                <Input></Input>
-                                <Input></Input>
-                            </RowOne>
+                                <div>
+                                    <InputName placeholder = 'Vaše meno'/>
+                                </div>
+                                <div>
+                                    <InputEmail placeholder = 'Váš e-mail'/>
+
+                                </div>
+                                </RowOne>
                             <RowTwo>
-                                <Input></Input>
+                                <div>
+                                    <InputText placeholder = 'Správa'/>
+                                </div>
+
                             </RowTwo>
                             <RowThree>
-                                <button>Odoslat</button>
+                                <Button>ODOSLAŤ</Button>
                             </RowThree>
-                        </FormConactFormular>
+                        </FormContactFormular>
 
                     </FormRightSide>
                 </ContactFormContainer>
