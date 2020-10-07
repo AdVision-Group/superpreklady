@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import { motion } from 'framer-motion'
+import styled from "styled-components";
+import { motion } from "framer-motion";
 
 export const StyledMenu = styled(motion.nav)`
   display: flex;
@@ -53,4 +53,4 @@ export const StyledMenu = styled(motion.nav)`
       
     }
   }
-`
+`;

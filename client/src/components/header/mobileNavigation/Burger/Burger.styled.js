@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const StyledBurger = styled.button`
 	padding: 1px;
@@ -16,14 +16,12 @@ export const StyledBurger = styled.button`
 	border: none;
 	outline: none;
 	cursor: pointer;
-	@media only screen and (max-width: ${({ theme }) =>
-			theme.brakePoints.lmw}) {
+	@media only screen and (max-width: ${({ theme }) => theme.brakePoints.lmw}) {
 		width: 2.2rem;
 		height: 1.5rem;
 		
 	}
-	@media only screen and (min-width: ${({ theme }) =>
-	theme.brakePoints.lmw}) {
+	@media only screen and (min-width: ${({ theme }) => theme.brakePoints.lmw}) {
 		width: 2.2rem;
 		height: 1.5rem;
 		display: none;
@@ -36,25 +34,23 @@ export const StyledBurger = styled.button`
 		width: 3.2rem;
 		height: 0.25rem;
 		//background: ${({ theme }) => theme.burgerButton.primaryDark};
-		background: ${({ theme, open }) => open ? theme.burgerButton.voidOpen : theme.burgerButton.voidDark };
+		background: ${({ theme, open }) =>
+      open ? theme.burgerButton.voidOpen : theme.burgerButton.voidDark};
 		border-radius: 10px;
 		transition: all 0.2s linear;
 		position: relative;
-		@media only screen and (max-width: ${({ theme }) =>
-				theme.brakePoints.lmw}) {
+		@media only screen and (max-width: ${({ theme }) => theme.brakePoints.lmw}) {
 			width: 2.2rem;
 			height: 0.15rem;
 	
 		}
 
 		:first-child {
-			transform: ${({ open }) =>
-				open ? 'translateX(-20px)' : 'translateX(0)'};
+			transform: ${({ open }) => (open ? "translateX(-20px)" : "translateX(0)")};
 		}
 
 		:nth-child(2) {
-			transform: ${({ open }) =>
-				open ? 'translateX(20px)' : 'translateX(0)'};
+			transform: ${({ open }) => (open ? "translateX(20px)" : "translateX(0)")};
 		}
 	}
-`
+`;
