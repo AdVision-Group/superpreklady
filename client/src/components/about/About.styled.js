@@ -14,7 +14,7 @@ export const AboutLeftContainer = styled.div`
   margin-left: 150px;
 `;
 export const AboutRightContainer = styled.div`
-  width: 45%;
+  width: 70%;
   margin-left: 45px;
 `;
 export const AboutHeadingContainerTop = styled.div``;
