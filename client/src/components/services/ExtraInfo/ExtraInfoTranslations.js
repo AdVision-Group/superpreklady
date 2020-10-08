@@ -11,6 +11,7 @@ import {
   Tbody,
   Th,
   Tr,
+  P,H1
 } from "./ExtraInfo.styled";
 import ExtraPriceListTranslations from "../../priceList/extraPriceList/ExtraPriceListTranslations";
 
@@ -24,46 +25,53 @@ const ExtraInfoTranslations = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <h1>TLMOČENIE</h1>
+            <H1>TLMOČENIE</H1>
           </Heading>
           <Separator />
           <SubHeading>
-            <h3>
+            <P>
               Preklad v maximalnej miere obsahovo aj graficky zodpoveda navrhu.
               <br /> Dodrziavame vsetky podmieky vyplivajuce zo zakona
-            </h3>
+            </P>
           </SubHeading>
         </HeadingContainer>
         <TableContainer>
           <Table>
             <Tbody>
               <Tr>
-                <Th>Kombinacia Jazykov</Th>
-                <Th>Anglictina, nemcina, slovencina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinacia Jazykov</Th>
+                <Th>Angličtina, nemčina, slovenčina, čeština</Th>
               </Tr>
               <Tr>
-                <Th>Odbory</Th>
-                <Th>Technika, pravo, slovencina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <Th>Prakticky všetky s výnimkou špeciálnej medicíny</Th>
               </Tr>
               <Tr>
-                <Th>Ponuka</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
                 <Th>
-                  Vysvedcenie, potvrdenia, certifikaty, zmluvy, lekarske spravy,
-                  financne vykazy, technicke spravy, znalecne posudky, patenty
+                  Obchodné rokovania, diplomatické stretnutia, prezentácie, školenia, konferencie,
+                  rozhovory/interviews, tlačové konferencie, zábava, technické, lekárske, policajné, právne,
+                  ekonomické, počítačové
                 </Th>
               </Tr>
               <Tr>
-                <Th>
-                  Preberanie podkladov a odovzdavanie hotovych uradne overenych
-                  prekladov
+                <Th style={{width:"350px", fontWeight:"bold"}}>
+                  Druhy tlmočenia
                 </Th>
                 <Th>
-                  u vulputate risus egestas vitae. Nam mauris eros, tincidunt et
-                  velit in, condimentum sagittis neque. Donec eget eleifend
-                  lacus. Suspendisse in consectetur orci, id dictum turpis.
-                  Aenean quis lacus nec sem consectetur ultrices ut eget ante.
-                  Integer mollis cursus lacus, ac vehicula est finibus ac. Orci
-                  vari
+                  Konzekutívne (po logických úsekoch), simultánne (tlmočenie v tlmočníckej kabíne, prakticky
+                  súčasne s originálom), šušotáž (šepkanie do ucha)
+                </Th>
+              </Tr>
+              <Tr>
+                <Th style={{width:"350px", fontWeight:"bold"}}>
+                  Kvalita tlmočenia
+                </Th>
+                <Th>
+                  V tlmočení mám mnohoročné skúsenosti, ktoré mi umožňujú vďaka, ktorým dokážem
+                  pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa
+                  presne, entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných tlmočníkov, ktorí ma môžu
+                  zastúpiť, keď mi napr. časovo kolidujú dve tlmočenia.
                 </Th>
               </Tr>
             </Tbody>

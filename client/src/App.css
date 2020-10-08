@@ -8,3 +8,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+h1, h2, h3, h4 {
+  padding: 0;
+  margin: 0;
+}

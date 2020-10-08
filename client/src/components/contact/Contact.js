@@ -20,8 +20,10 @@ import {
   InputEmail,
   InputText,
   H3,
+    H3C,
   H1,
   Button,
+    P
 } from "./Contact.styled";
 
 const Contact = () => {
@@ -33,7 +35,7 @@ const Contact = () => {
       />
       <ContactInnerContainer>
         <HeadingContactContainer>
-          <H3 style={{ color: "#3250D1" }}>KONTAKT</H3>
+          <H3C>KONTAKT</H3C>
           <H1>SPOJTE SA SO MNOU</H1>
         </HeadingContactContainer>
         <ContactFormContainer>
@@ -46,7 +48,7 @@ const Contact = () => {
                 <H3>Adresa</H3>
               </CardHeading>
               <CardText>
-                <p>Ambroseho 10 , 851 02 Bratislava 5</p>
+                <P>Ambroseho 10 , 851 02 Bratislava 5</P>
               </CardText>
               <CardSeparator />
             </ContactCardContainer>
@@ -55,7 +57,7 @@ const Contact = () => {
                 <H3>Telefón</H3>
               </CardHeading>
               <CardText>
-                <p>+421 908 72 82 74</p>
+                <P>+421 908 72 82 74</P>
               </CardText>
               <CardSeparator />
             </ContactCardContainer>
@@ -64,12 +66,12 @@ const Contact = () => {
                 <H3>E-mail</H3>
               </CardHeading>
               <CardText>
-                <p>pavel@superpreklady.sk</p>
+                <P>pavel@superpreklady.sk</P>
               </CardText>
             </ContactCardContainer>
             <div>
               <NavLink to="/kontakt">
-                <Button>KONTAKTNÉ ÚDAJE</Button>
+                <Button>Kontaktné údaje</Button>
               </NavLink>
             </div>
           </FormLeftSide>
@@ -92,7 +94,7 @@ const Contact = () => {
                 </div>
               </RowTwo>
               <RowThree>
-                <Button>ODOSLAŤ</Button>
+                <Button>Odoslať</Button>
               </RowThree>
             </FormContactFormular>
           </FormRightSide>

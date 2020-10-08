@@ -37,7 +37,7 @@ const Header = (props) => {
         <Menu selectCard={props.selectCard} activeCard={props.activeCard} />
       </MenuContainer>
       <ButtonContainer>
-        <Button><Link to="sectionKontakt" smooth={true}>KONTAKTUJTE MA</Link></Button>
+        <Link to="sectionKontakt" smooth={true}><Button>Konktaktujte ma</Button></Link>
       </ButtonContainer>
     </HeaderMainDiv>
   );

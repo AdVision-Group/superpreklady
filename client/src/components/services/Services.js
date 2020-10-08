@@ -15,6 +15,7 @@ import {
   H3,
   H1,
   H3C,
+    P,
   Button,
   ServiceImg,
   AdditionalContentContainer,
@@ -50,18 +51,18 @@ const Services = (props) => {
                 <ServiceImg src={ArticleIcon} alt="mainLogo" />
               </ServiceCardLogo>
               <ServiceCardHeading>
-                <H3C>Úradne Overené preklady</H3C>
+                <H3>Úradne Overené preklady</H3>
               </ServiceCardHeading>
               <ServiceCardText>
-                <p>
+                <P>
                   centuries, but also the leap into electronic typesetting,
                   remaining essentially unchanged. It was popularised in the
                   1960s with the release of Letraset sheets containing Lorem
                   Ipsum passages, and more recently with deskto
-                </p>
+                </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(0)}>ZISTI VIAC</Button>
+                <Button onClick={() => changeCard(0)}>Zisti viac</Button>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -71,18 +72,18 @@ const Services = (props) => {
                 <ServiceImg src={ArticleIcon} alt="mainLogo" />
               </ServiceCardLogo>
               <ServiceCardHeading>
-                <H3C>Neúradné preklady</H3C>
+                <H3>Neúradné preklady</H3>
               </ServiceCardHeading>
               <ServiceCardText>
-                <p>
+                <P>
                   centuries, but also the leap into electronic typesetting,
                   remaining essentially unchanged. It was popularised in the
                   1960s with the release of Letraset sheets containing Lorem
                   Ipsum passages, and more recently with deskto
-                </p>
+                </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(1)}>ZISTI VIAC</Button>
+                <Button onClick={() => changeCard(1)}>Zisti viac</Button>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -92,18 +93,18 @@ const Services = (props) => {
                 <ServiceImg src={ArticleIcon} alt="mainLogo" />
               </ServiceCardLogo>
               <ServiceCardHeading>
-                <H3C>Tlmočenie</H3C>
+                <H3>Tlmočenie</H3>
               </ServiceCardHeading>
               <ServiceCardText>
-                <p>
+                <P>
                   centuries, but also the leap into electronic typesetting,
                   remaining essentially unchanged. It was popularised in the
                   1960s with the release of Letraset sheets containing Lorem
                   Ipsum passages, and more recently with deskto
-                </p>
+                </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(2)}>ZISTI VIAC</Button>
+                <Button onClick={() => changeCard(2)}>Zisti viac</Button>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>

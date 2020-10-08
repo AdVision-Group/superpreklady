@@ -1,10 +1,9 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
-  padding-top: 45px;
-
-  padding-bottom: 45px;
-  background: #f7f7f7;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background: ${({ theme }) => theme.colors.lightGreyBg};
 `;
 
 export const AboutInnerContainer = styled.div`
@@ -30,8 +29,8 @@ export const AboutImg = styled.img`
 `;
 export const AboutImgInnerContainer = styled.div``;
 export const AboutRightInnerContainer = styled.div`
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 `;
 
 export const AboutText = styled.div``;
@@ -39,10 +38,10 @@ export const AboutText = styled.div``;
 export const AboutButton = styled.div``;
 
 export const Button = styled.button`
-  font-size: 18px;
-  padding: 15px 28px 15px 28px;
-  background-color: #3250d1;
-  color: #ffffff;
+  font-size: ${({ theme }) => theme.button.fontSize};
+  padding: 10px 20px 10px 20px;
+  background-color: ${({ theme }) => theme.button.accentColor};
+  color: ${({ theme }) => theme.button.textColor};
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -53,14 +52,19 @@ export const Button = styled.button`
 `;
 
 export const H3 = styled.h3`
-  color: #3250d1;
+  color: ${({ theme }) => theme.colors.accentColor};
+  font-size: ${({ theme }) => theme.fontSize.h3};
+  padding-bottom: 5px;
 `;
 
 export const H1 = styled.h1`
-  color: black;
+  color: ${({ theme }) => theme.colors.black};
+  font-size: ${({ theme }) => theme.fontSize.h1};
+  padding-bottom: 5px;
 `;
 
 export const P = styled.p`
-  color: #9a9a9a;
-  font-size: 22px;
+  color: ${({ theme }) => theme.colors.grey};
+  font-size: ${({ theme }) => theme.fontSize.paragraphText};
+  line-height: 1.4;
 `;

@@ -12,6 +12,10 @@ import {
   SecondHeading,
   H3,
   H1,
+  Table,
+  Tbody,
+  Th,
+  Tr,
 } from "../PriceList.styled";
 
 const ExtraPriceListOfficial = () => {
@@ -31,37 +35,78 @@ const ExtraPriceListOfficial = () => {
             <H3>PREKLAD</H3>
           </Heading>
           <SecondaryHeading>
-            <H1>Z angličtiny/nemčiny do slovenčiny a naopak</H1>
+            <H1>preklad z nemčiny/angličtiny do slovenčiny a naopak</H1>
           </SecondaryHeading>
           <Content>
-            <p>
-              centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s
-              with the release of Letraset sheets containing Lorem Ipsum
-              passages, and more recently with deskto
-            </p>
+            <Table>
+              <Tbody>
+              <Tr>
+                <Th>
+                  Posledná začatá normostrana sa počíta ako celá.
+                </Th>
+              </Tr>
+              <Tr>
+                <Th>
+                  Okamžité vykonanie prekladu − 50 % príplatok.
+                </Th>
+              </Tr>
+              <Tr>
+                <Th>
+                  Normostrana je 1 800 znakov vrátane medzislovných medzier.
+                </Th>
+              </Tr>
+              <Tr>
+                <Th>
+                  Cena sa počíta z
+                  hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo
+                  slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.
+                </Th>
+              </Tr>
+              </Tbody>
+            </Table>
           </Content>
           <Price>
-            <h1>20€ / normostrana</h1>
+            <H1>20€ / normostrana</H1>
           </Price>
         </ContentCardContainer>
-        <ContentCardContainer>
+        <ContentCardContainer >
           <Heading>
             <H3>PREKLAD</H3>
           </Heading>
           <SecondaryHeading>
-            <H1>Z angličtiny do nemčiny a naopak</H1>
+            <H1>preklad z nemčiny do angličtiny a naopak</H1>
           </SecondaryHeading>
           <Content>
-            <p>
-              centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s
-              with the release of Letraset sheets containing Lorem Ipsum
-              passages, and more recently with deskto
-            </p>
+            <Table>
+              <Tbody>
+                <Tr>
+                  <Th>
+                    Posledná začatá normostrana sa počíta ako celá.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Okamžité vykonanie prekladu − 50 %
+                    príplatok.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Normostrana je 1 800 znakov vrátane medzislovných medzier.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Cena sa počíta z
+                    hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo
+                    slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.
+                  </Th>
+                </Tr>
+              </Tbody>
+            </Table>
           </Content>
           <Price>
-            <h1>26€ / normostrana</h1>
+            <H1>26€ / normostrana</H1>
           </Price>
         </ContentCardContainer>
       </PriceListContentContainer>

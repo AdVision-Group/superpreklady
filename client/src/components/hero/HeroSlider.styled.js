@@ -6,8 +6,9 @@ export const HeroSliderContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 450px;
   background: #e3e3e3;
+  padding-bottom: 75px;
+  padding-top: 75px;
 `;
 
 export const HeroSliderInnerContainer = styled.div`
@@ -46,10 +47,10 @@ export const HeroButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-  font-size: 18px;
-  padding: 15px 28px 15px 28px;
-  background-color: #3250d1;
-  color: #ffffff;
+  font-size: ${({ theme }) => theme.button.fontSize};
+  padding: 10px 20px 10px 20px;
+  background-color: ${({ theme }) => theme.button.accentColor};
+  color: ${({ theme }) => theme.button.textColor};
   border: none;
   display: inline-block;
   cursor: pointer;
@@ -60,10 +61,10 @@ export const Button = styled.button`
 `;
 
 export const H1 = styled.div`
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 500;
 `;
 export const P = styled.div`
-  font-size: 29px;
+  font-size: 25px;
   color: #9A9A9A;
 `;

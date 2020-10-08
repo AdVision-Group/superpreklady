@@ -2,8 +2,6 @@ import React from "react";
 import {
   Content,
   ContentCardContainer,
-  H1,
-  H3,
   Heading,
   MainHeading,
   Price,
@@ -12,6 +10,12 @@ import {
   PriceListHeadingContainer,
   SecondaryHeading,
   SecondHeading,
+  H3,
+  H1,
+  Table,
+  Tbody,
+  Th,
+  Tr,
 } from "../PriceList.styled";
 
 const ExtraPriceListTranslations = () => {
@@ -31,18 +35,33 @@ const ExtraPriceListTranslations = () => {
             <H3>PREKLAD</H3>
           </Heading>
           <SecondaryHeading>
-            <H1>Z anglictiny/nemciny do slovenciny a naopak</H1>
+            <H1>Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak</H1>
           </SecondaryHeading>
           <Content>
-            <p>
-              centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s
-              with the release of Letraset sheets containing Lorem Ipsum
-              passages, and more recently with deskto
-            </p>
+            <Table>
+              <Tbody>
+                <Tr>
+                  <Th>
+                    Normostrana je 1 800 znakov vrátane medzislovných medzier..
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Cena sa počíta z hotového prekladu, nie z originálu.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Pred zadaním zákazky vyhotovujem aspoň orientačnú cenovú
+                    kalkuláciu, ktorá zohľadní aj rozsah zákazky po preklade.
+
+                  </Th>
+                </Tr>
+              </Tbody>
+            </Table>
           </Content>
           <Price>
-            <h1>555E / NORMOSTRANA</h1>
+            <h1> 30 EUR/hodina</h1>
           </Price>
         </ContentCardContainer>
         <ContentCardContainer>
@@ -50,18 +69,35 @@ const ExtraPriceListTranslations = () => {
             <H3>PREKLAD</H3>
           </Heading>
           <SecondaryHeading>
-            <H1>Z anglictiny do nemciny a naopak</H1>
+            <H1>Tlmočenie z nemčiny do angličtiny a naopak</H1>
           </SecondaryHeading>
           <Content>
-            <p>
-              centuries, but also the leap into electronic typesetting,
-              remaining essentially unchanged. It was popularised in the 1960s
-              with the release of Letraset sheets containing Lorem Ipsum
-              passages, and more recently with deskto
-            </p>
+            <Table>
+              <Tbody>
+                <Tr>
+                  <Th>
+                    Posledná hodina tlmočenia sa počíta ako celá.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    Tlmočenie kratšie ako 2 hodiny sa počíta ako
+                    2 hodiny.
+                  </Th>
+                </Tr>
+                <Tr>
+                  <Th>
+                    . Pre tlmočenia mimo Bratislavy sa účtujú cestovné náklady:
+                    - doprava vlastným autom 0,33 EUR/km tam aj späť plus prípadné diaľničné známky
+                    - cena dopravy verejnou dopravou podľa skutočných nákladov plus náhrada stratu
+                    času cestovaním − 15 EUR/hodina.
+                  </Th>
+                </Tr>
+              </Tbody>
+            </Table>
           </Content>
           <Price>
-            <h1>417E / NORMOSTRANA</h1>
+            <h1>40 EUR/hodina</h1>
           </Price>
         </ContentCardContainer>
       </PriceListContentContainer>

@@ -3,22 +3,29 @@ import styled from "styled-components";
 export const ServiceContainer = styled.div`
   background: #ffffff;
   text-align: center;
+  padding-bottom: 75px;
+  padding-top: 75px;
 `;
 
-export const ServicesInnerContainer = styled.div``;
+export const ServicesInnerContainer = styled.div`
+`;
 
-export const ServicesHeading = styled.div``;
+export const ServicesHeading = styled.div`
+padding: 0 0 55px 0;
+`;
 
 export const ServicesCardsContainer = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  padding-bottom: 75px;
 `;
 export const ServicesMainHeading = styled.div``;
 
 export const ServiceCardInnerContainer = styled.div`
   width: 80%;
+  padding: 25px 5px 25px 5px;
 `;
 
 export const ServicesSecondHeading = styled.div``;
@@ -51,20 +58,34 @@ export const ServiceCardText = styled.div`
 export const ServiceCardButton = styled.div``;
 
 export const H3 = styled.h3`
-  color: #3250d1;
+  color: ${({ theme }) => theme.colors.accentColor};
+  font-size: ${({ theme }) => theme.fontSize.h3};
+  padding-bottom: 5px;
 `;
+
+export const H1 = styled.h1`
+  color: ${({ theme }) => theme.colors.black};
+  font-size: ${({ theme }) => theme.fontSize.h1};
+  padding-bottom: 5px;
+`;
+
 export const H3C = styled.h3`
   color: #000000;
   font-size: 22px;
 `;
 
-export const H1 = styled.h1``;
+export const P = styled.p`
+  color: ${({ theme }) => theme.colors.grey};
+  font-size: ${({ theme }) => theme.fontSize.servicesFontSize};
+  line-height: 1.6;
+`;
+
 
 export const Button = styled.button`
-  font-size: 18px;
-  padding: 15px 28px 15px 28px;
-  background-color: #3250d1;
-  color: #ffffff;
+  font-size: ${({ theme }) => theme.button.fontSize};
+  padding: 10px 20px 10px 20px;
+  background-color: ${({ theme }) => theme.button.accentColor};
+  color: ${({ theme }) => theme.button.textColor};
   border: none;
   display: inline-block;
   cursor: pointer;

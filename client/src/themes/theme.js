@@ -16,15 +16,32 @@ export const theme = {
     stw: "1600px", // small tablet width
   },
   colors: {
-    accentColor: "#e3e3e3",
-    siteBackGroundColor: "#fafafa",
-    cardBackGroundColor: "#fafafa",
-    sidePanelBackGroundColor: "#fafafa",
-    topPanelBackGroundColor: "#fafafa",
-    fontColor: "#000926",
-    fontHeadingColor: "#000926",
-    fontHeadingColorAccentColor: "#000926",
-    expandButtonBackgroundColor: "#ceffeb",
+    accentColor: "#3250d1",
+    black: "#000000",
+    white: "#ffffff",
+    grey: "#9A9A9A",
+    bgGrey: "#E3E3E3",
+    lightGreyBg: "#f7f7f7"
+  },
+  button: {
+    accentColor: "#3250d1",
+    textColor: "#ffffff",
+    fontSize: "15px"
+  },
+
+  fontSize: {
+    menuFontSize : "17px",
+    servicesFontSize : "17px",
+    paragraphText : "23px",
+    tableFontSize : "17px",
+    sectionAccentColor: "20px",
+    sectionFontSize: "20px",
+    inputFontSize : "20px",
+    h1: "35px",
+    h2: "30px",
+    h3: "20px",
+    h4: "25px",
+
   },
   header: {
     fontHeadingColor: "#0B0E23",
@@ -35,16 +52,4 @@ export const theme = {
     subBlockHeadingFontSize: "25px",
     mainBlockTextFontSize: "25px",
   },
-  cellStyle: {
-    width: "75px", // control the min max width of cell element
-    height: "75px ", // control the min max height of cell element
-    padding: "10px", // control the padding of cell element
-    color: "rgba(0,0,0,0.04)", // control the font color in cell
-    fontSize: "23px", // control the size of a font in cell
-  },
-  boardStyle: {
-    background: "#ffffff", // control the background of cell and board element
-  },
-
-  cellAnimations: {},
-};
+}

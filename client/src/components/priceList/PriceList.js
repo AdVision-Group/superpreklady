@@ -9,7 +9,7 @@ import {
   Heading,
   SecondaryHeading,
   Content,
-  Price,
+  Price,H3,H4
 } from "./PriceList.styled";
 
 const PriceList = () => {
@@ -17,10 +17,10 @@ const PriceList = () => {
     <PriceListContainer>
       <PriceListHeadingContainer>
         <MainHeading>
-          <h3>CENNIK</h3>
+          <H3>CENNIK</H3>
         </MainHeading>
         <SecondHeading>
-          <h4>CENNIK URADNE OVERENYCH PREKLADOV</h4>
+          <H4>CENNIK URADNE OVERENYCH PREKLADOV</H4>
         </SecondHeading>
       </PriceListHeadingContainer>
       <PriceListContentContainer>

@@ -6,11 +6,12 @@ import {
   InfoMainContainer,
   Separator,
   SubHeading,
-  Table,
   TableContainer,
+  Table,
   Tbody,
   Th,
   Tr,
+  P,H1
 } from "./ExtraInfo.styled";
 import ExtraPriceListNonOfficial from "../../priceList/extraPriceList/ExtraPriceListNonOfficial";
 
@@ -24,46 +25,51 @@ const ExtraInfoNonOfficial = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <h1>NEÚRADNÉ PREKLADY</h1>
+            <H1>NEÚRADNÉ PREKLADY</H1>
           </Heading>
           <Separator />
           <SubHeading>
-            <h3>
+            <P>
               Preklad v maximalnej miere obsahovo aj graficky zodpoveda navrhu.
               <br /> Dodrziavame vsetky podmieky vyplivajuce zo zakona
-            </h3>
+            </P>
           </SubHeading>
         </HeadingContainer>
         <TableContainer>
           <Table>
             <Tbody>
               <Tr>
-                <Th>Kombinacia Jazykov</Th>
-                <Th>Anglictina, nemcina, slovencina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinácia jazykov</Th>
+                <Th>Angličtina, nemčina, slovenčina, čeština</Th>
               </Tr>
               <Tr>
-                <Th>Odbory</Th>
-                <Th>Technika, pravo, slovencina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <Th>Technika, právo, ekonomika, medicína</Th>
               </Tr>
               <Tr>
-                <Th>Ponuka</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
                 <Th>
-                  Vysvedcenie, potvrdenia, certifikaty, zmluvy, lekarske spravy,
-                  financne vykazy, technicke spravy, znalecne posudky, patenty
+                  Manuály, technická dokumentácia, obchodná korešpondencia, ponuky, zmluvy, prospekty,
+                  katalógy, prezentácie, softvér, riadiace systémy strojov
                 </Th>
               </Tr>
               <Tr>
-                <Th>
-                  Preberanie podkladov a odovzdavanie hotovych uradne overenych
-                  prekladov
+                <Th style={{width:"350px", fontWeight:"bold"}}>
+                  Preberanie a odovzdávanie
                 </Th>
                 <Th>
-                  u vulputate risus egestas vitae. Nam mauris eros, tincidunt et
-                  velit in, condimentum sagittis neque. Donec eget eleifend
-                  lacus. Suspendisse in consectetur orci, id dictum turpis.
-                  Aenean quis lacus nec sem consectetur ultrices ut eget ante.
-                  Integer mollis cursus lacus, ac vehicula est finibus ac. Orci
-                  vari
+                  E-mailom, poštou, osobne, možnosť pracovať priamo u zákazníka
+                </Th>
+              </Tr>
+              <Tr>
+                <Th style={{width:"350px", fontWeight:"bold"}}>
+                  Kvalita prekladov
+                </Th>
+                <Th>
+                  Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom, ako v origináli. Terminológiu
+                  overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. Preklady
+                  marketingových materiálov odporúčam nechať kontrolovať kvalifikovanými rodenými
+                  hovorcami, ktorých zabezpečím. Cena okolo 7 EUR/normostrana.
                 </Th>
               </Tr>
             </Tbody>

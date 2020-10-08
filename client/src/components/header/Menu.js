@@ -24,13 +24,13 @@ const Menu = (props) => {
         <MenuFirstLineContainer>
           <MenuNumberContainer>
             <p>
-              <span style={{ color: "#e4e4e4e0" }}>Telefón:</span> +421 908 728
+              <span style={{ color: "#9A9A9A" }}>Telefón:</span> +421 908 728
               274
             </p>
           </MenuNumberContainer>
           <MenuEmailContainer>
             <p>
-              <span style={{ color: "#e4e4e4e0" }}>E-mail:</span>{" "}
+              <span style={{ color: "#9A9A9A" }}>E-mail:</span>{" "}
               pavel@superpreklady.sk
             </p>
           </MenuEmailContainer>
@@ -41,14 +41,14 @@ const Menu = (props) => {
         <MenuSecondLineContainer>
           <MenuInnerNavigationContainer>
             <MenuItem>
-              <NavLink to="/">DOMOV</NavLink>
+              <NavLink to="/">Domov</NavLink>
             </MenuItem>
-            <MenuItem><Link onClick={() => changeCard(0)} to="sectionUradnePreklady"  smooth={true}>ÚRADNÉ PREKLADY</Link></MenuItem>
-            <MenuItem><Link onClick={() => changeCard(1)} to="sectionUradnePreklady"  smooth={true}>NEÚRADNÉ PREKLADY</Link></MenuItem>
-            <MenuItem><Link onClick={() => changeCard(2)} to="sectionUradnePreklady"  smooth={true}>TLMOČENIE</Link></MenuItem>
-            <MenuItem><Link to="sectionOmne" smooth={true}>O MNE</Link></MenuItem>
+            <MenuItem><Link onClick={() => changeCard(0)} to="sectionUradnePreklady"  smooth={true}>Úradné preklady</Link></MenuItem>
+            <MenuItem><Link onClick={() => changeCard(1)} to="sectionUradnePreklady"  smooth={true}>Neuradné preklady</Link></MenuItem>
+            <MenuItem><Link onClick={() => changeCard(2)} to="sectionUradnePreklady"  smooth={true}>Tlmočenie</Link></MenuItem>
+            <MenuItem><Link to="sectionOmne" smooth={true}>O mne</Link></MenuItem>
             <MenuItem>
-              <NavLink to="/kontakt">KONTAKT</NavLink>
+              <NavLink to="/kontakt">Kontakt</NavLink>
             </MenuItem>
           </MenuInnerNavigationContainer>
         </MenuSecondLineContainer>

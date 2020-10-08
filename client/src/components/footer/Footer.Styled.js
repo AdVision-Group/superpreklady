@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.div`
   background-color: #343434;
   color: white;
-  padding-top: 25px;
+  padding-top: 75px;
 `;
 export const FooterInnerContainer = styled.div``;
 export const RowOneContainer = styled.div`
@@ -11,7 +11,7 @@ export const RowOneContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0px 0 100px;
+  padding: 0 0 0 100px;
 `;
 export const LogoContainer = styled.div`
   display: flex;
@@ -24,24 +24,28 @@ export const PhoneContainer = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: row;
-  background-color: #535353;
-  padding-right: 100px;
-  padding-left: 100px;
+  background-color: #454545;
+padding: 20px 100px 20px 100px;
 `;
 export const Phone = styled.img`
-  margin-right: 25px;
+  margin-right: 60px;
   height: 75px;
   width: 75px;
 `;
 export const IconContainer = styled.div``;
-export const PhoneContactContainer = styled.div``;
+export const PhoneContactContainer = styled.div`
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+`;
 export const Number = styled.div``;
 export const Content = styled.div``;
 export const RowTwoContainer = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 100px;
+  padding: 200px 100px 100px 100px;
 `;
 export const AboutContainerModule = styled.div``;
 export const Heading = styled.div``;
@@ -57,9 +61,36 @@ export const SocialContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding-bottom: 0;
+  margin-bottom: 0;
 `;
-export const SocialIcon = styled.div``;
+export const SocialIcon = styled.div`
+margin-right: 10px;
+`;
 export const ScopeContainerModule = styled.div``;
 export const Menu = styled.div``;
 export const ContactContainerModule = styled.div``;
-export const ContactContent = styled.div``;
+
+export const ContactContent = styled.div`
+padding-top: 5px;
+margin-top: 0;
+`;
+
+export const H3F = styled.h3`
+  color: ${({ theme }) => theme.colors.accentColor};
+  font-size: ${({ theme }) => theme.fontSize.h3};
+  padding-bottom: 5px;
+`;
+
+export const H1F = styled.h1`
+  color: ${({ theme }) => theme.colors.white};
+  font-size: ${({ theme }) => theme.fontSize.h1};
+  padding-bottom: 5px;
+`;
+
+export const PF = styled.p`
+  color: ${({ theme }) => theme.colors.grey};
+  font-size: ${({ theme }) => theme.fontSize.paragraphText};
+  line-height: 1.3;
+`;
+

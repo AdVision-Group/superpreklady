@@ -21,16 +21,20 @@ import {
   ContactContainerModule,
   ContactContent,
   Phone,
+    H3F,
+    H1F,
+    PF
 } from "./Footer.Styled";
+
 import {
   H3,
   H4,
-  HeaderMainDiv,
   LogoImg,
   LogoInnerContainer,
   LogoInnerContainerContent,
   SubHeading,
 } from "../header/Header.styled";
+
 import Logo from "../../images/superpreklady-logo.png";
 import PhoneIcon from "../../images/phone-black-18dp.svg";
 
@@ -40,28 +44,28 @@ const Footer = () => {
       <FooterInnerContainer>
         <RowOneContainer>
           <LogoContainer>
-            <LogoInnerContainer>
+            <LogoInnerContainer style={{paddingRight:"25px"}}>
               <LogoImg src={Logo} alt="mainLogo" />
             </LogoInnerContainer>
             <LogoInnerContainerContent>
               <Heading>
-                <H3>SUPERPREKLADY</H3>
+                <H1F>SUPERPREKLADY</H1F>
               </Heading>
               <SubHeading>
-                <H4>Ing.Pavel Polónyi</H4>
+                <H3F>Ing.Pavel Polónyi</H3F>
               </SubHeading>
             </LogoInnerContainerContent>
           </LogoContainer>
           <PhoneContainer>
             <IconContainer>
-              <Phone src={PhoneIcon} alt="mainLogo"></Phone>
+              <Phone src={PhoneIcon} alt="mainLogo"/>
             </IconContainer>
             <PhoneContactContainer>
               <Number>
-                <h1>+421 908 72 82 74</h1>
+                <H1F>+421 908 72 82 74</H1F>
               </Number>
               <Content>
-                <p>Som vám k dispozícií neustále</p>
+                <PF style={{marginTop:"5px"}}>Som vám k dispozícií neustále</PF>
               </Content>
             </PhoneContactContainer>
           </PhoneContainer>
@@ -69,57 +73,60 @@ const Footer = () => {
         <RowTwoContainer>
           <AboutContainerModule>
             <Heading>
-              <h3>O MNE</h3>
+              <H1F>O MNE</H1F>
             </Heading>
             <Separator />
             <AboutContent>
-              <p>
+              <PF>
                 <span> five centuries, but also the leap</span><br/>
                 <span>into electronic typesetting,
                 remaining essenti</span><br/>
                 <span>into electronic typesetting,
                 remaining essenti</span><br/>
-
-              </p>
+              </PF>
             </AboutContent>
             <SocialContainer>
               <SocialIcon>
-                <p>Facebook</p>
+                <PF>Facebook</PF>
               </SocialIcon>
               <SocialIcon>
-                <p>Twitter</p>
+                <PF>Twitter</PF>
               </SocialIcon>
               <SocialIcon>
-                <p>Google+</p>
+                <PF>Google+</PF>
               </SocialIcon>
             </SocialContainer>
           </AboutContainerModule>
           <ScopeContainerModule>
             <Heading>
-              <h3>OBSAH</h3>
+              <H1F>OBSAH</H1F>
             </Heading>
             <Separator />
             <Menu>
-              <ul>
-                <li>Domov</li>
-                <li>Sluzby</li>
-                <li>Cennik</li>
-                <li>O mne</li>
-                <li>Kontatk</li>
-              </ul>
+              <div>
+                <div>
+                  <PF>Domov</PF>
+                </div>
+                <div>
+                  <PF>Sluzby</PF>
+                </div>
+                <PF>Cennik</PF>
+                <PF>O mne</PF>
+                <PF>Kontakt</PF>
+              </div>
             </Menu>
           </ScopeContainerModule>
           <ContactContainerModule>
             <Heading>
-              <h3>KONTAKT</h3>
+              <H1F>KONTAKT</H1F>
             </Heading>
             <Separator />
             <ContactContent>
-              <p>
+              <PF>
                 <span>Ambroseho 10, 851 02 Bratislava 5</span><br/>
                 <span>+421 908 82 74</span><br/>
                 <span>pavel@superpreklady.sk</span>
-              </p>
+              </PF>
             </ContactContent>
           </ContactContainerModule>
         </RowTwoContainer>

@@ -2,9 +2,16 @@ import styled from "styled-components";
 
 export const MenuMainDiv = styled.div`
   width: 100%;
-  font-size: 14px;
+  font-size: ${({ theme }) => theme.fontSize.menuFontSize};
   font-weight: bold;
   white-space: nowrap;
+  a {
+  text-decoration: none;
+  color: black;
+  :hover {
+  color: ${({ theme }) => theme.colors.accentColor};
+    }
+  }
 `;
 export const MenuInnerContainer = styled.div``;
 export const MenuFirstLineContainer = styled.div`

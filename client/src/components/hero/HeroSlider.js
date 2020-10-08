@@ -22,9 +22,9 @@ const HeroSlider = () => {
         <HeroLeftContainer>
           <HeroHeadingContainer>
             <H1>
-              DODÁM VÁM NAJVYŠŠIU
+              Dodám Vám navyššiu
               <br />
-              KVALITU PREKLADOV
+              kvalitu prekladov
             </H1>
           </HeroHeadingContainer>
           <HeroTextContainer>
@@ -35,7 +35,7 @@ const HeroSlider = () => {
             </P>
           </HeroTextContainer>
           <HeroButtonContainer>
-            <Button><Link to="sectionSluzby" smooth={true}>ZISTI VIAC</Link></Button>
+            <Link to="sectionSluzby" smooth={true}><Button>Zisti viac</Button></Link>
           </HeroButtonContainer>
         </HeroLeftContainer>
         <HeroRightContainer>

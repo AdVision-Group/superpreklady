@@ -5,6 +5,7 @@ export const NavigationMainContainer = styled.div`
   width: 100%;
   flex-direction: row;
   justify-content: flex-start;
+  
 `;
 
 export const NavigationBundlerContainer = styled.div`

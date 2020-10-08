@@ -60,7 +60,7 @@ const About = () => {
             </AboutText>
             <AboutButton>
               <NavLink to="/zivotopis">
-                <Button>ŽIVOTOPIS</Button>
+                <Button>Životopis</Button>
               </NavLink>
             </AboutButton>
           </AboutRightInnerContainer>

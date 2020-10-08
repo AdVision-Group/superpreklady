@@ -6,7 +6,7 @@ export const HeaderMainDiv = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 55px 0;
 `;
 
 export const LogoContainer = styled.div`
@@ -41,15 +41,15 @@ export const ButtonContainer = styled.div`
   justify-content: center;
   width: 100%;
 `;
+
 export const Button = styled.button`
-  margin: 5px;
-  padding: 15px 28px 15px 28px;
-  background-color: #3250d1;
-  color: #ffffff;
+  font-size: ${({ theme }) => theme.button.fontSize};
+  padding: 10px 20px 10px 20px;
+  background-color: ${({ theme }) => theme.button.accentColor};
+  color: ${({ theme }) => theme.button.textColor};
   border: none;
   display: inline-block;
   cursor: pointer;
-  font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   text-align: center;
@@ -67,5 +67,5 @@ export const H4 = styled.div`
   padding: 2px 2px 2px 2px;
   margin: 1px;
   font-size: 13px;
-  color: #cfcfcf;
+  color: #9A9A9A;
 `;

@@ -13,6 +13,7 @@ import {
   Tbody,
   Th,
   Tr,
+  P,H1
 } from "./ExtraInfo.styled";
 
 const ExtraInfoOfficial = () => {
@@ -25,46 +26,44 @@ const ExtraInfoOfficial = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <h1>ÚRADNÉ OVERENÉ PREKLADY</h1>
+            <H1>ÚRADNE OVERENÉ PREKLADY</H1>
           </Heading>
           <Separator />
           <SubHeading>
-            <h3>
+            <P>
               Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu.
               <br /> Dodržiavam všetky podmieky vyplivajúce zo zákona.
-            </h3>
+            </P>
           </SubHeading>
         </HeadingContainer>
         <TableContainer>
           <Table>
             <Tbody>
               <Tr>
-                <Th>Kombinácia jazykov</Th>
-                <Th>angličtina, nemčina, slovenčina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinácia jazykov</Th>
+                <Th>Angličtina, nemčina, slovenčina</Th>
               </Tr>
               <Tr>
-                <Th>Odbory</Th>
-                <Th>technika, právo, slovenčina</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <Th>Technika, právo, ekonomika, medicína</Th>
               </Tr>
               <Tr>
-                <Th>Ponuka</Th>
+                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
                 <Th>
-                  Vysvedčenie, potvrdenia, certifikáty, zmluvy, lekárske správy,
-                  finančné výkazy, technické správy, znalecké posudky, patenty
+                  Vysvedčenia, potvrdenia, certifikáty, zmluvy, lekárske správy, finančné výkazy, technické
+                  správy, znalecké posudky, patenty
                 </Th>
               </Tr>
               <Tr>
-                <Th>
-                  Preberanie podkladov a odovzdavanie hotových úradne overených
-                  prekladov
+                <Th style={{width:"350px", fontWeight:"bold"}}>
+                  Preberanie podkladov a odovzdanie hotových úradne overených prekladov
                 </Th>
                 <Th>
-                  u vulputate risus egestas vitae. Nam mauris eros, tincidunt et
-                  velit in, condimentum sagittis neque. Donec eget eleifend
-                  lacus. Suspendisse in consectetur orci, id dictum turpis.
-                  Aenean quis lacus nec sem consectetur ultrices ut eget ante.
-                  Integer mollis cursus lacus, ac vehicula est finibus ac. Orci
-                  vari
+                  Pri úradne overených prekladoch sa originál zväzuje s prekladom. Odporúča sa preto
+                  z diplomov, vysvedčení a pod. najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať
+                  preložiť. Pokiaľ zákazník pošle podklady vopred, napr. poštou alebo naskenované e-mailom,
+                  stačí, keď si príde osobne iba raz nechať si zviazať preklad s originálom trikolórou. Som
+                  flexibilný na preberanie a odovzdávanie úradne overených prekladov
                 </Th>
               </Tr>
             </Tbody>
