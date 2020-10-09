@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1592c6a7c97842126cb3e910b3d26b74",
+    "revision": "c7a55d582a22ea4c5a5a9ed22ce69f33",
     "url": "/superpreklady/index.html"
   },
   {
-    "revision": "fbbae53bb5abf7a09dfc",
+    "revision": "b9f26be65e085a77c72e",
     "url": "/superpreklady/static/css/main.102b013d.chunk.css"
   },
   {
-    "revision": "a5104f87c664aabde2ba",
-    "url": "/superpreklady/static/js/2.1f698964.chunk.js"
+    "revision": "cb54167a30eabf3f7e11",
+    "url": "/superpreklady/static/js/2.97400e35.chunk.js"
   },
   {
     "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/superpreklady/static/js/2.1f698964.chunk.js.LICENSE.txt"
+    "url": "/superpreklady/static/js/2.97400e35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fbbae53bb5abf7a09dfc",
-    "url": "/superpreklady/static/js/main.8572ec5a.chunk.js"
+    "revision": "b9f26be65e085a77c72e",
+    "url": "/superpreklady/static/js/main.af46de25.chunk.js"
   },
   {
     "revision": "a58ceb2537258428ae26",
