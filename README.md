@@ -26,3 +26,19 @@
 ### Odovzdanie
 - všetok CSS kód v jednom súbore
 - všetok JavaScript kód v jednom súbore
+
+
+### Úpravy
+- kontaktné údaje v headeri nad menu linkami font-weight normal, len nadpisy ako "E-mail", "Telefónn" boldom
+
+- modrý malý nadpis nad hlavným nadpisom - font-size: 17px; font-weight: 700; a toUpperCase
+- hlavný čierny nadpis - font-size: 35px; font-weight: 700; a toLowerCase
+- podnadpis - font-size: 25px; font-weight: 700; a toLowerCase
+- pod-podnadpis - font-size: 20px; font-weight: 700; a toLowerCase
+- texty - font-size: 17px; font-weight: 400; line-height: 1.5;
+
+- landing page
+  - nadpis - font-size: 50px; font-weight: 700px;
+  - text - font-size: 25px; line-height: 35px;
+- contact page
+  - input fields - font-size: 20px; padding: 10px; height tam nedávaj, font-size to rieši
