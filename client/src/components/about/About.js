@@ -20,7 +20,8 @@ import {
 } from "./About.styled";
 import AboutImageSource from "../../images/superpreklady-about-image.jpg";
 
-const About = () => {
+const About = (props) => {
+
   return (
     <AboutContainer>
       <section
@@ -65,7 +66,7 @@ const About = () => {
               </P>
             </AboutText>
             <AboutButton>
-              <NavLink to="/zivotopis">
+              <NavLink to="/zivotopis" onClick={() => props.setOutSide(false)}>
                 <Button>Životopis</Button>
               </NavLink>
             </AboutButton>
@@ -77,3 +78,8 @@ const About = () => {
 };
 
 export default About;
+
+
+/*
+
+*/

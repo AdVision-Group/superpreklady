@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const MenuMainDiv = styled.div`
   width: 100%;
   font-size: ${({ theme }) => theme.fontSize.menuFontSize};
-  font-weight: bold;
   white-space: nowrap;
   a {
   text-decoration: none;

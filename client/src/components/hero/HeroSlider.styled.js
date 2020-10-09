@@ -13,7 +13,7 @@ export const HeroSliderContainer = styled.div`
 
 export const HeroSliderInnerContainer = styled.div`
   display: flex;
-  width: 100%;
+  width: 80%;
   margin: 0px 100px 0px 100px;
   flex-direction: row;
   justify-content: space-between;
@@ -61,7 +61,7 @@ export const Button = styled.button`
 `;
 
 export const H1 = styled.div`
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 500;
 `;
 export const P = styled.div`

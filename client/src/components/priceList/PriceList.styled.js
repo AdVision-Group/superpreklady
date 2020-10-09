@@ -56,9 +56,15 @@ export const H3 = styled.h3`
   padding-bottom: 5px;
 `;
 
-export const H1 = styled.h1`
+export const H1H = styled.h1`
   color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.fontSize.h1};
+  padding-bottom: 5px;
+`;
+
+export const H1 = styled.h1`
+  color: ${({ theme }) => theme.colors.black};
+  font-size: ${({ theme }) => theme.fontSize.h2};
   padding-bottom: 5px;
 `;
 

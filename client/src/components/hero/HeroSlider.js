@@ -35,7 +35,7 @@ const HeroSlider = () => {
             </P>
           </HeroTextContainer>
           <HeroButtonContainer>
-            <Link to="sectionSluzby" smooth={true}><Button>Zisti viac</Button></Link>
+            <Link to="sectionSluzbyHome" smooth={true}><Button>Zisti viac</Button></Link>
           </HeroButtonContainer>
         </HeroLeftContainer>
         <HeroRightContainer>

@@ -32,8 +32,8 @@ const Services = (props) => {
   return (
     <ServiceContainer>
       <section
-          title="sectionSluzby"
-          id="sectionSluzby"
+          title="sectionSluzbyHome"
+          id="sectionSluzbyHome"
       />
       <ServicesInnerContainer>
         <ServicesHeading>
@@ -110,11 +110,16 @@ const Services = (props) => {
           </ServiceCardContainer>
         </ServicesCardsContainer>
       </ServicesInnerContainer>
+      <section
+          title="sectionSluzby"
+          id="sectionSluzby"
+      />
       <AdditionalContentContainer>
         {props.activeCard === 0 && <ExtraInfoOfficial />}
         {props.activeCard === 1 && <ExtraInfoNonOfficial />}
         {props.activeCard === 2 && <ExtraInfoTranslations />}
       </AdditionalContentContainer>
+
     </ServiceContainer>
   );
 };

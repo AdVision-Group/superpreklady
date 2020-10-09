@@ -12,6 +12,7 @@ import {
   SecondHeading,
   H3,
   H1,
+    H1H,
   Table,
   Tbody,
   Th,
@@ -26,7 +27,7 @@ const ExtraPriceListOfficial = () => {
           <H3>CENNÍK</H3>
         </MainHeading>
         <SecondHeading>
-          <H1>CENNÍK ÚRADNE OVERENÝCH PREKLADOV</H1>
+          <H1H>CENNÍK ÚRADNE OVERENÝCH PREKLADOV</H1H>
         </SecondHeading>
       </PriceListHeadingContainer>
       <PriceListContentContainer>

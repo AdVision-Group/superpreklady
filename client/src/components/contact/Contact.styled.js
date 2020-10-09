@@ -20,11 +20,13 @@ padding: 0 0 55px 0;
 export const ContactFormContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
 `;
 export const FormLeftSide = styled.div`
-  text-align: left;
-  margin-right: 350px;
+  text-align: left;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 `;
 export const CardHeading = styled.div``;
 export const CardText = styled.div``;
@@ -41,6 +43,7 @@ padding-bottom: 25px;
 export const ContactCardContainer = styled.div``;
 export const FormRightSide = styled.div`
   text-align: left;
+  width: 600px;
 `;
 export const FormContactFormular = styled.div``;
 export const RowOne = styled.div`
@@ -54,18 +57,15 @@ export const RowThree = styled.div`
   margin-top: 25px;
 `;
 export const InputName = styled.input`
-padding: 10px 20px 10px 20px;
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
 `;
 export const InputEmail = styled.input`
 margin-left: 25px;
-padding: 10px 20px 10px 20px;
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize}
 `;
 export const InputText = styled.textarea`
-padding: 10px 20px 10px 20px;
   height: 225px;
   width: 100%;
    font-family: inherit;

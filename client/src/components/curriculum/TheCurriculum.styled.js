@@ -29,12 +29,14 @@ export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
   padding: 25px;
+    border: solid #dbdbdb 1px;
+  background-color: #fcfcfc;
 `;
 
 export const Tbody = styled.tbody``;
 
 export const Th = styled.th`
-  padding: 5px 55px 5px 0;
+  padding: 5px 0 5px 55px;
   line-height: 1.3;
   font-weight: normal;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};

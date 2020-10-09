@@ -45,7 +45,7 @@ export const RowTwoContainer = styled.div`
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 200px 100px 100px 100px;
+  padding: 50px 100px 50px 100px;
 `;
 export const AboutContainerModule = styled.div``;
 export const Heading = styled.div``;
@@ -84,13 +84,13 @@ export const H3F = styled.h3`
 
 export const H1F = styled.h1`
   color: ${({ theme }) => theme.colors.white};
-  font-size: ${({ theme }) => theme.fontSize.h1};
+  font-size: ${({ theme }) => theme.fontSize.h2};
   padding-bottom: 5px;
 `;
 
 export const PF = styled.p`
   color: ${({ theme }) => theme.colors.grey};
-  font-size: ${({ theme }) => theme.fontSize.paragraphText};
+  font-size: ${({ theme }) => theme.fontSize.footerParagraphText};
   line-height: 1.3;
 `;
 

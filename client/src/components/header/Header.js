@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   HeaderMainDiv,
   LogoContainer,
@@ -34,7 +35,7 @@ const Header = (props) => {
         </LogoInnerContainerContent>
       </LogoContainer>
       <MenuContainer>
-        <Menu selectCard={props.selectCard} activeCard={props.activeCard} />
+        <Menu selectCard={props.selectCard} activeCard={props.activeCard} outSide={props.outSide} setOutSide={props.setOutSide} />
       </MenuContainer>
       <ButtonContainer>
         <Link to="sectionKontakt" smooth={true}><Button>Konktaktujte ma</Button></Link>
