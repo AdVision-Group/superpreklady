@@ -37,6 +37,7 @@ import {
 
 import Logo from "../../images/superpreklady-logo.png";
 import PhoneIcon from "../../images/phone-black-18dp.svg";
+import {P} from "../about/About.styled";
 
 const Footer = () => {
   return (
@@ -78,11 +79,8 @@ const Footer = () => {
             <Separator />
             <AboutContent>
               <PF>
-                <span> five centuries, but also the leap</span><br/>
-                <span>into electronic typesetting,
-                remaining essenti</span><br/>
-                <span>into electronic typesetting,
-                remaining essenti</span><br/>
+                <span>Chcel by som byť maliarom.<br/> Dal som sa ale na polygrafiu,<br/> skôr priemysel než umenie, že je
+                praktickejšia na uživenie.</span>
               </PF>
             </AboutContent>
             <SocialContainer>
