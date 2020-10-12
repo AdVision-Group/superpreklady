@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eab4f5d02723884c342fc31a4d4e5fec",
+    "revision": "6a83d7138de427d048a1acd987e33de7",
     "url": "/superpreklady/index.html"
   },
   {
-    "revision": "6360188f79f92fa8a0d8",
+    "revision": "122aa0327f5aa4b86548",
     "url": "/superpreklady/static/css/main.102b013d.chunk.css"
   },
   {
-    "revision": "cb54167a30eabf3f7e11",
-    "url": "/superpreklady/static/js/2.97400e35.chunk.js"
+    "revision": "35aac0fd354ed2be459b",
+    "url": "/superpreklady/static/js/2.b2f966f0.chunk.js"
   },
   {
-    "revision": "c87550333da8df8ab4c80bd1d6e9defb",
-    "url": "/superpreklady/static/js/2.97400e35.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/superpreklady/static/js/2.b2f966f0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6360188f79f92fa8a0d8",
-    "url": "/superpreklady/static/js/main.062f4815.chunk.js"
+    "revision": "122aa0327f5aa4b86548",
+    "url": "/superpreklady/static/js/main.2c6dc4e2.chunk.js"
   },
   {
     "revision": "a58ceb2537258428ae26",
