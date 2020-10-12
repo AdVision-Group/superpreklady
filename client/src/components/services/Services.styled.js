@@ -20,6 +20,11 @@ export const ServicesCardsContainer = styled.div`
   align-items: center;
   justify-content: space-evenly;
   padding-bottom: 75px;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display: flex;
+		flex-direction: column;
+	}
 `;
 export const ServicesMainHeading = styled.div``;
 
@@ -40,6 +45,10 @@ export const ServiceCardContainer = styled.div`
   -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
   -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
   box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
+            @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		margin-bottom: 50px;
+	}
 `;
 
 export const ServiceCardLogo = styled.div``;

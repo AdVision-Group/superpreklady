@@ -23,7 +23,9 @@ import {
     H3C,
   H1,
   Button,
-    P
+    P,
+  H1X,
+  InputDivContainer
 } from "./Contact.styled";
 
 const Contact = () => {
@@ -35,13 +37,13 @@ const Contact = () => {
       />
       <ContactInnerContainer>
         <HeadingContactContainer>
-          <H3C>KONTAKT</H3C>
-          <H1>SPOJTE SA SO MNOU</H1>
+          <H3C>Kontakt</H3C>
+          <H1>Spojte sa so mnou</H1>
         </HeadingContactContainer>
         <ContactFormContainer>
           <FormLeftSide>
             <Heading>
-              <H1>Kontaktné Údaje</H1>
+              <H1X>Kontaktné Údaje</H1X>
             </Heading>
             <ContactCardContainer>
               <CardHeading>
@@ -81,12 +83,12 @@ const Contact = () => {
             </Heading>
             <FormContactFormular>
               <RowOne>
-                <div>
+                <InputDivContainer>
                   <InputName placeholder="Vaše meno" />
-                </div>
-                <div>
+                </InputDivContainer>
+                <InputDivContainer>
                   <InputEmail placeholder="Váš e-mail" />
-                </div>
+                </InputDivContainer>
               </RowOne>
               <RowTwo>
                 <div>

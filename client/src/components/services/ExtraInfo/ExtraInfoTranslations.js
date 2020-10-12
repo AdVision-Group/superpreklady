@@ -11,8 +11,8 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1
-} from "./ExtraInfo.styled";
+  P,H1,
+  ThLeft} from "./ExtraInfo.styled";
 import ExtraPriceListTranslations from "../../priceList/extraPriceList/ExtraPriceListTranslations";
 
 const ExtraInfoTranslations = () => {
@@ -25,7 +25,7 @@ const ExtraInfoTranslations = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <H1>TLMOČENIE</H1>
+            <H1>Tlmočenie</H1>
           </Heading>
           <Separator />
           <SubHeading>
@@ -39,15 +39,15 @@ const ExtraInfoTranslations = () => {
           <Table>
             <Tbody>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinacia Jazykov</Th>
+                <ThLeft>Kombinacia Jazykov</ThLeft>
                 <Th>Angličtina, nemčina, slovenčina, čeština</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <ThLeft>Odbory</ThLeft>
                 <Th>Prakticky všetky s výnimkou špeciálnej medicíny</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
+                <ThLeft>Ponuka</ThLeft>
                 <Th>
                   Obchodné rokovania, diplomatické stretnutia, prezentácie, školenia, konferencie,
                   rozhovory/interviews, tlačové konferencie, zábava, technické, lekárske, policajné, právne,
@@ -55,18 +55,18 @@ const ExtraInfoTranslations = () => {
                 </Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>
+                <ThLeft>
                   Druhy tlmočenia
-                </Th>
+                </ThLeft>
                 <Th>
                   Konzekutívne (po logických úsekoch), simultánne (tlmočenie v tlmočníckej kabíne, prakticky
                   súčasne s originálom), šušotáž (šepkanie do ucha)
                 </Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>
+                <ThLeft>
                   Kvalita tlmočenia
-                </Th>
+                </ThLeft>
                 <Th>
                   V tlmočení mám mnohoročné skúsenosti, ktoré mi umožňujú vďaka, ktorým dokážem
                   pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa

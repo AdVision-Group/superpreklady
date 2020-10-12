@@ -38,6 +38,11 @@ export const theme = {
     sectionAccentColor: "20px",
     sectionFontSize: "20px",
     inputFontSize : "14px",
+    priceTagFontSize : "18px",
+    contactSubHeading : '25px',
+    contactFormHeading : '20px',
+    contactParagraphText : '17px',
+
     h1: "30px",
     h2: "25px",
     h3: "17px",

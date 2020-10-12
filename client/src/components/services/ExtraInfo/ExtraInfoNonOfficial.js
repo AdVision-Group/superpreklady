@@ -11,7 +11,8 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1
+  P,H1,
+  ThLeft
 } from "./ExtraInfo.styled";
 import ExtraPriceListNonOfficial from "../../priceList/extraPriceList/ExtraPriceListNonOfficial";
 
@@ -25,7 +26,7 @@ const ExtraInfoNonOfficial = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <H1>NEÚRADNÉ PREKLADY</H1>
+            <H1>Neúradné preklady</H1>
           </Heading>
           <Separator />
           <SubHeading>
@@ -39,32 +40,32 @@ const ExtraInfoNonOfficial = () => {
           <Table>
             <Tbody>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinácia jazykov</Th>
+                <ThLeft>Kombinácia jazykov</ThLeft>
                 <Th>Angličtina, nemčina, slovenčina, čeština</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <ThLeft>Odbory</ThLeft>
                 <Th>Technika, právo, ekonomika, medicína</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
+                <ThLeft>Ponuka</ThLeft>
                 <Th>
                   Manuály, technická dokumentácia, obchodná korešpondencia, ponuky, zmluvy, prospekty,
                   katalógy, prezentácie, softvér, riadiace systémy strojov
                 </Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>
+                <ThLeft>
                   Preberanie a odovzdávanie
-                </Th>
+                </ThLeft>
                 <Th>
                   E-mailom, poštou, osobne, možnosť pracovať priamo u zákazníka
                 </Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>
+                <ThLeft>
                   Kvalita prekladov
-                </Th>
+                </ThLeft>
                 <Th>
                   Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom, ako v origináli. Terminológiu
                   overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. Preklady

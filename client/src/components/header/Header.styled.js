@@ -40,6 +40,10 @@ export const ButtonContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+      @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display: none;
+	}
 `;
 
 export const Button = styled.button`

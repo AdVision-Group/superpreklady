@@ -37,10 +37,10 @@ const About = (props) => {
         <AboutRightContainer>
           <AboutRightInnerContainer>
             <AboutHeadingContainerTop>
-              <H3>O MNE</H3>
+              <H3>O mne</H3>
             </AboutHeadingContainerTop>
             <AboutHeadingContainerMain>
-              <H1>KTO SOM A ČO ROBÍM</H1>
+              <H1>Kto som a čo robím</H1>
             </AboutHeadingContainerMain>
             <AboutHeadingContainerSubMain>
               <H3>ING. PAVEL POLÓNYI</H3>

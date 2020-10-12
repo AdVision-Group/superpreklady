@@ -25,6 +25,8 @@ import ExtraInfoOfficial from "./ExtraInfo/ExtraInfoOfficial";
 import ExtraInfoNonOfficial from "./ExtraInfo/ExtraInfoNonOfficial";
 import ExtraInfoTranslations from "./ExtraInfo/ExtraInfoTranslations";
 
+import { Link, animateScroll as scroll } from "react-scroll";
+
 const Services = (props) => {
   function changeCard(card) {
     props.selectCard(card)
@@ -38,10 +40,10 @@ const Services = (props) => {
       <ServicesInnerContainer>
         <ServicesHeading>
           <ServicesMainHeading>
-            <H3>SLUŽBY</H3>
+            <H3>Služby</H3>
           </ServicesMainHeading>
           <ServicesSecondHeading>
-            <H1>ČO PONÚKAM</H1>
+            <H1>Čo ponúkam</H1>
           </ServicesSecondHeading>
         </ServicesHeading>
         <ServicesCardsContainer>
@@ -62,7 +64,7 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(0)}>Zisti viac</Button>
+                <Link onClick={() => changeCard(0)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -83,7 +85,7 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(1)}>Zisti viac</Button>
+                <Link onClick={() => changeCard(1)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -104,7 +106,7 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Button onClick={() => changeCard(2)}>Zisti viac</Button>
+                <Link onClick={() => changeCard(2)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -119,7 +121,6 @@ const Services = (props) => {
         {props.activeCard === 1 && <ExtraInfoNonOfficial />}
         {props.activeCard === 2 && <ExtraInfoTranslations />}
       </AdditionalContentContainer>
-
     </ServiceContainer>
   );
 };

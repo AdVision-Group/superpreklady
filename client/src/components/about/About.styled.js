@@ -4,18 +4,38 @@ export const AboutContainer = styled.div`
   padding-top: 75px;
   padding-bottom: 75px;
   background: ${({ theme }) => theme.colors.lightGreyBg};
+            @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		text-align: center;
+	}
 `;
 
 export const AboutInnerContainer = styled.div`
   display: flex;
   flex-direction: row;
+      @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 `;
 export const AboutLeftContainer = styled.div`
   margin-left: 150px;
+          @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		margin-left: inherit;
+	}
 `;
 export const AboutRightContainer = styled.div`
   width: 70%;
   margin-left: 45px;
+            @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		width: inherit;
+		padding: 50px;
+		margin-left: inherit;
+	}
 `;
 export const AboutHeadingContainerTop = styled.div``;
 export const AboutHeadingContainerMain = styled.div``;

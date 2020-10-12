@@ -12,6 +12,7 @@ import {
   SecondHeading,
   H3,
   H1,
+  H1P,
     H1H,
   Table,
   Tbody,
@@ -24,16 +25,16 @@ const ExtraPriceListNonOfficial = () => {
     <PriceListContainer>
       <PriceListHeadingContainer>
         <MainHeading>
-          <H3>CENNÍK</H3>
+          <H3>Cenník</H3>
         </MainHeading>
         <SecondHeading>
-          <H1H>CENNÍK NEURADNYCH PREKLADOV</H1H>
+          <H1H>Cenník neúradných prekladov</H1H>
         </SecondHeading>
       </PriceListHeadingContainer>
       <PriceListContentContainer>
         <ContentCardContainer>
           <Heading>
-            <H3>PREKLAD</H3>
+            <H3>Preklad</H3>
           </Heading>
           <SecondaryHeading>
             <H1>preklad z nemčiny/angličtiny do slovenčiny/češtiny a naopak</H1>
@@ -67,12 +68,12 @@ const ExtraPriceListNonOfficial = () => {
             </Table>
           </Content>
           <Price>
-            <h1>od 13 EUR/normostrana</h1>
+            <H1P>od 13 EUR/Normostrana</H1P>
           </Price>
         </ContentCardContainer>
         <ContentCardContainer>
           <Heading>
-            <H3>PREKLAD</H3>
+            <H3>Preklad</H3>
           </Heading>
           <SecondaryHeading>
             <H1>preklad z nemčiny do angličtiny a naopak</H1>
@@ -106,8 +107,8 @@ const ExtraPriceListNonOfficial = () => {
             </Table>
           </Content>
           <Price>
-            <h1>od 17 EUR/normostrana
-            </h1>
+            <H1P>od 17 EUR/Normostrana
+            </H1P>
           </Price>
         </ContentCardContainer>
       </PriceListContentContainer>

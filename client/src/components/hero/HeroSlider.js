@@ -21,10 +21,10 @@ const HeroSlider = () => {
       <HeroSliderInnerContainer>
         <HeroLeftContainer>
           <HeroHeadingContainer>
-            <H1>
+            <H1><b>
               Dodám Vám navyššiu
               <br />
-              kvalitu prekladov
+              kvalitu prekladov</b>
             </H1>
           </HeroHeadingContainer>
           <HeroTextContainer>

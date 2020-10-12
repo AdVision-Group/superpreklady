@@ -17,16 +17,16 @@ const PriceList = () => {
     <PriceListContainer>
       <PriceListHeadingContainer>
         <MainHeading>
-          <H3>CENNIK</H3>
+          <H3>Cenník</H3>
         </MainHeading>
         <SecondHeading>
-          <H4>CENNIK URADNE OVERENYCH PREKLADOV</H4>
+          <H4>Cenník úradne overených prekladov</H4>
         </SecondHeading>
       </PriceListHeadingContainer>
       <PriceListContentContainer>
         <ContentCardContainer>
           <Heading>
-            <h3>PREKLAD</h3>
+            <h3>Preklad</h3>
           </Heading>
           <SecondaryHeading>
             Z anglictiny/nemciny do slovenciny a naopak
@@ -37,11 +37,11 @@ const PriceList = () => {
             release of Letraset sheets containing Lorem Ipsum passages, and more
             recently with deskto
           </Content>
-          <Price>20E / NORMOSTRANA</Price>
+          <Price>20E / Normostrana</Price>
         </ContentCardContainer>
         <ContentCardContainer>
           <Heading>
-            <h3>PREKLAD</h3>
+            <h3>Preklad</h3>
           </Heading>
           <SecondaryHeading>
             Z anglictiny/nemciny do slovenciny a naopak
@@ -52,7 +52,7 @@ const PriceList = () => {
             release of Letraset sheets containing Lorem Ipsum passages, and more
             recently with deskto
           </Content>
-          <Price>20E / NORMOSTRANA</Price>
+          <Price>20E / Normostrana</Price>
         </ContentCardContainer>
       </PriceListContentContainer>
     </PriceListContainer>

@@ -18,6 +18,11 @@ export const HeroSliderInnerContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   height: 450px;
+      @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		flex-direction: column;
+		height: inherit;
+	}
 `;
 
 export const HeroLeftContainer = styled.div`
@@ -32,6 +37,10 @@ export const HeroRightContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display: none;
+	}
 `;
 
 export const HeroImg = styled.img`

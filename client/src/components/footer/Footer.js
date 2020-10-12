@@ -74,7 +74,7 @@ const Footer = () => {
         <RowTwoContainer>
           <AboutContainerModule>
             <Heading>
-              <H1F>O MNE</H1F>
+              <H1F>O mne</H1F>
             </Heading>
             <Separator />
             <AboutContent>
@@ -97,7 +97,7 @@ const Footer = () => {
           </AboutContainerModule>
           <ScopeContainerModule>
             <Heading>
-              <H1F>OBSAH</H1F>
+              <H1F>Obsah</H1F>
             </Heading>
             <Separator />
             <Menu>
@@ -116,7 +116,7 @@ const Footer = () => {
           </ScopeContainerModule>
           <ContactContainerModule>
             <Heading>
-              <H1F>KONTAKT</H1F>
+              <H1F>Kontakt</H1F>
             </Heading>
             <Separator />
             <ContactContent>

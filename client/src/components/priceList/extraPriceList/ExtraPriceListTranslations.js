@@ -13,6 +13,7 @@ import {
   H3,
   H1,
     H1H,
+  H1P,
   Table,
   Tbody,
   Th,
@@ -24,19 +25,19 @@ const ExtraPriceListTranslations = () => {
     <PriceListContainer>
       <PriceListHeadingContainer>
         <MainHeading>
-          <H3>CENNÍK</H3>
+          <H3>Cenník</H3>
         </MainHeading>
         <SecondHeading>
-          <H1H>CENNÍK TLMOCENIA</H1H>
+          <H1H>Cenník Tlmočenia</H1H>
         </SecondHeading>
       </PriceListHeadingContainer>
       <PriceListContentContainer>
         <ContentCardContainer>
           <Heading>
-            <H3>PREKLAD</H3>
+            <H3>Preklad</H3>
           </Heading>
           <SecondaryHeading>
-            <H1>Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak</H1>
+            <H1P>Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak</H1P>
           </SecondaryHeading>
           <Content>
             <Table>
@@ -62,12 +63,12 @@ const ExtraPriceListTranslations = () => {
             </Table>
           </Content>
           <Price>
-            <h1> 30 EUR/hodina</h1>
+            <H1P> 30 EUR/ Hodina</H1P>
           </Price>
         </ContentCardContainer>
         <ContentCardContainer>
           <Heading>
-            <H3>PREKLAD</H3>
+            <H3>Preklad</H3>
           </Heading>
           <SecondaryHeading>
             <H1>Tlmočenie z nemčiny do angličtiny a naopak</H1>
@@ -98,7 +99,7 @@ const ExtraPriceListTranslations = () => {
             </Table>
           </Content>
           <Price>
-            <h1>40 EUR/hodina</h1>
+            <H1P>40 EUR/ Hodina</H1P>
           </Price>
         </ContentCardContainer>
       </PriceListContentContainer>

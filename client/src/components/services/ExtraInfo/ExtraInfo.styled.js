@@ -12,11 +12,19 @@ export const InfoInnerContainer = styled.div`
   width: 70%;
   background-color: #f7f7f7;
   padding: 60px;
+          @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	width: auto;
+	}
 `;
 
 export const HeadingContainer = styled.div`
   text-align: left;
   padding-bottom: 45px;
+            @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	text-align: center;
+	}
 `;
 
 export const Separator = styled.div`
@@ -24,6 +32,11 @@ export const Separator = styled.div`
   max-width: 350px;
   background-color: #3250d1;
   margin-bottom: 25px;
+            @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	max-width: inherit;
+	min-height: 4px;
+	}
 `;
 
 export const Heading = styled.div`
@@ -49,6 +62,11 @@ export const Th = styled.th`
 `;
 
 export const Tr = styled.tr`
+          @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	display: flex;
+	flex-direction: column;
+	}
 `;
 
 export const P = styled.div`
@@ -60,3 +78,26 @@ export const H1 = styled.h1`
   font-size: ${({ theme }) => theme.fontSize.h1};
   padding-bottom: 5px;
 `;
+
+export const ThLeft = styled.th`
+  padding: 5px 0 5px 0;
+  line-height: 1.3;
+  font-size: ${({ theme }) => theme.fontSize.paragraphText};
+  vertical-align: baseline;
+  width: 350px;
+  font-weight: bold;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		width: inherit;
+	}
+`;
+
+export const ExtraPriceContainer = styled.th`
+  padding: 0;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding: 35px;
+	}
+`;
+
+

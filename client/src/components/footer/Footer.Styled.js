@@ -26,6 +26,10 @@ export const PhoneContainer = styled.div`
   flex-direction: row;
   background-color: #454545;
 padding: 20px 100px 20px 100px;
+      @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display:none;
+	}
 `;
 export const Phone = styled.img`
   margin-right: 60px;
@@ -46,6 +50,11 @@ export const RowTwoContainer = styled.div`
   justify-content: space-between;
   flex-direction: row;
   padding: 50px 100px 50px 100px;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display: flex;
+		flex-direction: column;
+	}
 `;
 export const AboutContainerModule = styled.div``;
 export const Heading = styled.div``;

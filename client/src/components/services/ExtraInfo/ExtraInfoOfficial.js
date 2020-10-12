@@ -13,7 +13,9 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1
+  P,H1,
+  ThLeft,
+  ExtraPriceContainer
 } from "./ExtraInfo.styled";
 
 const ExtraInfoOfficial = () => {
@@ -26,9 +28,9 @@ const ExtraInfoOfficial = () => {
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
-            <H1>ÚRADNE OVERENÉ PREKLADY</H1>
+            <H1>Úradne overené preklady</H1>
           </Heading>
-          <Separator />
+          <Separator/>
           <SubHeading>
             <P>
               Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu.
@@ -40,24 +42,24 @@ const ExtraInfoOfficial = () => {
           <Table>
             <Tbody>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Kombinácia jazykov</Th>
+                <ThLeft>Kombinácia jazykov</ThLeft>
                 <Th>Angličtina, nemčina, slovenčina</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Odbory</Th>
+                <ThLeft>Odbory</ThLeft>
                 <Th>Technika, právo, ekonomika, medicína</Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>Ponuka</Th>
+                <ThLeft>Ponuka</ThLeft>
                 <Th>
                   Vysvedčenia, potvrdenia, certifikáty, zmluvy, lekárske správy, finančné výkazy, technické
                   správy, znalecké posudky, patenty
                 </Th>
               </Tr>
               <Tr>
-                <Th style={{width:"350px", fontWeight:"bold"}}>
+                <ThLeft>
                   Preberanie podkladov a odovzdanie hotových úradne overených prekladov
-                </Th>
+                </ThLeft>
                 <Th>
                   Pri úradne overených prekladoch sa originál zväzuje s prekladom. Odporúča sa preto
                   z diplomov, vysvedčení a pod. najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať
@@ -70,9 +72,9 @@ const ExtraInfoOfficial = () => {
           </Table>
         </TableContainer>
       </InfoInnerContainer>
-      <div>
+      <ExtraPriceContainer>
         <ExtraPriceListOfficial />
-      </div>
+      </ExtraPriceContainer>
     </InfoMainContainer>
   );
 };
