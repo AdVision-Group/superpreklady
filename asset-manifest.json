@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/superpreklady/static/css/main.102b013d.chunk.css",
-    "main.js": "/superpreklady/static/js/main.cffad49f.chunk.js",
-    "main.js.map": "/superpreklady/static/js/main.cffad49f.chunk.js.map",
+    "main.js": "/superpreklady/static/js/main.b01a2d14.chunk.js",
+    "main.js.map": "/superpreklady/static/js/main.b01a2d14.chunk.js.map",
     "runtime-main.js": "/superpreklady/static/js/runtime-main.03d6905b.js",
     "runtime-main.js.map": "/superpreklady/static/js/runtime-main.03d6905b.js.map",
     "static/js/2.70c12f0e.chunk.js": "/superpreklady/static/js/2.70c12f0e.chunk.js",
     "static/js/2.70c12f0e.chunk.js.map": "/superpreklady/static/js/2.70c12f0e.chunk.js.map",
     "index.html": "/superpreklady/index.html",
-    "precache-manifest.6e8ae98520af97b3dad9581e0ec882b5.js": "/superpreklady/precache-manifest.6e8ae98520af97b3dad9581e0ec882b5.js",
+    "precache-manifest.87ac0cea38bf49a385a174ce73bcb3bf.js": "/superpreklady/precache-manifest.87ac0cea38bf49a385a174ce73bcb3bf.js",
     "service-worker.js": "/superpreklady/service-worker.js",
     "static/css/main.102b013d.chunk.css.map": "/superpreklady/static/css/main.102b013d.chunk.css.map",
     "static/js/2.70c12f0e.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.70c12f0e.chunk.js.LICENSE.txt",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.03d6905b.js",
     "static/js/2.70c12f0e.chunk.js",
     "static/css/main.102b013d.chunk.css",
-    "static/js/main.cffad49f.chunk.js"
+    "static/js/main.b01a2d14.chunk.js"
   ]
 }
