@@ -10,6 +10,12 @@ align-items: center;
 `
 export const TheCurriculumInnerContainer = styled.div`
 width: 80%;
+              @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
+	width: inherit;
+	padding: 10px;
+	}
 `
 export const HeadingContainer = styled.div`
 text-align: center;
@@ -18,6 +24,11 @@ padding-bottom: 75px;
 `
 export const ContentContainer = styled.div`
 padding-bottom: 125px;
+              @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
+	padding: 25px;
+	}
 
 `
 export const H1 = styled.h1`
@@ -43,6 +54,11 @@ export const Th = styled.th`
   font-weight: normal;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
   vertical-align: baseline;
+                @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
+    padding: 0;
+	}
 `;
 
 export const ThLeft = styled.th`
@@ -52,6 +68,12 @@ export const ThLeft = styled.th`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
   vertical-align: baseline;
+                @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	font-size: ${({ theme }) => theme.responsiveFonts.tableLeftText};
+	width: inherit;
+	padding: 0 0 0 5px;
+	}
 `;
 
 export const Tr = styled.tr`
@@ -70,4 +92,10 @@ export const ThSeparator = styled.th`
   vertical-align: baseline;
   background-color: #eaeaea;
   white-space:nowrap;
+                @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+	font-size: ${({ theme }) => theme.responsiveFonts.tableSeparatorText};
+	white-space: normal;
+	padding: 5px 0 5px 5px;
+	}
 `;

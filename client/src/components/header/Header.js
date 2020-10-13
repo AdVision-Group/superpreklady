@@ -32,6 +32,7 @@ import {Burger, Menu} from "./navigation/navigation";
 import faTwitter from  '../../images/twitter-square-brands.svg';
 import faFacebook from  '../../images/facebook-brands.svg';
 import faGooglePlus from  '../../images/google-plus-g-brands.svg'
+import {NavLink} from "react-router-dom";
 
 
 
@@ -45,9 +46,12 @@ const Header = (props) => {
     <HeaderMainDiv>
       <Burger open={open} setOpen={setOpen} aria-controls={menuId} />
       <Menu selectCard={props.selectCard} activeCard={props.activeCard} outSide={props.outSide} setOutSide={props.setOutSide} open={open} setOpen={setOpen} id={menuId} />
+
       <LogoContainer>
         <LogoInnerContainer>
+          <NavLink to='/'>
           <LogoImg src={Logo} alt="mainLogo" />
+          </NavLink>
         </LogoInnerContainer>
         <LogoInnerContainerContent>
           <Heading>

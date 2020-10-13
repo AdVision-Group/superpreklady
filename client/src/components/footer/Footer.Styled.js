@@ -30,6 +30,10 @@ export const LogoContainer = styled.div`
     theme.brakePoints.mmw}) {
 		padding-bottom: 55px;
 	}
+	         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+		display: none;
+	}
 `;
 export const PhoneContainer = styled.div`
   display: flex;

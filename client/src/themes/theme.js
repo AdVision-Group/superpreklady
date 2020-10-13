@@ -50,8 +50,12 @@ export const theme = {
 
   },
   responsiveFonts: {
+    rH1:'25px',
     heroSmallText : '18px',
     heroBigText : '25px',
+    tableLeftText : '16px',
+    tableParagraphText: '16px',
+    tableSeparatorText: '20px'
   },
   header: {
     fontHeadingColor: "#0B0E23",
