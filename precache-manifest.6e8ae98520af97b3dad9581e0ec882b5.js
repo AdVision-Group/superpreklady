@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d5cd5bc090ffd622d191b4c9e9b592f6",
+    "revision": "612ad6e906eb8effbfddf8c4ece1ef12",
     "url": "/superpreklady/index.html"
   },
   {
-    "revision": "0d1cd647dd3372be14b1",
+    "revision": "8e08001786f0ee138b89",
     "url": "/superpreklady/static/css/main.102b013d.chunk.css"
   },
   {
-    "revision": "35aac0fd354ed2be459b",
-    "url": "/superpreklady/static/js/2.b2f966f0.chunk.js"
+    "revision": "ee6d98237e2245e553e5",
+    "url": "/superpreklady/static/js/2.70c12f0e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/superpreklady/static/js/2.b2f966f0.chunk.js.LICENSE.txt"
+    "url": "/superpreklady/static/js/2.70c12f0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d1cd647dd3372be14b1",
-    "url": "/superpreklady/static/js/main.0c70e358.chunk.js"
+    "revision": "8e08001786f0ee138b89",
+    "url": "/superpreklady/static/js/main.cffad49f.chunk.js"
   },
   {
     "revision": "a58ceb2537258428ae26",
@@ -26,6 +26,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ef6da18b9dce32750807693b631b6b84",
     "url": "/superpreklady/static/media/article-black-18dp.ef6da18b.svg"
+  },
+  {
+    "revision": "62d8b6ef8e6c796a5ddad822dff96874",
+    "url": "/superpreklady/static/media/facebook-brands.62d8b6ef.svg"
+  },
+  {
+    "revision": "276f52a709627c3d36a273e940fc93b2",
+    "url": "/superpreklady/static/media/google-plus-g-brands.276f52a7.svg"
   },
   {
     "revision": "b4175d5ac27589aa2231e42f1e4fd852",
@@ -38,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9c1fdafa4983462905ec1b1b3f00567a",
     "url": "/superpreklady/static/media/superpreklady-icon-home.9c1fdafa.png"
+  },
+  {
+    "revision": "a1223de504180a12574a17a1f30c5a08",
+    "url": "/superpreklady/static/media/twitter-square-brands.a1223de5.svg"
   }
 ]);

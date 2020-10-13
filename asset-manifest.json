@@ -1,26 +1,29 @@
 {
   "files": {
     "main.css": "/superpreklady/static/css/main.102b013d.chunk.css",
-    "main.js": "/superpreklady/static/js/main.0c70e358.chunk.js",
-    "main.js.map": "/superpreklady/static/js/main.0c70e358.chunk.js.map",
+    "main.js": "/superpreklady/static/js/main.cffad49f.chunk.js",
+    "main.js.map": "/superpreklady/static/js/main.cffad49f.chunk.js.map",
     "runtime-main.js": "/superpreklady/static/js/runtime-main.03d6905b.js",
     "runtime-main.js.map": "/superpreklady/static/js/runtime-main.03d6905b.js.map",
-    "static/js/2.b2f966f0.chunk.js": "/superpreklady/static/js/2.b2f966f0.chunk.js",
-    "static/js/2.b2f966f0.chunk.js.map": "/superpreklady/static/js/2.b2f966f0.chunk.js.map",
+    "static/js/2.70c12f0e.chunk.js": "/superpreklady/static/js/2.70c12f0e.chunk.js",
+    "static/js/2.70c12f0e.chunk.js.map": "/superpreklady/static/js/2.70c12f0e.chunk.js.map",
     "index.html": "/superpreklady/index.html",
-    "precache-manifest.a39a9635bb7dd2fdd8a08d8ee119d906.js": "/superpreklady/precache-manifest.a39a9635bb7dd2fdd8a08d8ee119d906.js",
+    "precache-manifest.6e8ae98520af97b3dad9581e0ec882b5.js": "/superpreklady/precache-manifest.6e8ae98520af97b3dad9581e0ec882b5.js",
     "service-worker.js": "/superpreklady/service-worker.js",
     "static/css/main.102b013d.chunk.css.map": "/superpreklady/static/css/main.102b013d.chunk.css.map",
-    "static/js/2.b2f966f0.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.b2f966f0.chunk.js.LICENSE.txt",
+    "static/js/2.70c12f0e.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.70c12f0e.chunk.js.LICENSE.txt",
     "static/media/article-black-18dp.svg": "/superpreklady/static/media/article-black-18dp.ef6da18b.svg",
+    "static/media/facebook-brands.svg": "/superpreklady/static/media/facebook-brands.62d8b6ef.svg",
+    "static/media/google-plus-g-brands.svg": "/superpreklady/static/media/google-plus-g-brands.276f52a7.svg",
     "static/media/phone-black-18dp.svg": "/superpreklady/static/media/phone-black-18dp.b4175d5a.svg",
     "static/media/superpreklady-about-image.jpg": "/superpreklady/static/media/superpreklady-about-image.6fac293e.jpg",
-    "static/media/superpreklady-icon-home.png": "/superpreklady/static/media/superpreklady-icon-home.9c1fdafa.png"
+    "static/media/superpreklady-icon-home.png": "/superpreklady/static/media/superpreklady-icon-home.9c1fdafa.png",
+    "static/media/twitter-square-brands.svg": "/superpreklady/static/media/twitter-square-brands.a1223de5.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.03d6905b.js",
-    "static/js/2.b2f966f0.chunk.js",
+    "static/js/2.70c12f0e.chunk.js",
     "static/css/main.102b013d.chunk.css",
-    "static/js/main.0c70e358.chunk.js"
+    "static/js/main.cffad49f.chunk.js"
   ]
 }
