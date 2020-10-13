@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62fe60341e6ba696f0d7557d69e75d30",
+    "revision": "b5dc40c7eb3a8579f7b80ae61696be89",
     "url": "/superpreklady/index.html"
   },
   {
-    "revision": "b6f866b34a4c0749aecc",
+    "revision": "1f0d90632d0c68b298e0",
     "url": "/superpreklady/static/css/main.102b013d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superpreklady/static/js/2.70c12f0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6f866b34a4c0749aecc",
-    "url": "/superpreklady/static/js/main.b01a2d14.chunk.js"
+    "revision": "1f0d90632d0c68b298e0",
+    "url": "/superpreklady/static/js/main.8f11a259.chunk.js"
   },
   {
     "revision": "a58ceb2537258428ae26",
