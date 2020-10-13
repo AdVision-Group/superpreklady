@@ -5,9 +5,28 @@ export const ServiceContainer = styled.div`
   text-align: center;
   padding-bottom: 75px;
   padding-top: 75px;
+  	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+	width: auto;
+	padding-bottom: 5px;
+	}
+	  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding-bottom: 25px;
+    padding-top: 25px;
+	}
+
 `;
 
 export const ServicesInnerContainer = styled.div`
+  	           @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+	padding: 25px;
+	}
+		  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+padding: 5px;
+	}
 `;
 
 export const ServicesHeading = styled.div`
@@ -25,6 +44,12 @@ export const ServicesCardsContainer = styled.div`
 		display: flex;
 		flex-direction: column;
 	}
+		  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding-bottom: 0;
+  
+	}
+
 `;
 export const ServicesMainHeading = styled.div``;
 
@@ -48,6 +73,13 @@ export const ServiceCardContainer = styled.div`
             @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 		margin-bottom: 50px;
+	}
+	           @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+		margin-bottom: 50px;
+		 max-width: inherit;
+         min-width: inherit;
+         min-height: inherit;
 	}
 `;
 

@@ -10,7 +10,8 @@ export const theme = {
     mobileLandscape: "900px",
   },
   brakePoints: {
-    smw: "300px", // small mobile width
+    ssmw: "300px", // super-small mobile width
+    smw: "400px", // small mobile width
     mmw: "600px", // medium mobile width
     lmw: "900px", // large mobile width
     stw: "1600px", // small tablet width
@@ -42,12 +43,15 @@ export const theme = {
     contactSubHeading : '25px',
     contactFormHeading : '20px',
     contactParagraphText : '17px',
-
     h1: "30px",
     h2: "25px",
     h3: "17px",
     h4: "25px",
 
+  },
+  responsiveFonts: {
+    heroSmallText : '18px',
+    heroBigText : '25px',
   },
   header: {
     fontHeadingColor: "#0B0E23",

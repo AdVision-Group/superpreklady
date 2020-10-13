@@ -15,7 +15,13 @@ export const InfoInnerContainer = styled.div`
           @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 	width: auto;
+	padding: 60px 25px 60px 25px;
 	}
+		  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+    padding:  20px 10px 20px 10px;
+	}
+
 `;
 
 export const HeadingContainer = styled.div`
@@ -92,11 +98,15 @@ export const ThLeft = styled.th`
 	}
 `;
 
-export const ExtraPriceContainer = styled.th`
+export const ExtraPriceContainer = styled.div`
   padding: 0;
         @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 		padding: 35px;
+	}
+		  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding: 10px;
 	}
 `;
 

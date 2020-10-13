@@ -22,6 +22,12 @@ export const HeroSliderInnerContainer = styled.div`
     theme.brakePoints.mmw}) {
 		flex-direction: column;
 		height: inherit;
+		margin: 0 25px 0 25px ;
+		width: inherit;
+	}
+		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	margin: 0 10px 0 10px;
 	}
 `;
 
@@ -72,8 +78,16 @@ export const Button = styled.button`
 export const H1 = styled.div`
   font-size: 35px;
   font-weight: 500;
+         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		font-size: ${({ theme }) => theme.responsiveFonts.heroBigText};
+	}
 `;
 export const P = styled.div`
   font-size: 25px;
   color: #9A9A9A;
+         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		font-size: ${({ theme }) => theme.responsiveFonts.heroSmallText};
+	}
 `;

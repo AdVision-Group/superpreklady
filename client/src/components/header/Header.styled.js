@@ -21,16 +21,29 @@ export const LogoContainer = styled.div`
          @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 		padding-top: 20px;
+		padding-left: 25px;
 	}
+	    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding-top: 15px;
+		padding-left: 10px;
+		justify-content: flex-start;
+	}
+	
 `;
 
 export const LogoInnerContainer = styled.div`
   height: auto;
+
 `;
 
 export const LogoInnerContainerContent = styled.div`
   padding: 2px;
   margin: 1px;
+      	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	display: none;
+	}
 `;
 
 export const LogoImg = styled.img`

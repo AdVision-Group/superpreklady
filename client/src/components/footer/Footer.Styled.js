@@ -4,6 +4,10 @@ export const FooterContainer = styled.div`
   background-color: #343434;
   color: white;
   padding-top: 75px;
+        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding: 75px 50px 25px 50px;
+	}
 `;
 export const FooterInnerContainer = styled.div``;
 export const RowOneContainer = styled.div`
@@ -12,12 +16,20 @@ export const RowOneContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 100px;
+         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding: 0;
+	}
 `;
 export const LogoContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
+          @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding-bottom: 55px;
+	}
 `;
 export const PhoneContainer = styled.div`
   display: flex;
@@ -54,6 +66,7 @@ export const RowTwoContainer = styled.div`
     theme.brakePoints.mmw}) {
 		display: flex;
 		flex-direction: column;
+		padding: 0;
 	}
 `;
 export const AboutContainerModule = styled.div``;

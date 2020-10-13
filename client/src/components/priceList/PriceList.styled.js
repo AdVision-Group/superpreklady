@@ -13,6 +13,11 @@ export const PriceListContainer = styled.div`
     theme.brakePoints.mmw}) {
     width: inherit;
 	}
+		        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+	width: auto;
+	padding-bottom: 5px;
+	}
 `;
 export const PriceListHeadingContainer = styled.div`
 padding: 0 0 55px 0;
@@ -55,6 +60,15 @@ export const ContentCardContainer = styled.div`
 		  -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
   -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
   box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
+	}
+		        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.smw}) {
+	width: auto;
+	padding: 55px 5px 55px 5px;
+	}
+		  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+  padding: 10px ;
 	}
 `;
 export const Heading = styled.div`

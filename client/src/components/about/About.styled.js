@@ -8,6 +8,11 @@ export const AboutContainer = styled.div`
     theme.brakePoints.mmw}) {
 		text-align: center;
 	}
+	  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	}
 `;
 
 export const AboutInnerContainer = styled.div`
@@ -33,19 +38,28 @@ export const AboutRightContainer = styled.div`
             @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 		width: inherit;
-		padding: 50px;
+		padding: 50px 25px 50px 25px;
 		margin-left: inherit;
+	}
+	  		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	padding: 25px 10px 25px 10px ;
 	}
 `;
 export const AboutHeadingContainerTop = styled.div``;
 export const AboutHeadingContainerMain = styled.div``;
 export const AboutHeadingContainerSubMain = styled.div``;
+
 export const AboutImg = styled.img`
   width: 300px;
   height: auto;
   -webkit-box-shadow: -13px -13px 0px -2px rgb(50, 80, 209);
   -moz-box-shadow: -13px -13px 0px -2px rgba(50, 80, 209, 1);
   box-shadow: -13px -13px 0px -2px rgba(50, 80, 209, 1);
+    		    	        @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.ssmw}) {
+	display: none;
+	}
 `;
 export const AboutImgInnerContainer = styled.div``;
 export const AboutRightInnerContainer = styled.div`
