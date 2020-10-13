@@ -9,7 +9,6 @@ justify-content: center;
 align-items: center;
 `
 export const TheCompanyInnerContainer = styled.div`
-width: 80%;
 `
 export const HeadingContainer = styled.div`
 text-align: center;
@@ -18,6 +17,7 @@ padding-bottom: 75px;
 `
 export const ContentContainer = styled.div`
 padding-bottom: 125px;
+
 
 `
 export const H1 = styled.h1`
@@ -28,9 +28,8 @@ export const H1 = styled.h1`
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
-  padding: 25px;
   border: solid #dbdbdb 1px;
-  background-color: #fcfcfc;
+    background-color: #fdfdfd;
 `;
 
 export const Tbody = styled.tbody``;
@@ -45,7 +44,7 @@ export const Th = styled.th`
 
 export const ThLeft = styled.th`
   width: 250px;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 5px 25px;
   line-height: 1.3;
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
@@ -53,6 +52,7 @@ export const ThLeft = styled.th`
 `;
 
 export const Tr = styled.tr`
+
 `;
 
 export const TrSeparator = styled.tr`
@@ -60,10 +60,11 @@ export const TrSeparator = styled.tr`
 `;
 
 export const ThSeparator = styled.th`
-  padding: 5px 10px 5px 0px;
+  padding: 5px 10px 5px 25px;
   line-height: 1.3;
   font-weight: bold;
-  font-size: ${({ theme }) => theme.fontSize.h2};
+  font-size: ${({theme}) => theme.fontSize.h2};
   vertical-align: baseline;
-  margin-bottom: 35px;
+  background-color: #eaeaea;
+  white-space:nowrap;
 `;

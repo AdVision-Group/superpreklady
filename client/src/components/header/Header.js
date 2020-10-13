@@ -9,6 +9,8 @@ import {
   Heading,
   SubHeading,
   LogoImg,
+  SocialIconContainer,
+  Icon,
   H3,
   H4,
   Button,
@@ -22,10 +24,16 @@ import {
   MenuFirstLineContainer,
   MenuInnerContainer,
   MenuMainDiv,
-  MenuNumberContainer, MenuSecondLineContainer, MenuSocialContainer
+  MenuNumberContainer, MenuSecondLineContainer, MenuSocialContainer,
 } from "./Menu.Styled";
 import {useOnClickOutside} from "./navigation/navigation/hooks";
 import {Burger, Menu} from "./navigation/navigation";
+
+import faTwitter from  '../../images/twitter-square-brands.svg';
+import faFacebook from  '../../images/facebook-brands.svg';
+import faGooglePlus from  '../../images/google-plus-g-brands.svg'
+
+
 
 const Header = (props) => {
   const [open, setOpen] = useState(false);
@@ -67,7 +75,21 @@ const Header = (props) => {
               </p>
             </MenuEmailContainer>
             <MenuSocialContainer>
-              <p><b>Face, Twitter, Google+</b></p>
+              <SocialIconContainer>
+                  <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faFacebook}/>
+                  </a>
+              </SocialIconContainer>
+              <SocialIconContainer>
+                <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faTwitter}/>
+                </a>
+              </SocialIconContainer>
+              <SocialIconContainer>
+                <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faGooglePlus}/>
+                </a>
+              </SocialIconContainer>
             </MenuSocialContainer>
           </MenuFirstLineContainer>
           <MenuSecondLineContainer>

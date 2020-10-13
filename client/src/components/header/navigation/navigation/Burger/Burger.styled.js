@@ -37,4 +37,8 @@ export const StyledBurger = styled.div`
       transform: ${({open}) => open ? 'rotate(-45deg)' : 'rotate(0)'};
     }
   }
+        @media only screen and (min-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		display: none;
+	}
 `;

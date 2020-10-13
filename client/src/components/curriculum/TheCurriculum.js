@@ -11,7 +11,7 @@ import {
     ThLeft,
     Tr,
     TrSeparator,
-    ThSearator
+    ThSeparator
 
 } from "./TheCurriculum.styled"
 
@@ -53,7 +53,8 @@ const TheCurriculum = () => {
                                 <Th>03.10.1968</Th>
                             </Tr>
                             <TrSeparator>
-                                <ThSearator>Pracovné skúsenosti</ThSearator>
+                                <ThSeparator>Pracovné skúsenosti</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>2009</ThLeft>
@@ -134,7 +135,8 @@ obchodné rokovania. Zákaznícky servis pre určitých zákazníkov. Predaj tla
                                 </Th>
                             </Tr>
                             <TrSeparator>
-                                <ThSearator>Vzdelanie</ThSearator>
+                                <ThSeparator>Vzdelanie</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>1999 -- 2000</ThLeft>
@@ -158,7 +160,8 @@ obchodné rokovania. Zákaznícky servis pre určitých zákazníkov. Predaj tla
                                 </Th>
                             </Tr>
                             <TrSeparator>
-                                <ThSearator>Jazykové certifikáty</ThSearator>
+                                <ThSeparator>Jazykové certifikáty</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>Angličtina</ThLeft>

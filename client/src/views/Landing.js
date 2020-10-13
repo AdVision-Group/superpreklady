@@ -16,7 +16,7 @@ export default function Landing() {
       <About setOutSide={setOutSide} />
       <Services selectCard={setOption} activeCard={option} />
       <Contact />
-      <Footer />
+      <Footer selectCard={setOption} activeCard={option} outSide={outSide} />
     </div>
   );
 }

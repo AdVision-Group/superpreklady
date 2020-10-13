@@ -25,15 +25,17 @@ export const H1 = styled.h1`
   font-size: ${({ theme }) => theme.fontSize.h1};
   padding-bottom: 5px;
 `;
+
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
-  padding: 25px;
-    border: solid #dbdbdb 1px;
-  background-color: #fcfcfc;
+  border: solid #dbdbdb 1px;
+  background-color: #fdfdfd;
+  padding: 25px 0 0 0;
 `;
 
-export const Tbody = styled.tbody``;
+export const Tbody = styled.tbody`
+`;
 
 export const Th = styled.th`
   padding: 5px 0 5px 55px;
@@ -45,7 +47,7 @@ export const Th = styled.th`
 
 export const ThLeft = styled.th`
   width: 250px;
-  padding: 5px 0 5px 0;
+  padding: 5px 0 5px 25px;
   line-height: 1.3;
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
@@ -59,10 +61,13 @@ export const TrSeparator = styled.tr`
 
 `;
 
-export const ThSearator = styled.th`
-  padding: 5px 10px 5px 0px;
+export const ThSeparator = styled.th`
+  padding: 5px 10px 5px 25px;
+  margin: 0 0 30px 0;
   line-height: 1.3;
   font-weight: bold;
-  font-size: ${({ theme }) => theme.fontSize.h2};
+  font-size: ${({theme}) => theme.fontSize.h2};
   vertical-align: baseline;
+  background-color: #eaeaea;
+  white-space:nowrap;
 `;

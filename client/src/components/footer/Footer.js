@@ -15,7 +15,6 @@ import {
   Separator,
   AboutContent,
   SocialContainer,
-  SocialIcon,
   ScopeContainerModule,
   Menu,
   ContactContainerModule,
@@ -27,19 +26,21 @@ import {
 } from "./Footer.Styled";
 
 import {
-  H3,
-  H4,
+  Icon,
   LogoImg,
   LogoInnerContainer,
-  LogoInnerContainerContent,
+  LogoInnerContainerContent, SocialIconContainer,
   SubHeading,
 } from "../header/Header.styled";
 
 import Logo from "../../images/superpreklady-logo.png";
 import PhoneIcon from "../../images/phone-black-18dp.svg";
-import {P} from "../about/About.styled";
+import faFacebook from "../../images/facebook-brands.svg";
+import faTwitter from "../../images/twitter-square-brands.svg";
+import faGooglePlus from "../../images/google-plus-g-brands.svg";
+import MenuNavigation from '../header/Menu'
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <FooterContainer>
       <FooterInnerContainer>
@@ -79,20 +80,25 @@ const Footer = () => {
             <Separator />
             <AboutContent>
               <PF>
-                <span>Chcel by som byť maliarom.<br/> Dal som sa ale na polygrafiu,<br/> skôr priemysel než umenie, že je
-                praktickejšia na uživenie.</span>
+                <span>Chcel by som byť maliarom.<br/> Dal som sa ale na polygrafiu,<br/> skôr priemysel </span>
               </PF>
             </AboutContent>
             <SocialContainer>
-              <SocialIcon>
-                <PF>Facebook</PF>
-              </SocialIcon>
-              <SocialIcon>
-                <PF>Twitter</PF>
-              </SocialIcon>
-              <SocialIcon>
-                <PF>Google+</PF>
-              </SocialIcon>
+              <SocialIconContainer>
+                <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faFacebook}/>
+                </a>
+              </SocialIconContainer>
+              <SocialIconContainer>
+                <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faTwitter}/>
+                </a>
+              </SocialIconContainer>
+              <SocialIconContainer>
+                <a href='https://www.facebook.com/' rel={'noopener'}>
+                  <Icon src={faGooglePlus}/>
+                </a>
+              </SocialIconContainer>
             </SocialContainer>
           </AboutContainerModule>
           <ScopeContainerModule>
@@ -101,17 +107,7 @@ const Footer = () => {
             </Heading>
             <Separator />
             <Menu>
-              <div>
-                <div>
-                  <PF>Domov</PF>
-                </div>
-                <div>
-                  <PF>Sluzby</PF>
-                </div>
-                <PF>Cennik</PF>
-                <PF>O mne</PF>
-                <PF>Kontakt</PF>
-              </div>
+              <MenuNavigation selectCard={props.selectCard} activeCard={props.activeCard} outSide={props.outSide} setOutSide={props.setOutSide}/>
             </Menu>
           </ScopeContainerModule>
           <ContactContainerModule>

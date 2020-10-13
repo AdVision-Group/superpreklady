@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://advision-group.github.io/superpreklady/",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -16,7 +18,6 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",

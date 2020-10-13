@@ -28,15 +28,24 @@ export const MenuFirstLineContainer = styled.div`
 `;
 export const MenuNumberContainer = styled.div``;
 export const MenuEmailContainer = styled.div``;
-export const MenuSocialContainer = styled.div``;
+export const MenuSocialContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+`;
 export const MenuSecondLineContainer = styled.div`
   padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
     @media only screen and (max-width: ${({ theme }) =>
     theme.brakePoints.mmw}) {
 		display: none;
 	}
 `;
-export const MenuInnerNavigationContainer = styled.div`
+export const MenuInnerNavigationContainer = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: center;

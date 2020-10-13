@@ -28,6 +28,7 @@ const TheCompanyInfo = () => {
                         <Tbody>
                             <TrSeparator>
                                 <ThSeparator>Úradný prekladateľ</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>Meno prekladateľa</ThLeft>
@@ -73,6 +74,7 @@ const TheCompanyInfo = () => {
                             </Tr>
                             <TrSeparator>
                                 <ThSeparator>s.r.o.</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>Meno firmy</ThLeft>
@@ -125,6 +127,7 @@ const TheCompanyInfo = () => {
                             </Tr>
                             <TrSeparator>
                                 <ThSeparator>Živnosť</ThSeparator>
+                                <ThSeparator/>
                             </TrSeparator>
                             <Tr>
                                 <ThLeft>Meno firmy</ThLeft>

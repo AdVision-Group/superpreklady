@@ -73,7 +73,7 @@ const Contact = () => {
             </ContactCardContainer>
             <div>
               <NavLink to="/kontakt">
-                <Button>Kontaktné údaje</Button>
+                <Button>Firemné údaje</Button>
               </NavLink>
             </div>
           </FormLeftSide>

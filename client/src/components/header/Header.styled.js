@@ -7,6 +7,10 @@ export const HeaderMainDiv = styled.div`
   align-items: center;
   width: 100%;
   padding: 20px 0 55px 0;
+         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding-bottom: 25px;
+	}
 `;
 
 export const LogoContainer = styled.div`
@@ -14,6 +18,10 @@ export const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+         @media only screen and (max-width: ${({ theme }) =>
+    theme.brakePoints.mmw}) {
+		padding-top: 20px;
+	}
 `;
 
 export const LogoInnerContainer = styled.div`
@@ -72,4 +80,13 @@ export const H4 = styled.div`
   margin: 1px;
   font-size: 13px;
   color: #9A9A9A;
+`;
+
+export const SocialIconContainer = styled.div`
+padding-right: 10px;
+`;
+
+export const Icon = styled.img`
+width: 25px;
+height: 25px;
 `;
