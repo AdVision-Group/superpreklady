@@ -13,27 +13,26 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1,
+  P,
+  H1,
   ThLeft,
-  ExtraPriceContainer
+  ExtraPriceContainer,
 } from "./ExtraInfo.styled";
 
 const ExtraInfoOfficial = () => {
   return (
     <InfoMainContainer>
-      <section
-          title="sectionUradnePreklady"
-          id="sectionUradnePreklady"
-      />
+      <section title="sectionUradnePreklady" id="sectionUradnePreklady" />
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
             <H1>Úradne overené preklady</H1>
           </Heading>
-          <Separator/>
+          <Separator />
           <SubHeading>
             <P>
-              Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu.
+              Preklad v maximálnej miere obsahovo aj graficky zodpovedá
+              originálu.
               <br /> Dodržiavam všetky podmieky vyplivajúce zo zákona.
             </P>
           </SubHeading>
@@ -52,20 +51,24 @@ const ExtraInfoOfficial = () => {
               <Tr>
                 <ThLeft>Ponuka</ThLeft>
                 <Th>
-                  Vysvedčenia, potvrdenia, certifikáty, zmluvy, lekárske správy, finančné výkazy, technické
-                  správy, znalecké posudky, patenty
+                  Vysvedčenia, potvrdenia, certifikáty, zmluvy, lekárske správy,
+                  finančné výkazy, technické správy, znalecké posudky, patenty
                 </Th>
               </Tr>
               <Tr>
                 <ThLeft>
-                  Preberanie podkladov a odovzdanie hotových úradne overených prekladov
+                  Preberanie podkladov a odovzdanie hotových úradne overených
+                  prekladov
                 </ThLeft>
                 <Th>
-                  Pri úradne overených prekladoch sa originál zväzuje s prekladom. Odporúča sa preto
-                  z diplomov, vysvedčení a pod. najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať
-                  preložiť. Pokiaľ zákazník pošle podklady vopred, napr. poštou alebo naskenované e-mailom,
-                  stačí, keď si príde osobne iba raz nechať si zviazať preklad s originálom trikolórou. Som
-                  flexibilný na preberanie a odovzdávanie úradne overených prekladov
+                  Pri úradne overených prekladoch sa originál zväzuje s
+                  prekladom. Odporúča sa preto z diplomov, vysvedčení a pod.
+                  najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať
+                  preložiť. Pokiaľ zákazník pošle podklady vopred, napr. poštou
+                  alebo naskenované e-mailom, stačí, keď si príde osobne iba raz
+                  nechať si zviazať preklad s originálom trikolórou. Som
+                  flexibilný na preberanie a odovzdávanie úradne overených
+                  prekladov
                 </Th>
               </Tr>
             </Tbody>

@@ -5,19 +5,19 @@ export const MenuMainDiv = styled.div`
   font-size: ${({ theme }) => theme.fontSize.menuFontSize};
   white-space: nowrap;
   a {
-  text-decoration: none;
-  color: black;
-  :hover {
-  color: ${({ theme }) => theme.colors.accentColor};
+    text-decoration: none;
+    color: black;
+    :hover {
+      color: ${({ theme }) => theme.colors.accentColor};
     }
   }
-      @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 
 export const MenuInnerContainer = styled.div``;
+
 export const MenuFirstLineContainer = styled.div`
   display: flex;
   flex-direction: row;
@@ -25,14 +25,27 @@ export const MenuFirstLineContainer = styled.div`
   align-items: center;
   padding-bottom: 10px;
   border-bottom: solid 1px #f1f1f1;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    justify-content: center;
+  }
 `;
-export const MenuNumberContainer = styled.div``;
-export const MenuEmailContainer = styled.div``;
+export const MenuNumberContainer = styled.div`
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    display: none;
+  }
+`;
+export const MenuEmailContainer = styled.div`
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    display: none;
+  }
+`;
 export const MenuSocialContainer = styled.div`
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 `;
 export const MenuSecondLineContainer = styled.div`
   padding-top: 20px;
@@ -40,27 +53,24 @@ export const MenuSecondLineContainer = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-    @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 export const MenuInnerNavigationContainer = styled.nav`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		flex-direction: column;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    flex-direction: column;
+  }
 `;
 
 export const MenuItem = styled.div`
   margin: 2px 20px 2px 20px;
   cursor: pointer;
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	margin: 25px 20px 10px 20px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    margin: 25px 20px 10px 20px;
+  }
 `;

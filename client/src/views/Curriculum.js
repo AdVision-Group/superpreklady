@@ -7,8 +7,8 @@ export default function ContactMain() {
   return (
     <div>
       <Header />
-    <TheCurriculum/>
-    <Contact />
+      <TheCurriculum />
+      <Contact />
       <Footer />
     </div>
   );

@@ -20,21 +20,18 @@ import {
   InputEmail,
   InputText,
   H3,
-    H3C,
+  H3C,
   H1,
   Button,
-    P,
+  P,
   H1X,
-  InputDivContainer
+  InputDivContainer,
 } from "./Contact.styled";
 
 const Contact = () => {
   return (
     <ContactContainer>
-      <section
-          title="sectionKontakt"
-          id="sectionKontakt"
-      />
+      <section title="sectionKontakt" id="sectionKontakt" />
       <ContactInnerContainer>
         <HeadingContactContainer>
           <H3C>Kontakt</H3C>

@@ -9,26 +9,23 @@ export const PriceListContainer = styled.div`
   background: #ffffff;
   padding-top: 75px;
   padding-bottom: 75px;
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ltw}) {
     width: inherit;
-	}
-		        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-	width: auto;
-	padding-bottom: 5px;
-	}
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: inherit;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    width: auto;
+    padding-bottom: 5px;
+  }
 `;
 export const PriceListHeadingContainer = styled.div`
-padding: 0 0 55px 0;
+  padding: 0 0 55px 0;
 `;
 
-export const MainHeading = styled.div`
-
-`;
-export const SecondHeading = styled.div`
-
-`;
+export const MainHeading = styled.div``;
+export const SecondHeading = styled.div``;
 export const PriceListContentContainer = styled.div`
   display: flex;
   width: 85%;
@@ -37,15 +34,14 @@ export const PriceListContentContainer = styled.div`
   -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
   -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
   box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: flex;
-		width: inherit;
-		flex-direction: column;
-                  -webkit-box-shadow: inherit;
-                  -moz-box-shadow: inherit;
-          box-shadow: inherit;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    box-shadow: inherit;
+  }
 `;
 export const ContentCardContainer = styled.div`
   width: 600px;
@@ -53,37 +49,35 @@ export const ContentCardContainer = styled.div`
   justify-content: space-between;
   flex-direction: column;
   padding: 55px;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		width: inherit;
-		margin-bottom: 50px;
-		  -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
-  box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
-	}
-		        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-	width: auto;
-	padding: 55px 5px 55px 5px;
-	}
-		  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-  padding: 10px ;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ltw}) {
+    width: auto;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: inherit;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    width: auto;
+    padding: 55px 5px 55px 5px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding: 10px;
+  }
 `;
 export const Heading = styled.div`
-padding-bottom: 5px;
+  padding-bottom: 5px;
 `;
 export const SecondaryHeading = styled.div`
-padding-bottom: 35px;
+  padding-bottom: 35px;
 `;
 export const Content = styled.div`
-
-align-items: center;
-padding-bottom: 35px;
+  align-items: center;
+  padding-bottom: 35px;
 `;
 export const Price = styled.div``;
-
 
 export const H3 = styled.h3`
   color: ${({ theme }) => theme.colors.accentColor};
@@ -129,5 +123,4 @@ export const Th = styled.th`
   line-height: 1.3;
 `;
 
-export const Tr = styled.tr`
-`;
+export const Tr = styled.tr``;

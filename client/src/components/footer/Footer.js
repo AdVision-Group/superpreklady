@@ -20,16 +20,17 @@ import {
   ContactContainerModule,
   ContactContent,
   Phone,
-    H3F,
-    H1F,
-    PF
+  H3F,
+  H1F,
+  PF,
 } from "./Footer.Styled";
 
 import {
   Icon,
   LogoImg,
   LogoInnerContainer,
-  LogoInnerContainerContent, SocialIconContainer,
+  LogoInnerContainerContent,
+  SocialIconContainer,
   SubHeading,
 } from "../header/Header.styled";
 
@@ -38,7 +39,7 @@ import PhoneIcon from "../../images/phone-black-18dp.svg";
 import faFacebook from "../../images/facebook-brands.svg";
 import faTwitter from "../../images/twitter-square-brands.svg";
 import faGooglePlus from "../../images/google-plus-g-brands.svg";
-import MenuNavigation from '../header/Menu'
+import MenuNavigation from "../header/Menu";
 
 const Footer = (props) => {
   return (
@@ -46,7 +47,7 @@ const Footer = (props) => {
       <FooterInnerContainer>
         <RowOneContainer>
           <LogoContainer>
-            <LogoInnerContainer style={{paddingRight:"25px"}}>
+            <LogoInnerContainer style={{ paddingRight: "25px" }}>
               <LogoImg src={Logo} alt="mainLogo" />
             </LogoInnerContainer>
             <LogoInnerContainerContent>
@@ -60,14 +61,16 @@ const Footer = (props) => {
           </LogoContainer>
           <PhoneContainer>
             <IconContainer>
-              <Phone src={PhoneIcon} alt="mainLogo"/>
+              <Phone src={PhoneIcon} alt="mainLogo" />
             </IconContainer>
             <PhoneContactContainer>
               <Number>
                 <H1F>+421 908 72 82 74</H1F>
               </Number>
               <Content>
-                <PF style={{marginTop:"5px"}}>Som vám k dispozícií neustále</PF>
+                <PF style={{ marginTop: "5px" }}>
+                  Som vám k dispozícií neustále
+                </PF>
               </Content>
             </PhoneContactContainer>
           </PhoneContainer>
@@ -80,23 +83,27 @@ const Footer = (props) => {
             <Separator />
             <AboutContent>
               <PF>
-                <span>Chcel by som byť maliarom.<br/> Dal som sa ale na polygrafiu,<br/> skôr priemysel </span>
+                <span>
+                  Chcel by som byť maliarom.
+                  <br /> Dal som sa ale na polygrafiu,
+                  <br /> skôr priemysel{" "}
+                </span>
               </PF>
             </AboutContent>
             <SocialContainer>
               <SocialIconContainer>
-                <a href='https://www.facebook.com/' rel={'noopener'}>
-                  <Icon src={faFacebook}/>
+                <a href="https://www.facebook.com/" rel={"noopener"}>
+                  <Icon src={faFacebook} />
                 </a>
               </SocialIconContainer>
               <SocialIconContainer>
-                <a href='https://www.facebook.com/' rel={'noopener'}>
-                  <Icon src={faTwitter}/>
+                <a href="https://www.facebook.com/" rel={"noopener"}>
+                  <Icon src={faTwitter} />
                 </a>
               </SocialIconContainer>
               <SocialIconContainer>
-                <a href='https://www.facebook.com/' rel={'noopener'}>
-                  <Icon src={faGooglePlus}/>
+                <a href="https://www.facebook.com/" rel={"noopener"}>
+                  <Icon src={faGooglePlus} />
                 </a>
               </SocialIconContainer>
             </SocialContainer>
@@ -107,7 +114,12 @@ const Footer = (props) => {
             </Heading>
             <Separator />
             <Menu>
-              <MenuNavigation selectCard={props.selectCard} activeCard={props.activeCard} outSide={props.outSide} setOutSide={props.setOutSide}/>
+              <MenuNavigation
+                selectCard={props.selectCard}
+                activeCard={props.activeCard}
+                outSide={props.outSide}
+                setOutSide={props.setOutSide}
+              />
             </Menu>
           </ScopeContainerModule>
           <ContactContainerModule>
@@ -117,8 +129,10 @@ const Footer = (props) => {
             <Separator />
             <ContactContent>
               <PF>
-                <span>Ambroseho 10, 851 02 Bratislava 5</span><br/>
-                <span>+421 908 82 74</span><br/>
+                <span>Ambroseho 10, 851 02 Bratislava 5</span>
+                <br />
+                <span>+421 908 82 74</span>
+                <br />
                 <span>pavel@superpreklady.sk</span>
               </PF>
             </ContactContent>

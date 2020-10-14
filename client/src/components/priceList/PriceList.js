@@ -9,7 +9,9 @@ import {
   Heading,
   SecondaryHeading,
   Content,
-  Price,H3,H4
+  Price,
+  H3,
+  H4,
 } from "./PriceList.styled";
 
 const PriceList = () => {

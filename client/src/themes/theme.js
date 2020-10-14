@@ -12,9 +12,10 @@ export const theme = {
   brakePoints: {
     ssmw: "300px", // super-small mobile width
     smw: "400px", // small mobile width
-    mmw: "600px", // medium mobile width
+    mmw: "900px", // medium mobile width
     lmw: "900px", // large mobile width
-    stw: "1600px", // small tablet width
+    stw: "1300px", // small tablet width
+    ltw: "1600px", // large tablet width
   },
   colors: {
     accentColor: "#3250d1",
@@ -22,40 +23,39 @@ export const theme = {
     white: "#ffffff",
     grey: "#9A9A9A",
     bgGrey: "#E3E3E3",
-    lightGreyBg: "#f7f7f7"
+    lightGreyBg: "#f7f7f7",
   },
   button: {
     accentColor: "#3250d1",
     textColor: "#ffffff",
-    fontSize: "15px"
+    fontSize: "15px",
   },
 
   fontSize: {
-    menuFontSize : "15px",
-    servicesFontSize : "15px",
-    paragraphText : "18px",
-    footerParagraphText : "15px",
-    tableFontSize : "17px",
+    menuFontSize: "15px",
+    servicesFontSize: "15px",
+    paragraphText: "18px",
+    footerParagraphText: "15px",
+    tableFontSize: "17px",
     sectionAccentColor: "20px",
     sectionFontSize: "20px",
-    inputFontSize : "14px",
-    priceTagFontSize : "18px",
-    contactSubHeading : '25px',
-    contactFormHeading : '20px',
-    contactParagraphText : '17px',
+    inputFontSize: "14px",
+    priceTagFontSize: "18px",
+    contactSubHeading: "25px",
+    contactFormHeading: "20px",
+    contactParagraphText: "17px",
     h1: "30px",
     h2: "25px",
     h3: "17px",
     h4: "25px",
-
   },
   responsiveFonts: {
-    rH1:'25px',
-    heroSmallText : '18px',
-    heroBigText : '25px',
-    tableLeftText : '16px',
-    tableParagraphText: '16px',
-    tableSeparatorText: '20px'
+    rH1: "25px",
+    heroSmallText: "18px",
+    heroBigText: "25px",
+    tableLeftText: "16px",
+    tableParagraphText: "16px",
+    tableSeparatorText: "20px",
   },
   header: {
     fontHeadingColor: "#0B0E23",
@@ -66,4 +66,4 @@ export const theme = {
     subBlockHeadingFontSize: "25px",
     mainBlockTextFontSize: "25px",
   },
-}
+};

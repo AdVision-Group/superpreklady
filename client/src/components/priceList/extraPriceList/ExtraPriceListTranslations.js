@@ -12,7 +12,7 @@ import {
   SecondHeading,
   H3,
   H1,
-    H1H,
+  H1H,
   H1P,
   Table,
   Tbody,
@@ -37,7 +37,9 @@ const ExtraPriceListTranslations = () => {
             <H3>Preklad</H3>
           </Heading>
           <SecondaryHeading>
-            <H1P>Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak</H1P>
+            <H1P>
+              Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak
+            </H1P>
           </SecondaryHeading>
           <Content>
             <Table>
@@ -48,15 +50,12 @@ const ExtraPriceListTranslations = () => {
                   </Th>
                 </Tr>
                 <Tr>
-                  <Th>
-                    Cena sa počíta z hotového prekladu, nie z originálu.
-                  </Th>
+                  <Th>Cena sa počíta z hotového prekladu, nie z originálu.</Th>
                 </Tr>
                 <Tr>
                   <Th>
                     Pred zadaním zákazky vyhotovujem aspoň orientačnú cenovú
                     kalkuláciu, ktorá zohľadní aj rozsah zákazky po preklade.
-
                   </Th>
                 </Tr>
               </Tbody>
@@ -77,22 +76,20 @@ const ExtraPriceListTranslations = () => {
             <Table>
               <Tbody>
                 <Tr>
-                  <Th>
-                    Posledná hodina tlmočenia sa počíta ako celá.
-                  </Th>
+                  <Th>Posledná hodina tlmočenia sa počíta ako celá.</Th>
                 </Tr>
                 <Tr>
                   <Th>
-                    Tlmočenie kratšie ako 2 hodiny sa počíta ako
-                    2 hodiny.
+                    Tlmočenie kratšie ako 2 hodiny sa počíta ako 2 hodiny.
                   </Th>
                 </Tr>
                 <Tr>
                   <Th>
                     . Pre tlmočenia mimo Bratislavy sa účtujú cestovné náklady:
-                    - doprava vlastným autom 0,33 EUR/km tam aj späť plus prípadné diaľničné známky
-                    - cena dopravy verejnou dopravou podľa skutočných nákladov plus náhrada stratu
-                    času cestovaním − 15 EUR/hodina.
+                    - doprava vlastným autom 0,33 EUR/km tam aj späť plus
+                    prípadné diaľničné známky - cena dopravy verejnou dopravou
+                    podľa skutočných nákladov plus náhrada stratu času
+                    cestovaním − 15 EUR/hodina.
                   </Th>
                 </Tr>
               </Tbody>

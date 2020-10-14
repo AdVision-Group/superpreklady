@@ -4,47 +4,48 @@ export const AboutContainer = styled.div`
   padding-top: 75px;
   padding-bottom: 75px;
   background: ${({ theme }) => theme.colors.lightGreyBg};
-            @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		text-align: center;
-	}
-	  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding-top: 5px;
-	padding-bottom: 5px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    text-align: center;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
 `;
 
 export const AboutInnerContainer = styled.div`
   display: flex;
   flex-direction: row;
-      @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 export const AboutLeftContainer = styled.div`
   margin-left: 150px;
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		margin-left: inherit;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    margin-left: 30px;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    margin-left: inherit;
+  }
 `;
 export const AboutRightContainer = styled.div`
   width: 70%;
   margin-left: 45px;
-            @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		width: inherit;
-		padding: 50px 25px 50px 25px;
-		margin-left: inherit;
-	}
-	  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding: 25px 10px 25px 10px ;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ltw}) {
+    padding-right: 30px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: inherit;
+    padding: 50px 25px 50px 25px;
+    margin-left: inherit;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding: 25px 10px 25px 10px;
+  }
 `;
 export const AboutHeadingContainerTop = styled.div``;
 export const AboutHeadingContainerMain = styled.div``;
@@ -56,10 +57,9 @@ export const AboutImg = styled.img`
   -webkit-box-shadow: -13px -13px 0px -2px rgb(50, 80, 209);
   -moz-box-shadow: -13px -13px 0px -2px rgba(50, 80, 209, 1);
   box-shadow: -13px -13px 0px -2px rgba(50, 80, 209, 1);
-    		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    display: none;
+  }
 `;
 export const AboutImgInnerContainer = styled.div``;
 export const AboutRightInnerContainer = styled.div`

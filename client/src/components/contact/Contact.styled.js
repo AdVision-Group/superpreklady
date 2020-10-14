@@ -12,31 +12,28 @@ export const ContactContainer = styled.div`
 `;
 
 export const ContactInnerContainer = styled.div`
-              @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	padding: 40px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding: 40px;
+  }
 `;
 export const HeadingContactContainer = styled.div`
-padding: 0 0 55px 0;
-`
-
+  padding: 0 0 55px 0;
+`;
 
 export const ContactFormContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: flex;
-		flex-direction: column;
-	}
-`;
-export const FormLeftSide = styled.div`
-  text-align: left;;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  }
+`;
+export const FormLeftSide = styled.div`
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 export const CardHeading = styled.div``;
 export const CardText = styled.div``;
@@ -45,33 +42,30 @@ export const CardSeparator = styled.div`
   height: 1px;
   background-color: #888888;
   margin-bottom: 15px;
-              @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 export const Heading = styled.div`
-padding-bottom: 25px;
+  padding-bottom: 25px;
 `;
 
 export const ContactCardContainer = styled.div``;
 export const FormRightSide = styled.div`
   text-align: left;
   width: 600px;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-        padding-top: 75px;
-		width: inherit;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-top: 75px;
+    width: inherit;
+  }
 `;
 export const FormContactFormular = styled.div``;
 export const RowOne = styled.div`
   display: flex;
   justify-content: flex-start;
-                @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	flex-direction: column;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    flex-direction: column;
+  }
 `;
 export const RowTwo = styled.div`
   margin-top: 25px;
@@ -82,35 +76,29 @@ export const RowThree = styled.div`
 export const InputName = styled.input`
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
-             @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		margin-left: inherit;
-		width: 100%;
-	}
-  
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    margin-left: inherit;
+    width: 100%;
+  }
 `;
 export const InputEmail = styled.input`
-margin-left: 25px;
+  margin-left: 25px;
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
-           @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		margin-left: inherit;
-		width: 100%;
-	}
-  
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    margin-left: inherit;
+    width: 100%;
+  }
 `;
 
 export const InputText = styled.textarea`
   height: 225px;
   width: 100%;
-   font-family: inherit;
-   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		width: 100%;
-	}
-  
+  font-family: inherit;
+  font-size: ${({ theme }) => theme.fontSize.inputFontSize};
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: 100%;
+  }
 `;
 
 export const H3 = styled.h3`
@@ -136,12 +124,11 @@ export const H1X = styled.h1`
 `;
 
 export const P = styled.p`
-padding: 5px 0 20px 0;
-margin: 0;
+  padding: 5px 0 20px 0;
+  margin: 0;
   color: ${({ theme }) => theme.colors.grey};
   font-size: ${({ theme }) => theme.fontSize.contactParagraphText};
 `;
-
 
 export const Button = styled.button`
   font-size: ${({ theme }) => theme.button.fontSize};
@@ -157,11 +144,8 @@ export const Button = styled.button`
   white-space: nowrap;
 `;
 export const InputDivContainer = styled.div`
-   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding-top: 25px;
-	}
-  
+  font-size: ${({ theme }) => theme.fontSize.inputFontSize};
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-top: 25px;
+  }
 `;
-

@@ -15,7 +15,7 @@ import {
   H3,
   H1,
   H3C,
-    P,
+  P,
   Button,
   ServiceImg,
   AdditionalContentContainer,
@@ -29,14 +29,11 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 const Services = (props) => {
   function changeCard(card) {
-    props.selectCard(card)
+    props.selectCard(card);
   }
   return (
     <ServiceContainer>
-      <section
-          title="sectionSluzbyHome"
-          id="sectionSluzbyHome"
-      />
+      <section title="sectionSluzbyHome" id="sectionSluzbyHome" />
       <ServicesInnerContainer>
         <ServicesHeading>
           <ServicesMainHeading>
@@ -64,7 +61,13 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link onClick={() => changeCard(0)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
+                <Link
+                  onClick={() => changeCard(0)}
+                  to="sectionSluzby"
+                  smooth={true}
+                >
+                  <Button>Zisti viac</Button>
+                </Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -85,7 +88,13 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link onClick={() => changeCard(1)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
+                <Link
+                  onClick={() => changeCard(1)}
+                  to="sectionSluzby"
+                  smooth={true}
+                >
+                  <Button>Zisti viac</Button>
+                </Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -106,16 +115,19 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link onClick={() => changeCard(2)} to="sectionSluzby"  smooth={true}><Button>Zisti viac</Button></Link>
+                <Link
+                  onClick={() => changeCard(2)}
+                  to="sectionSluzby"
+                  smooth={true}
+                >
+                  <Button>Zisti viac</Button>
+                </Link>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
         </ServicesCardsContainer>
       </ServicesInnerContainer>
-      <section
-          title="sectionSluzby"
-          id="sectionSluzby"
-      />
+      <section title="sectionSluzby" id="sectionSluzby" />
       <AdditionalContentContainer>
         {props.activeCard === 0 && <ExtraInfoOfficial />}
         {props.activeCard === 1 && <ExtraInfoNonOfficial />}

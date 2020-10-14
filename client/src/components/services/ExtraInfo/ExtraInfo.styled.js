@@ -12,25 +12,24 @@ export const InfoInnerContainer = styled.div`
   width: 70%;
   background-color: #f7f7f7;
   padding: 60px;
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	width: auto;
-	padding: 60px 25px 60px 25px;
-	}
-		  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-    padding:  20px 10px 20px 10px;
-	}
-
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    width: auto;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: auto;
+    padding: 60px 25px 60px 25px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding: 20px 10px 20px 10px;
+  }
 `;
 
 export const HeadingContainer = styled.div`
   text-align: left;
   padding-bottom: 45px;
-            @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	text-align: center;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    text-align: center;
+  }
 `;
 
 export const Separator = styled.div`
@@ -38,15 +37,14 @@ export const Separator = styled.div`
   max-width: 350px;
   background-color: #3250d1;
   margin-bottom: 25px;
-            @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	max-width: inherit;
-	min-height: 4px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    max-width: inherit;
+    min-height: 4px;
+  }
 `;
 
 export const Heading = styled.div`
-padding-bottom: 5px;
+  padding-bottom: 5px;
 `;
 
 export const SubHeading = styled.div``;
@@ -68,15 +66,14 @@ export const Th = styled.th`
 `;
 
 export const Tr = styled.tr`
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-	display: flex;
-	flex-direction: column;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const P = styled.div`
-font-size: ${({ theme }) => theme.fontSize.paragraphText};;
+  font-size: ${({ theme }) => theme.fontSize.paragraphText};
 `;
 
 export const H1 = styled.h1`
@@ -92,22 +89,17 @@ export const ThLeft = styled.th`
   vertical-align: baseline;
   width: 350px;
   font-weight: bold;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		width: inherit;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    width: inherit;
+  }
 `;
 
 export const ExtraPriceContainer = styled.div`
   padding: 0;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding: 35px;
-	}
-		  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding: 10px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding: 35px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding: 10px;
+  }
 `;
-
-

@@ -5,32 +5,30 @@ export const ServiceContainer = styled.div`
   text-align: center;
   padding-bottom: 75px;
   padding-top: 75px;
-  	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-	width: auto;
-	padding-bottom: 5px;
-	}
-	  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding-bottom: 25px;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    padding: 50px 100px 5px 100px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    width: auto;
+    padding-bottom: 5px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding-bottom: 25px;
     padding-top: 25px;
-	}
-
+  }
 `;
 
 export const ServicesInnerContainer = styled.div`
-  	           @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-	padding: 25px;
-	}
-		  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-padding: 5px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    padding: 25px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding: 5px;
+  }
 `;
 
 export const ServicesHeading = styled.div`
-padding: 0 0 55px 0;
+  padding: 0 0 55px 0;
 `;
 
 export const ServicesCardsContainer = styled.div`
@@ -39,17 +37,17 @@ export const ServicesCardsContainer = styled.div`
   align-items: center;
   justify-content: space-evenly;
   padding-bottom: 75px;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: flex;
-		flex-direction: column;
-	}
-		  		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding-bottom: 0;
-  
-	}
-
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: flex;
+    flex-direction: column;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding-bottom: 0;
+  }
 `;
 export const ServicesMainHeading = styled.div``;
 
@@ -70,17 +68,22 @@ export const ServiceCardContainer = styled.div`
   -webkit-box-shadow: 0px 0px 10px 1px rgba(208, 208, 208, 0.75);
   -moz-box-shadow: 0px 0px 10px 1px rgba(217, 217, 217, 0.75);
   box-shadow: 0px 0px 10px 1px rgba(226, 226, 226, 0.75);
-            @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		margin-bottom: 50px;
-	}
-	           @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-		margin-bottom: 50px;
-		 max-width: inherit;
-         min-width: inherit;
-         min-height: inherit;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    margin-bottom: 50px;
+    max-width: inherit;
+    min-width: inherit;
+    min-height: inherit;
+  }
+
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    margin-bottom: 50px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    margin-bottom: 50px;
+    max-width: inherit;
+    min-width: inherit;
+    min-height: inherit;
+  }
 `;
 
 export const ServiceCardLogo = styled.div``;
@@ -120,7 +123,6 @@ export const P = styled.p`
   font-size: ${({ theme }) => theme.fontSize.servicesFontSize};
   line-height: 1.6;
 `;
-
 
 export const Button = styled.button`
   font-size: ${({ theme }) => theme.button.fontSize};

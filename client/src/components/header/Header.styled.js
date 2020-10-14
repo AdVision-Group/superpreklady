@@ -7,10 +7,12 @@ export const HeaderMainDiv = styled.div`
   align-items: center;
   width: 100%;
   padding: 20px 0 55px 0;
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding-bottom: 25px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    flex-direction: column;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-bottom: 25px;
+  }
 `;
 
 export const LogoContainer = styled.div`
@@ -18,32 +20,30 @@ export const LogoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding-top: 20px;
-		padding-left: 25px;
-	}
-	    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	padding-top: 15px;
-		padding-left: 10px;
-		justify-content: flex-start;
-	}
-	
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    justify-content: flex-start;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    padding-top: 15px;
+    padding-left: 10px;
+    justify-content: flex-start;
+  }
 `;
 
 export const LogoInnerContainer = styled.div`
   height: auto;
-
 `;
 
 export const LogoInnerContainerContent = styled.div`
   padding: 2px;
   margin: 1px;
-      	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    display: none;
+  }
 `;
 
 export const LogoImg = styled.img`
@@ -61,10 +61,12 @@ export const ButtonContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-      @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    display: none;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 
 export const Button = styled.button`
@@ -92,14 +94,14 @@ export const H4 = styled.div`
   padding: 2px 2px 2px 2px;
   margin: 1px;
   font-size: 13px;
-  color: #9A9A9A;
+  color: #9a9a9a;
 `;
 
 export const SocialIconContainer = styled.div`
-padding-right: 10px;
+  padding-right: 10px;
 `;
 
 export const Icon = styled.img`
-width: 25px;
-height: 25px;
+  width: 25px;
+  height: 25px;
 `;

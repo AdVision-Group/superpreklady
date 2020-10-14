@@ -11,18 +11,16 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1,
-  ThLeft
+  P,
+  H1,
+  ThLeft,
 } from "./ExtraInfo.styled";
 import ExtraPriceListNonOfficial from "../../priceList/extraPriceList/ExtraPriceListNonOfficial";
 
 const ExtraInfoNonOfficial = () => {
   return (
     <InfoMainContainer>
-      <section
-          title="sectionNeuradnePreklady"
-          id="sectionNeuradnePreklady"
-      />
+      <section title="sectionNeuradnePreklady" id="sectionNeuradnePreklady" />
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
@@ -50,27 +48,26 @@ const ExtraInfoNonOfficial = () => {
               <Tr>
                 <ThLeft>Ponuka</ThLeft>
                 <Th>
-                  Manuály, technická dokumentácia, obchodná korešpondencia, ponuky, zmluvy, prospekty,
-                  katalógy, prezentácie, softvér, riadiace systémy strojov
+                  Manuály, technická dokumentácia, obchodná korešpondencia,
+                  ponuky, zmluvy, prospekty, katalógy, prezentácie, softvér,
+                  riadiace systémy strojov
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>
-                  Preberanie a odovzdávanie
-                </ThLeft>
+                <ThLeft>Preberanie a odovzdávanie</ThLeft>
                 <Th>
                   E-mailom, poštou, osobne, možnosť pracovať priamo u zákazníka
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>
-                  Kvalita prekladov
-                </ThLeft>
+                <ThLeft>Kvalita prekladov</ThLeft>
                 <Th>
-                  Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom, ako v origináli. Terminológiu
-                  overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. Preklady
-                  marketingových materiálov odporúčam nechať kontrolovať kvalifikovanými rodenými
-                  hovorcami, ktorých zabezpečím. Cena okolo 7 EUR/normostrana.
+                  Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom,
+                  ako v origináli. Terminológiu overujem pomocou slovníkov,
+                  internetu a konzultácie so zákazníkom. Preklady marketingových
+                  materiálov odporúčam nechať kontrolovať kvalifikovanými
+                  rodenými hovorcami, ktorých zabezpečím. Cena okolo 7
+                  EUR/normostrana.
                 </Th>
               </Tr>
             </Tbody>

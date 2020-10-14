@@ -18,17 +18,20 @@ export const HeroSliderInnerContainer = styled.div`
   flex-direction: row;
   justify-content: space-between;
   height: 450px;
-      @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		flex-direction: column;
-		height: inherit;
-		margin: 0 25px 0 25px ;
-		width: inherit;
-	}
-		    	        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.ssmw}) {
-	margin: 0 10px 0 10px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ltw}) {
+    width: 100%;
+    margin: 0px 30px 0px 30px;
+    height: auto;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    flex-direction: column;
+    height: inherit;
+    margin: 0 25px 0 25px;
+    width: inherit;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    margin: 0 10px 0 10px;
+  }
 `;
 
 export const HeroLeftContainer = styled.div`
@@ -43,10 +46,9 @@ export const HeroRightContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 
 export const HeroImg = styled.img`
@@ -78,16 +80,14 @@ export const Button = styled.button`
 export const H1 = styled.div`
   font-size: 35px;
   font-weight: 500;
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		font-size: ${({ theme }) => theme.responsiveFonts.heroBigText};
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    font-size: ${({ theme }) => theme.responsiveFonts.heroBigText};
+  }
 `;
 export const P = styled.div`
   font-size: 25px;
-  color: #9A9A9A;
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		font-size: ${({ theme }) => theme.responsiveFonts.heroSmallText};
-	}
+  color: #9a9a9a;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    font-size: ${({ theme }) => theme.responsiveFonts.heroSmallText};
+  }
 `;

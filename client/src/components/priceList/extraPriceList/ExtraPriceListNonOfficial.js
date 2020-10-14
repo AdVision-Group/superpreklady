@@ -13,7 +13,7 @@ import {
   H3,
   H1,
   H1P,
-    H1H,
+  H1H,
   Table,
   Tbody,
   Th,
@@ -43,14 +43,10 @@ const ExtraPriceListNonOfficial = () => {
             <Table>
               <Tbody>
                 <Tr>
-                  <Th>
-                    Posledná začatá normostrana sa počíta ako celá.
-                  </Th>
+                  <Th>Posledná začatá normostrana sa počíta ako celá.</Th>
                 </Tr>
                 <Tr>
-                  <Th>
-                    Okamžité vykonanie prekladu − 50 % príplatok.
-                  </Th>
+                  <Th>Okamžité vykonanie prekladu − 50 % príplatok.</Th>
                 </Tr>
                 <Tr>
                   <Th>
@@ -59,9 +55,10 @@ const ExtraPriceListNonOfficial = () => {
                 </Tr>
                 <Tr>
                   <Th>
-                    Cena sa počíta z
-                    hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo
-                    slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.
+                    Cena sa počíta z hotového prekladu, nie z originálu. Preklad
+                    môže byť dlhší ako originál: preklad zo slovenčiny do
+                    angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o
+                    30 percent.
                   </Th>
                 </Tr>
               </Tbody>
@@ -82,14 +79,10 @@ const ExtraPriceListNonOfficial = () => {
             <Table>
               <Tbody>
                 <Tr>
-                  <Th>
-                    Posledná začatá normostrana sa počíta ako celá.
-                  </Th>
+                  <Th>Posledná začatá normostrana sa počíta ako celá.</Th>
                 </Tr>
                 <Tr>
-                  <Th>
-                    Okamžité vykonanie prekladu − 50 % príplatok.
-                  </Th>
+                  <Th>Okamžité vykonanie prekladu − 50 % príplatok.</Th>
                 </Tr>
                 <Tr>
                   <Th>
@@ -98,17 +91,17 @@ const ExtraPriceListNonOfficial = () => {
                 </Tr>
                 <Tr>
                   <Th>
-                    Cena sa počíta z
-                    hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo
-                    slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.
+                    Cena sa počíta z hotového prekladu, nie z originálu. Preklad
+                    môže byť dlhší ako originál: preklad zo slovenčiny do
+                    angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o
+                    30 percent.
                   </Th>
                 </Tr>
               </Tbody>
             </Table>
           </Content>
           <Price>
-            <H1P>od 17 EUR/Normostrana
-            </H1P>
+            <H1P>od 17 EUR/Normostrana</H1P>
           </Price>
         </ContentCardContainer>
       </PriceListContentContainer>

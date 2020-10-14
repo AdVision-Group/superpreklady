@@ -13,7 +13,7 @@ import {
   P,
 } from "./HeroSlider.styled";
 import HeroImageSource from "../../images/superpreklady-icon-home.png";
-import {Link} from "react-scroll";
+import { Link } from "react-scroll";
 
 const HeroSlider = () => {
   return (
@@ -21,10 +21,12 @@ const HeroSlider = () => {
       <HeroSliderInnerContainer>
         <HeroLeftContainer>
           <HeroHeadingContainer>
-            <H1><b>
-              Dodám Vám navyššiu
-              <br />
-              kvalitu prekladov</b>
+            <H1>
+              <b>
+                Dodám Vám navyššiu
+                <br />
+                kvalitu prekladov
+              </b>
             </H1>
           </HeroHeadingContainer>
           <HeroTextContainer>
@@ -35,7 +37,9 @@ const HeroSlider = () => {
             </P>
           </HeroTextContainer>
           <HeroButtonContainer>
-            <Link to="sectionSluzbyHome" smooth={true}><Button>Zisti viac</Button></Link>
+            <Link to="sectionSluzbyHome" smooth={true}>
+              <Button>Zisti viac</Button>
+            </Link>
           </HeroButtonContainer>
         </HeroLeftContainer>
         <HeroRightContainer>

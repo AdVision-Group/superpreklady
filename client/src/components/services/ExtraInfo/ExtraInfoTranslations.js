@@ -11,17 +11,16 @@ import {
   Tbody,
   Th,
   Tr,
-  P,H1,
-  ThLeft} from "./ExtraInfo.styled";
+  P,
+  H1,
+  ThLeft,
+} from "./ExtraInfo.styled";
 import ExtraPriceListTranslations from "../../priceList/extraPriceList/ExtraPriceListTranslations";
 
 const ExtraInfoTranslations = () => {
   return (
     <InfoMainContainer>
-      <section
-          title="sectionTlmocenie"
-          id="sectionTlmocenie"
-      />
+      <section title="sectionTlmocenie" id="sectionTlmocenie" />
       <InfoInnerContainer>
         <HeadingContainer>
           <Heading>
@@ -49,29 +48,29 @@ const ExtraInfoTranslations = () => {
               <Tr>
                 <ThLeft>Ponuka</ThLeft>
                 <Th>
-                  Obchodné rokovania, diplomatické stretnutia, prezentácie, školenia, konferencie,
-                  rozhovory/interviews, tlačové konferencie, zábava, technické, lekárske, policajné, právne,
+                  Obchodné rokovania, diplomatické stretnutia, prezentácie,
+                  školenia, konferencie, rozhovory/interviews, tlačové
+                  konferencie, zábava, technické, lekárske, policajné, právne,
                   ekonomické, počítačové
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>
-                  Druhy tlmočenia
-                </ThLeft>
+                <ThLeft>Druhy tlmočenia</ThLeft>
                 <Th>
-                  Konzekutívne (po logických úsekoch), simultánne (tlmočenie v tlmočníckej kabíne, prakticky
-                  súčasne s originálom), šušotáž (šepkanie do ucha)
+                  Konzekutívne (po logických úsekoch), simultánne (tlmočenie v
+                  tlmočníckej kabíne, prakticky súčasne s originálom), šušotáž
+                  (šepkanie do ucha)
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>
-                  Kvalita tlmočenia
-                </ThLeft>
+                <ThLeft>Kvalita tlmočenia</ThLeft>
                 <Th>
-                  V tlmočení mám mnohoročné skúsenosti, ktoré mi umožňujú vďaka, ktorým dokážem
-                  pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa
-                  presne, entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných tlmočníkov, ktorí ma môžu
-                  zastúpiť, keď mi napr. časovo kolidujú dve tlmočenia.
+                  V tlmočení mám mnohoročné skúsenosti, ktoré mi umožňujú vďaka,
+                  ktorým dokážem pružne reagovať na rôzne situácie, jazykovú
+                  kompetenciu, ktorá mi umožňuje vyjadrovať sa presne,
+                  entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných
+                  tlmočníkov, ktorí ma môžu zastúpiť, keď mi napr. časovo
+                  kolidujú dve tlmočenia.
                 </Th>
               </Tr>
             </Tbody>

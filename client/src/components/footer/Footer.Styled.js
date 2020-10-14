@@ -4,10 +4,9 @@ export const FooterContainer = styled.div`
   background-color: #343434;
   color: white;
   padding-top: 75px;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding: 75px 50px 25px 50px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding: 75px 50px 25px 50px;
+  }
 `;
 export const FooterInnerContainer = styled.div``;
 export const RowOneContainer = styled.div`
@@ -16,24 +15,21 @@ export const RowOneContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 100px;
-         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding: 0;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding: 0;
+  }
 `;
 export const LogoContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
-          @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		padding-bottom: 55px;
-	}
-	         @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.smw}) {
-		display: none;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-bottom: 55px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
+    display: none;
+  }
 `;
 export const PhoneContainer = styled.div`
   display: flex;
@@ -41,11 +37,10 @@ export const PhoneContainer = styled.div`
   align-items: center;
   flex-direction: row;
   background-color: #454545;
-padding: 20px 100px 20px 100px;
-      @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display:none;
-	}
+  padding: 20px 100px 20px 100px;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: none;
+  }
 `;
 export const Phone = styled.img`
   margin-right: 60px;
@@ -54,10 +49,10 @@ export const Phone = styled.img`
 `;
 export const IconContainer = styled.div``;
 export const PhoneContactContainer = styled.div`
-display:flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 export const Number = styled.div``;
 export const Content = styled.div``;
@@ -66,12 +61,11 @@ export const RowTwoContainer = styled.div`
   justify-content: space-between;
   flex-direction: row;
   padding: 50px 100px 50px 100px;
-        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-		display: flex;
-		flex-direction: column;
-		padding: 0;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
 `;
 export const AboutContainerModule = styled.div``;
 export const Heading = styled.div``;
@@ -90,14 +84,13 @@ export const SocialContainer = styled.div`
   flex-direction: row;
   padding-bottom: 0;
   margin-bottom: 0;
-       @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
-       padding-top: 5px;
-		padding-bottom: 25px;
-	}
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-top: 5px;
+    padding-bottom: 25px;
+  }
 `;
 export const SocialIcon = styled.div`
-margin-right: 10px;
+  margin-right: 10px;
 `;
 export const ScopeContainerModule = styled.div``;
 
@@ -111,7 +104,7 @@ text-decoration: none;
 font-weight: normal;
 padding-top: 20px;
        @media only screen and (max-width: ${({ theme }) =>
-    theme.brakePoints.mmw}) {
+         theme.brakePoints.mmw}) {
 		padding-bottom: 25px;
 	}
 a {
@@ -128,8 +121,8 @@ font-weight: normal;
 export const ContactContainerModule = styled.div``;
 
 export const ContactContent = styled.div`
-padding-top: 5px;
-margin-top: 0;
+  padding-top: 5px;
+  margin-top: 0;
 `;
 
 export const H3F = styled.h3`
@@ -149,4 +142,3 @@ export const PF = styled.p`
   font-size: ${({ theme }) => theme.fontSize.footerParagraphText};
   line-height: 1.3;
 `;
-
