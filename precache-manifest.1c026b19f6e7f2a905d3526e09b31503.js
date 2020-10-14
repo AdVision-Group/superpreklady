@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b5dc40c7eb3a8579f7b80ae61696be89",
+    "revision": "065bb0fa49b6b52b58032c53f5664971",
     "url": "/superpreklady/index.html"
   },
   {
-    "revision": "1f0d90632d0c68b298e0",
-    "url": "/superpreklady/static/css/main.102b013d.chunk.css"
+    "revision": "52bf5c4f8e13c40607e2",
+    "url": "/superpreklady/static/css/main.dc42ff3b.chunk.css"
   },
   {
     "revision": "ee6d98237e2245e553e5",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superpreklady/static/js/2.70c12f0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f0d90632d0c68b298e0",
-    "url": "/superpreklady/static/js/main.8f11a259.chunk.js"
+    "revision": "52bf5c4f8e13c40607e2",
+    "url": "/superpreklady/static/js/main.1e55369a.chunk.js"
   },
   {
     "revision": "a58ceb2537258428ae26",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superpreklady/static/media/article-black-18dp.ef6da18b.svg"
   },
   {
-    "revision": "62d8b6ef8e6c796a5ddad822dff96874",
-    "url": "/superpreklady/static/media/facebook-brands.62d8b6ef.svg"
+    "revision": "65e3c5244a3b984192e5d53ef4305171",
+    "url": "/superpreklady/static/media/facebook-brands.65e3c524.svg"
   },
   {
-    "revision": "276f52a709627c3d36a273e940fc93b2",
-    "url": "/superpreklady/static/media/google-plus-g-brands.276f52a7.svg"
+    "revision": "1fbfe5a05ba9654072c055b5e7066fbf",
+    "url": "/superpreklady/static/media/google-plus-g-brands.1fbfe5a0.svg"
   },
   {
     "revision": "b4175d5ac27589aa2231e42f1e4fd852",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/superpreklady/static/media/superpreklady-icon-home.9c1fdafa.png"
   },
   {
-    "revision": "a1223de504180a12574a17a1f30c5a08",
-    "url": "/superpreklady/static/media/twitter-square-brands.a1223de5.svg"
+    "revision": "2d0a35a8f7914812d4cd7c47d71e5b72",
+    "url": "/superpreklady/static/media/twitter-square-brands.2d0a35a8.svg"
   }
 ]);
