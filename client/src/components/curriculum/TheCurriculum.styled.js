@@ -7,18 +7,22 @@ export const TheCurriculumContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
 export const TheCurriculumInnerContainer = styled.div`
   width: 80%;
+  
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
     width: inherit;
     padding: 10px;
   }
 `;
+
 export const HeadingContainer = styled.div`
   text-align: center;
   padding-bottom: 75px;
 `;
+
 export const ContentContainer = styled.div`
   padding-bottom: 125px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
@@ -26,10 +30,14 @@ export const ContentContainer = styled.div`
     padding: 25px;
   }
 `;
+
 export const H1 = styled.h1`
   color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.fontSize.h1};
   padding-bottom: 5px;
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    font-size: ${({ theme }) => theme.responsiveFonts.rH1};
+  }
 `;
 
 export const Table = styled.table`
@@ -37,7 +45,7 @@ export const Table = styled.table`
   border-spacing: 0;
   border: solid #dbdbdb 1px;
   background-color: #fdfdfd;
-  padding: 25px 0 0 0;
+  min-width: 100%;
 `;
 
 export const Tbody = styled.tbody``;
@@ -50,7 +58,10 @@ export const Th = styled.th`
   vertical-align: baseline;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
-    padding: 0;
+    padding: 0 0 0 5px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    font-size: 13px;
   }
 `;
 
@@ -62,9 +73,13 @@ export const ThLeft = styled.th`
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
   vertical-align: baseline;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
-    font-size: ${({ theme }) => theme.responsiveFonts.tableLeftText};
+    font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
     width: inherit;
     padding: 0 0 0 5px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    font-size: 13px;
+    padding: 0;
   }
 `;
 
@@ -74,7 +89,6 @@ export const TrSeparator = styled.tr``;
 
 export const ThSeparator = styled.th`
   padding: 5px 10px 5px 25px;
-  margin: 0 0 30px 0;
   line-height: 1.3;
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.h2};
@@ -85,5 +99,9 @@ export const ThSeparator = styled.th`
     font-size: ${({ theme }) => theme.responsiveFonts.tableSeparatorText};
     white-space: normal;
     padding: 5px 0 5px 5px;
+  }
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
+    font-size: 14px;
+    padding: 0;
   }
 `;

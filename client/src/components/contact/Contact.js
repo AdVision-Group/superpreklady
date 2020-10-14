@@ -34,13 +34,13 @@ const Contact = () => {
       <section title="sectionKontakt" id="sectionKontakt" />
       <ContactInnerContainer>
         <HeadingContactContainer>
-          <H3C>Kontakt</H3C>
+          <H3C>KONTAKT</H3C>
           <H1>Spojte sa so mnou</H1>
         </HeadingContactContainer>
         <ContactFormContainer>
           <FormLeftSide>
             <Heading>
-              <H1X>Kontaktné Údaje</H1X>
+              <H1>Kontaktné Údaje</H1>
             </Heading>
             <ContactCardContainer>
               <CardHeading>
@@ -70,7 +70,7 @@ const Contact = () => {
             </ContactCardContainer>
             <div>
               <NavLink to="/kontakt">
-                <Button>Firemné údaje</Button>
+                <Button>Kontakt</Button>
               </NavLink>
             </div>
           </FormLeftSide>

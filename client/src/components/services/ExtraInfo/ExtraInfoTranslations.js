@@ -73,13 +73,26 @@ const ExtraInfoTranslations = () => {
                   kolidujú dve tlmočenia.
                 </Th>
               </Tr>
+              <Tr>
+                <ThLeft>
+                  Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak
+                </ThLeft>
+                <Th>
+                  od 30€ / Hodina
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft>
+                  Tlmočenie z nemčiny do angličtiny a naopak
+                </ThLeft>
+                <Th>
+                  od 40€ / Hodina
+                </Th>
+              </Tr>
             </Tbody>
           </Table>
         </TableContainer>
       </InfoInnerContainer>
-      <div>
-        <ExtraPriceListTranslations />
-      </div>
     </InfoMainContainer>
   );
 };

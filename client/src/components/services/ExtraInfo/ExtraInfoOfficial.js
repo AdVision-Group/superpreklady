@@ -71,15 +71,33 @@ const ExtraInfoOfficial = () => {
                   prekladov
                 </Th>
               </Tr>
+              <Tr>
+                <ThLeft>
+                  Preklad z nemčiny/angličtiny do slovenčiny a naopak
+                </ThLeft>
+                <Th>
+                  20€ / Normostrana
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft>
+                  Preklad z nemčiny do angličtiny a naopak
+                </ThLeft>
+                <Th>
+                  26€ / Normostrana
+                </Th>
+              </Tr>
             </Tbody>
           </Table>
         </TableContainer>
       </InfoInnerContainer>
-      <ExtraPriceContainer>
-        <ExtraPriceListOfficial />
-      </ExtraPriceContainer>
     </InfoMainContainer>
   );
 };
 
 export default ExtraInfoOfficial;
+
+/*
+* <ExtraPriceContainer>
+        <ExtraPriceListOfficial />
+      </ExtraPriceContainer>*/

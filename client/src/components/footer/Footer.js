@@ -35,10 +35,10 @@ import {
 } from "../header/Header.styled";
 
 import Logo from "../../images/superpreklady-logo.png";
-import PhoneIcon from "../../images/phone-black-18dp.svg";
-import faFacebook from "../../images/facebook-brands.svg";
-import faTwitter from "../../images/twitter-square-brands.svg";
-import faGooglePlus from "../../images/google-plus-g-brands.svg";
+import PhoneIcon from "../../images/phone-black-18dp.png";
+import faFacebook from "../../images/facebook-brands-white.png";
+import faTwitter from "../../images/twitter-square-brands-white.png";
+import faGooglePlus from "../../images/google-plus-g-brands-white.png";
 import MenuNavigation from "../header/Menu";
 
 const Footer = (props) => {

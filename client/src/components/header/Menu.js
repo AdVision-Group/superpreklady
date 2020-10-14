@@ -23,12 +23,12 @@ const Menu = (props) => {
 
   return (
     <React.Fragment>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         <NavLink onClick={() => closeResponsiveMenu()} to="/">
           <b>Domov</b>
         </NavLink>
       </MenuItem>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         {props.outSide ? (
           <Link onClick={() => changeCard(0)} to="sectionSluzby" smooth={true}>
             <b>Úradné preklady</b>
@@ -39,7 +39,7 @@ const Menu = (props) => {
           </NavLink>
         )}
       </MenuItem>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         {props.outSide ? (
           <Link onClick={() => changeCard(1)} to="sectionSluzby" smooth={true}>
             <b>Neúradné preklady</b>
@@ -50,7 +50,7 @@ const Menu = (props) => {
           </NavLink>
         )}
       </MenuItem>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         {props.outSide ? (
           <Link onClick={() => changeCard(2)} to="sectionSluzby" smooth={true}>
             <b>Tlmočenie</b>
@@ -61,7 +61,7 @@ const Menu = (props) => {
           </NavLink>
         )}
       </MenuItem>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         {props.outSide ? (
           <Link
             onClick={() => closeResponsiveMenu()}
@@ -76,9 +76,9 @@ const Menu = (props) => {
           </NavLink>
         )}
       </MenuItem>
-      <MenuItem>
+      <MenuItem style={props.stylePadding}>
         <NavLink onClick={() => closeResponsiveMenu()} to="/kontakt">
-          <b>Firemné údaje</b>
+          <b>Kontakt</b>
         </NavLink>
       </MenuItem>
     </React.Fragment>

@@ -70,13 +70,26 @@ const ExtraInfoNonOfficial = () => {
                   EUR/normostrana.
                 </Th>
               </Tr>
+              <Tr>
+                <ThLeft>
+                  Preklad z nemčiny/angličtiny do slovenčiny/češtiny a naopak
+                </ThLeft>
+                <Th>
+                  od 20€ / Normostrana
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft>
+                  Preklad z nemčiny do angličtiny a naopak
+                </ThLeft>
+                <Th>
+                  od 13€ / Normostrana
+                </Th>
+              </Tr>
             </Tbody>
           </Table>
         </TableContainer>
       </InfoInnerContainer>
-      <div>
-        <ExtraPriceListNonOfficial />
-      </div>
     </InfoMainContainer>
   );
 };

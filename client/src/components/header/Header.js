@@ -109,6 +109,7 @@ const Header = (props) => {
             </MenuFirstLineContainer>
             <MenuSecondLineContainer>
               <MenuX
+                stylePadding={props.stylePadding}
                 selectCard={props.selectCard}
                 activeCard={props.activeCard}
                 outSide={props.outSide}

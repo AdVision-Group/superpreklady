@@ -6,9 +6,12 @@ import TheCompanyInfo from "../components/company/TheConmapnyInfo";
 
 export default function ContactMain() {
   const [outSide, setOutSide] = useState(false);
+    const stylePadding = {
+        margin: '2px 20px 2px 20px'
+    }
   return (
     <div>
-      <Header outSide={outSide} setOutSide={setOutSide} />
+      <Header outSide={outSide} setOutSide={setOutSide} stylePadding={stylePadding} />
       <div>
         <TheCompanyInfo />
       </div>

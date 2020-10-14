@@ -7,17 +7,29 @@ export const TheCompanyContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
-export const TheCompanyInnerContainer = styled.div``;
+
+export const TheCompanyInnerContainer = styled.div`
+width: 80%;
+
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
+    width: inherit;
+    padding: 10px;
+  }
+`;
+
 export const HeadingContainer = styled.div`
   text-align: center;
   padding-bottom: 75px;
 `;
+
 export const ContentContainer = styled.div`
   padding-bottom: 125px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     padding: 25px 10px 125px 10px;
   }
 `;
+
 export const H1 = styled.h1`
   color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.fontSize.h1};
@@ -26,11 +38,13 @@ export const H1 = styled.h1`
     font-size: ${({ theme }) => theme.responsiveFonts.rH1};
   }
 `;
+
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
   border: solid #dbdbdb 1px;
   background-color: #fdfdfd;
+  min-width: 100%;
 `;
 
 export const Tbody = styled.tbody``;

@@ -8,6 +8,9 @@ export const ServiceContainer = styled.div`
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     padding: 50px 100px 5px 100px;
   }
+   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding: 50px 20px 50px 20px;
+  }
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
     width: auto;
     padding-bottom: 5px;

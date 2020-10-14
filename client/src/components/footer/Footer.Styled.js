@@ -48,6 +48,7 @@ export const Phone = styled.img`
   width: 75px;
 `;
 export const IconContainer = styled.div``;
+
 export const PhoneContactContainer = styled.div`
   display: flex;
   justify-content: center;

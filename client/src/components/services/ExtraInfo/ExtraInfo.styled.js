@@ -33,7 +33,7 @@ export const HeadingContainer = styled.div`
 `;
 
 export const Separator = styled.div`
-  min-height: 8px;
+  min-height: 5px;
   max-width: 350px;
   background-color: #3250d1;
   margin-bottom: 25px;

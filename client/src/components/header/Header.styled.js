@@ -22,10 +22,10 @@ export const LogoContainer = styled.div`
   justify-content: center;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     padding-top: 20px;
-    padding-left: 25px;
   }
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.smw}) {
     justify-content: flex-start;
+    padding-left: 10px;
   }
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
     padding-top: 15px;
@@ -102,6 +102,7 @@ export const SocialIconContainer = styled.div`
 `;
 
 export const Icon = styled.img`
-  width: 25px;
   height: 25px;
+  width: auto;
+  
 `;

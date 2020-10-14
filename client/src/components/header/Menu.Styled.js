@@ -68,7 +68,7 @@ export const MenuInnerNavigationContainer = styled.nav`
 `;
 
 export const MenuItem = styled.div`
-  margin: 2px 20px 2px 20px;
+  
   cursor: pointer;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     margin: 25px 20px 10px 20px;

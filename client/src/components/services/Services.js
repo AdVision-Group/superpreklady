@@ -20,7 +20,7 @@ import {
   ServiceImg,
   AdditionalContentContainer,
 } from "./Services.styled";
-import ArticleIcon from "../../images/article-black-18dp.svg";
+import ArticleIcon from "../../images/article-black-18dp.png";
 import ExtraInfoOfficial from "./ExtraInfo/ExtraInfoOfficial";
 import ExtraInfoNonOfficial from "./ExtraInfo/ExtraInfoNonOfficial";
 import ExtraInfoTranslations from "./ExtraInfo/ExtraInfoTranslations";
@@ -37,7 +37,7 @@ const Services = (props) => {
       <ServicesInnerContainer>
         <ServicesHeading>
           <ServicesMainHeading>
-            <H3>Služby</H3>
+            <H3>SLUŽBY</H3>
           </ServicesMainHeading>
           <ServicesSecondHeading>
             <H1>Čo ponúkam</H1>
