@@ -46,11 +46,12 @@ export const theme = {
     contactParagraphText: "17px",
     h1: "30px",
     h2: "25px",
-    h3: "17px",
+    h3: "18px",
     h4: "25px",
   },
   responsiveFonts: {
     rH1: "25px",
+    rH3 : "20px",
     heroSmallText: "18px",
     heroBigText: "25px",
     tableLeftText: "16px",

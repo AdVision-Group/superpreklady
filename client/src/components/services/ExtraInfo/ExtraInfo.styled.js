@@ -14,6 +14,7 @@ export const InfoInnerContainer = styled.div`
   padding: 60px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     width: auto;
+    margin-bottom: 60px;
   }
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     width: auto;

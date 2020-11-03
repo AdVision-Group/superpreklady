@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import {
   ServiceContainer,
   ServicesInnerContainer,
@@ -21,9 +22,6 @@ import {
   AdditionalContentContainer,
 } from "./Services.styled";
 import ArticleIcon from "../../images/article-black-18dp.png";
-import ExtraInfoOfficial from "./ExtraInfo/ExtraInfoOfficial";
-import ExtraInfoNonOfficial from "./ExtraInfo/ExtraInfoNonOfficial";
-import ExtraInfoTranslations from "./ExtraInfo/ExtraInfoTranslations";
 
 import { Link, animateScroll as scroll } from "react-scroll";
 
@@ -61,13 +59,9 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link
-                  onClick={() => changeCard(0)}
-                  to="sectionSluzby"
-                  smooth={true}
-                >
+                <NavLink to="/uradneoverenepreklady">
                   <Button>Zisti viac</Button>
-                </Link>
+                </NavLink>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -88,13 +82,9 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link
-                  onClick={() => changeCard(1)}
-                  to="sectionSluzby"
-                  smooth={true}
-                >
+                <NavLink to="/neuradneoverenepreklady">
                   <Button>Zisti viac</Button>
-                </Link>
+                </NavLink>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
@@ -115,24 +105,15 @@ const Services = (props) => {
                 </P>
               </ServiceCardText>
               <ServiceCardButton>
-                <Link
-                  onClick={() => changeCard(2)}
-                  to="sectionSluzby"
-                  smooth={true}
-                >
+                <NavLink to="/tlmocenie">
                   <Button>Zisti viac</Button>
-                </Link>
+                </NavLink>
               </ServiceCardButton>
             </ServiceCardInnerContainer>
           </ServiceCardContainer>
         </ServicesCardsContainer>
       </ServicesInnerContainer>
       <section title="sectionSluzby" id="sectionSluzby" />
-      <AdditionalContentContainer>
-        {props.activeCard === 0 && <ExtraInfoOfficial />}
-        {props.activeCard === 1 && <ExtraInfoNonOfficial />}
-        {props.activeCard === 2 && <ExtraInfoTranslations />}
-      </AdditionalContentContainer>
     </ServiceContainer>
   );
 };

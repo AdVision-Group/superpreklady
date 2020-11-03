@@ -29,37 +29,19 @@ const Menu = (props) => {
         </NavLink>
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-        {props.outSide ? (
-          <Link onClick={() => changeCard(0)} to="sectionSluzby" smooth={true}>
-            <b>Úradné preklady</b>
-          </Link>
-        ) : (
-          <NavLink to="/">
+          <NavLink onClick={() => closeResponsiveMenu()} to="/uradneoverenepreklady">
             <b>Úradné preklady</b>
           </NavLink>
-        )}
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-        {props.outSide ? (
-          <Link onClick={() => changeCard(1)} to="sectionSluzby" smooth={true}>
-            <b>Neúradné preklady</b>
-          </Link>
-        ) : (
-          <NavLink to="/">
+            <NavLink onClick={() => closeResponsiveMenu()} to="/neuradneoverenepreklady">
             <b>Neúradné preklady</b>
           </NavLink>
-        )}
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-        {props.outSide ? (
-          <Link onClick={() => changeCard(2)} to="sectionSluzby" smooth={true}>
-            <b>Tlmočenie</b>
-          </Link>
-        ) : (
-          <NavLink to="/">
+            <NavLink onClick={() => closeResponsiveMenu()} to="/tlmocenie">
             <b>Tlmočenie</b>
           </NavLink>
-        )}
       </MenuItem>
       <MenuItem style={props.stylePadding}>
         {props.outSide ? (

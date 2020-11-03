@@ -38,6 +38,9 @@ export const PhoneContainer = styled.div`
   flex-direction: row;
   background-color: #454545;
   padding: 20px 100px 20px 100px;
+    @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+    display: none;
+  }
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     display: none;
   }

@@ -7,6 +7,9 @@ import Landing from "../src/views/Landing";
 import Curriculum from "../src/views/Curriculum";
 import ContactMain from "./views/ContactMain";
 import ScrollToTop from "../src/components/ScrollToTop";
+import OfficialTranslations from "./views/OfficialTranslations";
+import NonOfficialTranslations from "./views/NonOfficialTranslations";
+import Interpreting from "./views/Interpreting";
 
 const App = () => {
   return (
@@ -15,6 +18,9 @@ const App = () => {
         <ScrollToTop />
         <Switch>
           <Route exact path="/" render={(props) => <Landing {...props} />} />
+          <Route exact path="/uradneoverenepreklady" render={(props) => <OfficialTranslations {...props} />} />
+          <Route exact path="/neuradneoverenepreklady" render={(props) => <NonOfficialTranslations {...props} />} />
+          <Route exact path="/tlmocenie" render={(props) => <Interpreting {...props} />} />
           <Route
             exact
             path="/zivotopis"
