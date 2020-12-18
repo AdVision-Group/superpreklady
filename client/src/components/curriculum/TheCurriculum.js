@@ -19,7 +19,7 @@ const TheCurriculum = () => {
     <TheCurriculumContainer>
       <TheCurriculumInnerContainer>
         <HeadingContainer>
-          <H1>ŽIVOTOPIS</H1>
+          <H1>Životopis</H1>
         </HeadingContainer>
         <ContentContainer>
           <Table>
@@ -34,7 +34,7 @@ const TheCurriculum = () => {
               </Tr>
               <Tr>
                 <ThLeft>Mobil</ThLeft>
-                <Th>+421 908 72 8 2 74</Th>
+                <Th>+421 908 728 274</Th>
               </Tr>
               <Tr>
                 <ThLeft>E-mail</ThLeft>
@@ -53,76 +53,36 @@ const TheCurriculum = () => {
                 <ThSeparator />
               </TrSeparator>
               <Tr>
-                <ThLeft>2009</ThLeft>
+                <ThLeft>2009 -></ThLeft>
                 <Th>
+                    <span><b>ING. PAVEL POLÓNYI</b><br/>Ambroseho 10, 851 02 Bratislava 5</span>
+                  <ul><li>Prekladateľ vymenovaný Ministerstvom spravodlivosti SR; odbor: slovenský jazyk – anglický jazyk – nemecký jazyk</li></ul>
                   <p>
-                    <span>
-                      <b>ING. PAVEL POLÓNYI</b>
-                    </span>
-                    <br />
+                    <span>Úradne overené preklady</span>
                   </p>
-                  <p>
-                    <span>Ambroseho 10, 851 02 Bratislava 5</span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      • Prekladateľ vymenovaný Ministerstvom spravodlivosti SR.
-                      ; oodbor: slovenský jazyk – anglický jazyk – nnemecký
-                      jazyk.
-                    </span>
-                  </p>
-                  <p>
-                    <span>Úradne overené preklady.</span>
-                  </p>
+
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>2006</ThLeft>
+                <ThLeft>2006 -></ThLeft>
                 <Th>
+                    <span><b>SUPERPREKLADY, s. r. o.</b><br/>Ambroseho 10, 851 02 Bratislava 5</span>
+                  <ul><li>Vlastná prekladateľská a sprostredkovateľská firma</li></ul>
+
                   <p>
                     <span>
-                      <b>SUPERPREKLADY, s. r. o.</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>Ambroseho 10, 851 02 Bratislava 5</span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      • Vlastná prekladateľská a sprostredkovateľská firma
-                    </span>
-                  </p>
-                  <p>
-                    <span>
-                      Okrem prekladov a tlmočení aj prieskumy trhu a hľadanie
-                      pracovníkov a marketing v nových krajinách, kam zákazníci
-                      posúvajú svoje obchodné aktivity.
+                      Okrem prekladov a tlmočení aj prieskumy trhu a hľadanie pracovníkov a marketing v nových krajinách, kam zákazníci posúvajú svoje obchodné aktivity.
                     </span>
                   </p>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>2002</ThLeft>
+                <ThLeft>2002 -></ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>ING. PAVEL POLÓNYI</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>Ambroseho 10, 851 02 Bratislava 5</span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      • Živnosť, prekladateľ a tlmočník v kombinácii jazykov:
-                      angličtina – nemčina – slovenčina – čeština
-                    </span>
-                  </p>
+                    <span><b>ING. PAVEL POLÓNYI</b><br/>Ambroseho 10, 851 02 Bratislava 5</span>
+                  <ul><li>
+                    Živnosť, prekladateľ a tlmočník v kombinácii jazykov: angličtina – nemčina – slovenčina – čeština
+                  </li></ul>
                   <p>
                     <span>
                       Technické, právnické a ekonomické preklady a tlmočenia.
@@ -131,124 +91,62 @@ const TheCurriculum = () => {
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>2000-2001</ThLeft>
+                <ThLeft>2000 – 2001</ThLeft>
                 <Th>
+                  <span><b>ALLPRINT AINSWORTH ASSOCIATES INC.</b><br/>65 Hanson Avenue, Kitchener, Ontario, Canada N2C 2H6 </span>
+                  <ul>
+                    <li>Tlačiareň pre tlač komerčných tlačovín</li>
+                    <li>Kalkulant a koordinátor výroby</li>
+                  </ul>
                   <p>
                     <span>
-                      <b>ALLPRINT AINSWORTH ASSOCIATES INC.</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      65 Hanson Avenue, Kitchener, Ontario, Canada N2C 2H6
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>• Tlačiareň pre tlač komerčných tlačovín</span>
-                  </p>
-                  <p>
-                    <span>• Kalkulant a koordinátor výroby</span>
-                  </p>
-                  <p>
-                    <span>
-                      Vyhotovovanie cenových kalkulácií pre komerčnú tlač.
-                      Koordinácia výroby vybraných zákaziek v tejto tlačiarni so
-                      110 zamestnancami. Objednávky od externých dodávateľov.
-                      Vytvorenie kalkulačného programu na výpočet ceny tlače
-                      časopisov
+                      Vyhotovovanie cenových kalkulácií pre komerčnú tlač. Koordinácia výroby vybraných zákaziek v tejto tlačiarni so 110 zamestnancami. Objednávky od externých dodávateľov. Vytvorenie kalkulačného programu na výpočet ceny tlače časopisov.
                     </span>
                   </p>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>1999-2000</ThLeft>
+                <ThLeft>1999 – 2000</ThLeft>
                 <Th>
+                  <span><b>PRINTER´S PARTS & EQUIPMENT</b><br/>60 Howden Road, Scarborough, Ontario, Canada M1R 3E4</span>
+                  <ul>
+                    <li>Obchodná firma s tlačovými zariadeniami a materiálmi</li>
+                    <li>Asistent pre administratívu a obchod</li>
+                  </ul>
                   <p>
                     <span>
-                      <b>PRINTER´S PARTS & EQUIPMENT</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      60 Howden Road, Scarborough, Ontario, Canada M1R 3E4
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      • Obchodná firma s tlačovými zariadeniami a materiálmi
-                    </span>
-                  </p>
-                  <p>
-                    <span>• Asistent pre administratívu a obchod</span>
-                  </p>
-                  <p>
-                    <span>
-                      Marketing a predaj. Predstavovanie tejto obchodnej firmy
-                      zákazníkom v oblasti Toronta osobnými návštevami,
-                      mailingovými kampaňami, výrobou webovej stránky. Predaj
-                      náhradných dielov a materiálov na tlač.
+                      Marketing a predaj. Predstavovanie tejto obchodnej firmy zákazníkom v oblasti Toronta osobnými návštevami, mailingovými kampaňami, výrobou webovej stránky. Predaj náhradných dielov a materiálov na tlač.
                     </span>
                   </p>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>1997-1998</ThLeft>
+                <ThLeft>1997 – 1998</ThLeft>
                 <Th>
+                  <span><b>SLOVART-PRINT, s. r. o.</b><br/>Pekná cesta 6, 834 03 Bratislava 34 </span>
+                  <ul>
+                    <li>Spoločnosť na sprostredkovanie tlače </li>
+                    <li>Výkonný riaditeľ, konateľ </li>
+                  </ul>
                   <p>
                     <span>
-                      <b>SLOVART-PRINT, s. r. o.</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>Pekná cesta 6, 834 03 Bratislava 34</span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>• Spoločnosť na sprostredkovanie tlače</span>
-                  </p>
-                  <p>
-                    <span>• Výkonný riaditeľ, konateľ</span>
-                  </p>
-                  <p>
-                    <span>
-                      Manažér spoločnosti na sprostredkovanie tlače s 10
-                      zamestnancami. Najímanie a motivovanie pracovníkov,
-                      obchodná agenda, starostlivosť o softvér, účtovníctvo a
-                      cash-flow.
+                       Manažér spoločnosti na sprostredkovanie tlače s 10 zamestnancami.
+Najímanie a motivovanie pracovníkov, obchodná agenda, starostlivosť o softvér, účtovníctvo a cash-flow.
                     </span>
                   </p>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>1995-1997</ThLeft>
+                <ThLeft>1995 – 1997</ThLeft>
                 <Th>
+                  <span><b>SLOVENSKÁ GRAFIA, a. s. </b><br/>Pekná cesta 6, 834 03 Bratislava 34</span>
+                  <ul>
+                    <li>Tlačiareň na tlač kníh a časopisov </li>
+                    <li>Asistent pre marketing </li>
+                  </ul>
                   <p>
                     <span>
-                      <b>SLOVENSKÁ GRAFIA, a. s.</b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>Pekná cesta 6, 834 03 Bratislava 34</span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>• Tlačiareň na tlač kníh a časopisov</span>
-                  </p>
-                  <p>
-                    <span>• Asistent pre marketing</span>
-                  </p>
-                  <p>
-                    <span>
-                      Marketing v jednej z najväčších slovenských tlačiarní.
-                      Cenové kalkulácie časopisov a obchodné rokovania.
-                      Zákaznícky servis pre určitých zákazníkov. Predaj tlače
-                      kníh a časopisov zahraničným a domácim zákazníkom.
+                       Marketing v jednej z najväčších slovenských tlačiarní. Cenové kalkulácie časopisov a obchodné rokovania. Zákaznícky servis pre určitých zákazníkov. Predaj tlače kníh a časopisov zahraničným a domácim zákazníkom.
                     </span>
                   </p>
                 </Th>
@@ -258,56 +156,30 @@ const TheCurriculum = () => {
                 <ThSeparator />
               </TrSeparator>
               <Tr>
-                <ThLeft>1999 -- 2000</ThLeft>
+                <ThLeft>1999 – 2000</ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>
-                        York College of Information Technologies, Toronto,
-                        Kanada
-                      </b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>• Programmer Analyst Diploma</span>
-                  </p>
+                  <span><b>York College of Information Technologies</b><br/>Toronto, Kanada</span>
+                  <ul>
+                    <li>Programmer Analyst Diploma</li>
+                  </ul>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>1994 -- 1995</ThLeft>
+                <ThLeft>1994 – 1995</ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>
-                        Milner International College of English, Perth,
-                        Austrália
-                      </b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>
-                      • Jazykový kurz, doplnený cambridgeskými certifikátmi
-                    </span>
-                  </p>
+                  <span><b>Milner International College of English</b><br/>Perth, Austrália</span>
+                  <ul>
+                    <li>Jazykový kurz doplnený cambridgeskými certifikátmi</li>
+                  </ul>
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>1988 -– 1994</ThLeft>
+                <ThLeft>1988 – 1994</ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>
-                        Vysoká škola technická, Polygrafická technika, Leipzig,
-                        Nemecko
-                      </b>
-                    </span>
-                    <br />
-                  </p>
-                  <p>
-                    <span>• Diplom (Dipl. -– Ing.)</span>
-                  </p>
+                  <span><b>Vysoká škola technická</b><br/>Polygrafická technika, Leipzig, Nemecko</span>
+                  <ul>
+                    <li>Diplom (Dipl. – Ing.)</li>
+                  </ul>
                 </Th>
               </Tr>
               <TrSeparator>
@@ -317,42 +189,21 @@ const TheCurriculum = () => {
               <Tr>
                 <ThLeft>Angličtina</ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>• Cambridge First Certificate in English (B)</b>
-                    </span>
-                  </p>
-                  <p>
-                    <span>• Cambridge Certificate in Advanced English (C)</span>
-                  </p>
-                  <p>
-                    <span>• Cambridge Certificate of Proficiency (C)</span>
-                  </p>
-                  <p>
-                    <span>
-                      • IELTS, skóre 7,5 (1,0 = nepoužívateľ angličtiny, 9,0 =
-                      expertný používateľ angličtiny)
-                    </span>
-                  </p>
-                  <p>
-                    <span>
-                      • štátna jazyková skúška z anglického jazyka anglického
-                      (Stupeň stupeň hodnotenia: dobrý)
-                    </span>
-                  </p>
+                 <ul>
+                   <li>Cambridge First Certificate in English (B)</li>
+                   <li>Cambridge Certificate in Advanced English (C)</li>
+                   <li>Cambridge Certificate of Proficiency (C)</li>
+                   <li>IELTS, skóre 7,5 (1,0 = nepoužívateľ angličtiny, 9,0 = expertný používateľ angličtiny)</li>
+                   <li>Štátna jazyková skúška z anglického jazyka (stupeň hodnotenia: dobrý)</li>
+                 </ul>
                 </Th>
               </Tr>
               <Tr>
                 <ThLeft>Nemčina</ThLeft>
                 <Th>
-                  <p>
-                    <span>
-                      <b>
-                        • štátna jazyková skúška z nemeckého jazyka nemeckého
-                        (Stupeň stupeň hodnotenia: výborný)
-                      </b>
-                    </span>
-                  </p>
+                  <ul>
+                    <li>Štátna jazyková skúška z nemeckého jazyka (stupeň hodnotenia: výborný)</li>
+                  </ul>
                 </Th>
               </Tr>
             </Tbody>

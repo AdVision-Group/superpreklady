@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.div`
+line-height: 2;
   background-color: #343434;
   color: white;
   padding-top: 75px;
@@ -103,17 +104,17 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 flex-direction: column;
-color:#9a9a9a;
+color:#ffffff;
 text-decoration: none;
 font-weight: normal;
 padding-top: 20px;
-       @media only screen and (max-width: ${({ theme }) =>
-         theme.brakePoints.mmw}) {
+       @media only screen and (max-width: ${({theme}) =>
+    theme.brakePoints.mmw}) {
 		padding-bottom: 25px;
 	}
 a {
 text-decoration: none;
-color: #9a9a9a;
+color: #ffffff;
 font-weight: normal;
 &:hover {
       color: #3250d1;
@@ -142,7 +143,16 @@ export const H1F = styled.h1`
 `;
 
 export const PF = styled.p`
-  color: ${({ theme }) => theme.colors.grey};
+  color: white;
   font-size: ${({ theme }) => theme.fontSize.footerParagraphText};
-  line-height: 1.3;
+`;
+
+export const RowThreeContainer = styled.div`
+text-align: center;
+background: #343434;
+`;
+
+export const ThirdRowParagraph = styled.div`
+padding: 0;
+margin: 0;
 `;

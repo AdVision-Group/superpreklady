@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   HeroSliderContainer,
   HeroSliderInnerContainer,
@@ -13,7 +14,7 @@ import {
   P,
 } from "./HeroSlider.styled";
 import HeroImageSource from "../../images/superpreklady-icon-home.png";
-import { Link } from "react-scroll";
+
 
 const HeroSlider = () => {
   return (
@@ -37,9 +38,9 @@ const HeroSlider = () => {
             </P>
           </HeroTextContainer>
           <HeroButtonContainer>
-            <Link to="sectionSluzbyHome" smooth={true}>
+            <NavLink to="/uradneoverenepreklady" >
               <Button>Zisti viac</Button>
-            </Link>
+            </NavLink>
           </HeroButtonContainer>
         </HeroLeftContainer>
         <HeroRightContainer>

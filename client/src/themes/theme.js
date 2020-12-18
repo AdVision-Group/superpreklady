@@ -39,7 +39,7 @@ export const theme = {
     tableFontSize: "17px",
     sectionAccentColor: "20px",
     sectionFontSize: "20px",
-    inputFontSize: "14px",
+    inputFontSize: "18px",
     priceTagFontSize: "18px",
     contactSubHeading: "25px",
     contactFormHeading: "20px",

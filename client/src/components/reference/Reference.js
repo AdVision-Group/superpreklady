@@ -53,11 +53,8 @@ const Reference = () => {
     <ReferenceContainer>
       <ReferenceInnerContainer>
         <ReferenceHeading>
-          <ReferenceMainHeading>
-            <H3>REFERENCIE</H3>
-          </ReferenceMainHeading>
           <ReferenceSecondHeading>
-            <H1>Moji spokojní klienti</H1>
+            <H1>Referencie</H1>
           </ReferenceSecondHeading>
         </ReferenceHeading>
         <ReferenceContentContainer>

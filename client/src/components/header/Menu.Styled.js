@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const MenuMainDiv = styled.div`
-  width: 100%;
   font-size: ${({ theme }) => theme.fontSize.menuFontSize};
   white-space: nowrap;
   a {
@@ -21,10 +20,10 @@ export const MenuInnerContainer = styled.div``;
 export const MenuFirstLineContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   padding-bottom: 10px;
-  border-bottom: solid 1px #f1f1f1;
+ 
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     padding-top: 25px;
     padding-bottom: 20px;
@@ -32,11 +31,13 @@ export const MenuFirstLineContainer = styled.div`
   }
 `;
 export const MenuNumberContainer = styled.div`
+padding-right: 40px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     display: none;
   }
 `;
 export const MenuEmailContainer = styled.div`
+padding-right: 40px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     display: none;
   }
@@ -51,7 +52,7 @@ export const MenuSecondLineContainer = styled.div`
   padding-top: 20px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     display: none;

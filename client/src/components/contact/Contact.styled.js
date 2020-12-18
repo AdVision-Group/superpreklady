@@ -5,7 +5,6 @@ export const ContactContainer = styled.div`
   width: 100%;
   justify-content: center;
   flex-direction: column;
-  background: #f7f7f7;
   text-align: center;
   padding-bottom: 75px;
   padding-top: 75px;
@@ -51,18 +50,22 @@ export const Heading = styled.div`
 `;
 
 export const ContactCardContainer = styled.div``;
+
 export const FormRightSide = styled.div`
-  text-align: left;
-  width: 600px;
+  
+  text-align: center;
+  width: 50%;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     padding-top: 75px;
     width: inherit;
   }
 `;
 export const FormContactFormular = styled.div``;
+
 export const RowOne = styled.div`
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     flex-direction: column;
   }
@@ -71,9 +74,13 @@ export const RowTwo = styled.div`
   margin-top: 25px;
 `;
 export const RowThree = styled.div`
+display: flex;
+align-items: flex-start;
   margin-top: 25px;
 `;
 export const InputName = styled.input`
+  padding: 10px;
+  width: 100%;
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
@@ -82,7 +89,8 @@ export const InputName = styled.input`
   }
 `;
 export const InputEmail = styled.input`
-  margin-left: 25px;
+  padding: 10px;
+  width: 100%;
   height: 35px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
@@ -93,6 +101,7 @@ export const InputEmail = styled.input`
 
 export const InputText = styled.textarea`
   height: 225px;
+  padding: 10px;
   width: 100%;
   font-family: inherit;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
@@ -106,6 +115,7 @@ export const H3 = styled.h3`
   font-size: ${({ theme }) => theme.fontSize.contactFormHeading};
   padding-bottom: 5px;
 `;
+
 export const H3C = styled.h3`
   color: ${({ theme }) => theme.colors.accentColor};
   font-size: ${({ theme }) => theme.fontSize.h3};
@@ -117,6 +127,7 @@ export const H1 = styled.h1`
   font-size: ${({ theme }) => theme.fontSize.h1};
   padding-bottom: 5px;
 `;
+
 export const H1X = styled.h1`
   color: ${({ theme }) => theme.colors.black};
   font-size: ${({ theme }) => theme.fontSize.contactSubHeading};
@@ -143,9 +154,52 @@ export const Button = styled.button`
   text-align: center;
   white-space: nowrap;
 `;
+
 export const InputDivContainer = styled.div`
+  width: 100%;
+  padding-right: 25px;
   font-size: ${({ theme }) => theme.fontSize.inputFontSize};
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     padding-top: 25px;
   }
+`;
+
+export const InputDivContainerRight = styled.div`
+  padding-left: 25px;
+  width: 100%;
+  font-size: ${({ theme }) => theme.fontSize.inputFontSize};
+  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+    padding-top: 25px;
+  }
+`;
+
+export const LogoImg = styled.img`
+height: 90px;
+width: auto;
+`;
+
+export const LogoInnerContainer = styled.div`
+
+`;
+export const LogoInnerContainerContent = styled.div`
+
+`;
+export const SubHeading = styled.h3`
+
+`;
+export const H3F = styled.h3`
+font-size: 30px;
+
+`;
+export const LogoContainer = styled.div`
+padding-top: 100px;
+padding-bottom: 100px;
+
+`;
+export const LogoCenteringContainer = styled.div`
+display: flex;
+padding-top: 30px;
+justify-content: center;
+align-items: center;
+flex-direction: row;
 `;

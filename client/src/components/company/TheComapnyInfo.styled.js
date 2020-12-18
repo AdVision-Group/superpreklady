@@ -42,8 +42,8 @@ export const H1 = styled.h1`
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
-  border: solid #dbdbdb 1px;
-  background-color: #fdfdfd;
+  //border: solid #dbdbdb 1px;
+  //background-color: #fdfdfd;
   min-width: 100%;
 `;
 
@@ -83,6 +83,10 @@ export const ThLeft = styled.th`
 `;
 
 export const Tr = styled.tr``;
+export const Ul = styled.ul`
+margin-top: 0;
+margin-bottom: 0;
+`;
 
 export const TrSeparator = styled.tr``;
 
@@ -92,7 +96,7 @@ export const ThSeparator = styled.th`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.h2};
   vertical-align: baseline;
-  background-color: #eaeaea;
+  //background-color: #eaeaea;
   white-space: nowrap;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableSeparatorText};

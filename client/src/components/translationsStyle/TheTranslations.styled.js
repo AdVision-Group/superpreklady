@@ -6,6 +6,7 @@ export const TheCurriculumContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 75px;
 `;
 
 export const TheCurriculumInnerContainer = styled.div`

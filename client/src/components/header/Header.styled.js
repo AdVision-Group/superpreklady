@@ -3,20 +3,19 @@ import styled from "styled-components";
 export const HeaderMainDiv = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
+  border: solid 2px #f6f6f6;
   padding: 20px 0 55px 0;
-  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
+  @media only screen and (max-width: ${({theme}) => theme.brakePoints.stw}) {
     flex-direction: column;
   }
-  @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
+  @media only screen and (max-width: ${({theme}) => theme.brakePoints.mmw}) {
     padding-bottom: 25px;
   }
 `;
 
 export const LogoContainer = styled.div`
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,20 +46,19 @@ export const LogoInnerContainerContent = styled.div`
 `;
 
 export const LogoImg = styled.img`
-  height: 55px;
-  width: 48px;
+  height: 100px;
+  width: auto;
 `;
 export const Heading = styled.div``;
 export const SubHeading = styled.div``;
 
 export const MenuContainer = styled.div`
-  width: 100%;
 `;
 export const ButtonContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  padding-right: 20px;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     display: none;
   }

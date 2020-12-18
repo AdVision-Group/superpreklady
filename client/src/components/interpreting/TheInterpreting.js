@@ -6,14 +6,13 @@ import {
   HeadingContainer,
   ContentContainer,
   H1,
-  H3,
   Table,
   Tbody,
   Th,
   ThLeft,
   Tr,
   TrSeparator,
-  ThSeparator, SubHeadingH3,
+  ThSeparator,
 } from "../translationsStyle/TheTranslations.styled";
 
 
@@ -24,33 +23,31 @@ const TheInterpreting = () => {
         <HeadingContainer>
           <H1>Tlmočenie</H1>
         </HeadingContainer>
-        <SubHeadingH3>
-          <H3>Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu. Dodržiavam všetky podmienky vyplívajúce zo zákona.</H3>
-        </SubHeadingH3>
         <ContentContainer>
           <Table>
             <Tbody>
               <Tr>
                 <ThLeft>Kombinácia jazykov</ThLeft>
-                <Th>Angličtina, nemčina, slovenčina, čeština</Th>
+                <Th>Angličtina – nemčina – slovenčina – čeština </Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Ponuka</ThLeft>
-                <Th>
-                  Obchodné rokovania<br/>
-                  Diplomatické stretnutia<br/>
-                  Prezentácie, školenia<br/>
-                  Konferencie<br/>
-                  Rozhovory/interviews<br/>
-                  Tlačové konferencie<br/>
-                  Zábava, technické<br/>
-                  Lekárske, policajné<br/>
-                  Právne<br/>
-                  Ekonomické<br/>
-                  Počítačové<br/>
+                <Th><ul>
+                  <li>Obchodné rokovania</li>
+                  <li>Diplomatické stretnutia</li>
+                  <li>Prezentácie, školenia</li>
+                  <li>Konferencie</li>
+                  <li>Rozhovory/interview</li>
+                  <li>Tlačové konferencie</li>
+                  <li>Zábava , technické</li>
+                  <li>Lekárske, policajné</li>
+                  <li>Právne</li>
+                  <li>Ekonomické</li>
+                  <li>Počítačové</li>
+                </ul>
                 </Th>
               </Tr>
               <TrSeparator>
@@ -58,21 +55,25 @@ const TheInterpreting = () => {
               </TrSeparator>
               <Tr>
                 <ThLeft>Druhy tlmočenia</ThLeft>
-                <Th>Konzekutívne (po logických úsekoch), simultánne (tlmočenie v tlmočníckej kabíne, prakticky súčasne s originálom), šušotáž (šepkanie do ucha)</Th>
+                <Th><ul>
+                  <li>Konzekutívne (po logických úsekoch)</li>
+                  <li>Simultánne (tlmočenie v tlmočníckej kabíne, prakticky súčasne s originálom</li>
+                  <li>Šušotáž (šepkanie do ucha)</li>
+                </ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Odbory</ThLeft>
-                <Th>Prakticky všetky s výnimkou špeciálnej medicíny</Th>
+                <Th><ul><li>Prakticky všetky s výnimkou špeciálnej medicíny</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Kvalita tlmočenia</ThLeft>
-                <Th>V tlmočení mám mnohoročné skúsenosti, ktoré mi umožňujú vďaka, ktorým dokážem pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa presne, entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných tlmočníkov, ktorí ma môžu zastúpiť, keď mi napr. časovo kolidujú dve tlmočenia. </Th>
+                <Th><ul><li>V tlmočení mám mnohoročné skúsenosti, vďaka ktorým dokážem pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa presne, entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných tlmočníkov, ktorí ma môžu zastúpiť, keď mi napr. časovo kolidujú dve tlmočenia.</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
@@ -80,13 +81,27 @@ const TheInterpreting = () => {
               <Tr>
                 <ThLeft>Cenník</ThLeft>
                 <Th>
-                  Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak − 30 EUR/hodina<br/>
-                  Tlmočenie z nemčiny do angličtiny a naopak –40 EUR/hodina
-                  <p style={{marginBottom:'5px'}}>Posledná hodina tlmočenia sa počíta ako celá. Tlmočenie kratšie ako 2 hodiny sa počíta ako 2 hodiny.<br/> Pre tlmočenia mimo Bratislavy sa účtujú cestovné náklady:
-                  </p>
-                  Doprava vlastným autom 0,33 EUR/km tam aj späť plus prípadné diaľničné známky<br/>
-                  Cena dopravy verejnou dopravou podľa skutočných nákladov plus náhrada stratu času cestovaním − 15 EUR/hodina.<br/>
-                  Ubytovanie a strava počas tlmočenia mimo Bratislavy idú na náklady zákazníka.
+                  <ul><li><b>Tlmočenie z nemčiny/angličtiny do slovenčiny/češtiny a naopak</b><br/>30 EUR/hodina</li></ul>
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li><b>Tlmočenie z nemčiny do angličtiny a naopak </b><br/>40 EUR/hodina</li></ul>
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li>Posledná hodina tlmočenia sa počíta ako celá. </li></ul>
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li>Pre tlmočenia mimo Bratislavy sa účtujú cestovné náklady:<br/><p>Doprava vlastným autom 0,33 EUR/km tam aj späť plus prípadné diaľničné známky <b>alebo</b> cena dopravy verejnou dopravou podľa skutočných nákladov plus náhrada stratu času cestovaním − 15 EUR/hodina.</p><br/>
+                    Ubytovanie a strava počas tlmočenia mimo Bratislavy idú na náklady zákazníka.</li></ul>
+
                 </Th>
               </Tr>
               <TrSeparator>

@@ -1,86 +1,32 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import {
   FooterContainer,
   FooterInnerContainer,
-  RowOneContainer,
-  LogoContainer,
-  PhoneContainer,
-  IconContainer,
-  PhoneContactContainer,
-  Number,
-  Content,
   RowTwoContainer,
+  RowThreeContainer,
   AboutContainerModule,
   Heading,
-  Separator,
   AboutContent,
-  SocialContainer,
   ScopeContainerModule,
   Menu,
   ContactContainerModule,
   ContactContent,
-  Phone,
-  H3F,
   H1F,
+  ThirdRowParagraph,
   PF,
 } from "./Footer.Styled";
 
-import {
-  Icon,
-  LogoImg,
-  LogoInnerContainer,
-  LogoInnerContainerContent,
-  SocialIconContainer,
-  SubHeading,
-} from "../header/Header.styled";
 
-import Logo from "../../images/superpreklady-logo.png";
-import PhoneIcon from "../../images/phone-black-18dp.png";
-import faFacebook from "../../images/facebook-brands-white.png";
-import faTwitter from "../../images/twitter-square-brands-white.png";
-import faGooglePlus from "../../images/google-plus-g-brands-white.png";
-import MenuNavigation from "../header/Menu";
-
-const Footer = (props) => {
+const Footer = () => {
   return (
     <FooterContainer>
       <FooterInnerContainer>
-        <RowOneContainer>
-          <LogoContainer>
-            <LogoInnerContainer style={{ paddingRight: "25px" }}>
-              <LogoImg src={Logo} alt="mainLogo" />
-            </LogoInnerContainer>
-            <LogoInnerContainerContent>
-              <Heading>
-                <H1F>SUPERPREKLADY</H1F>
-              </Heading>
-              <SubHeading>
-                <H3F>Ing.Pavel Polónyi</H3F>
-              </SubHeading>
-            </LogoInnerContainerContent>
-          </LogoContainer>
-          <PhoneContainer>
-            <IconContainer>
-              <Phone src={PhoneIcon} alt="mainLogo" />
-            </IconContainer>
-            <PhoneContactContainer>
-              <Number>
-                <H1F>+421 908 72 82 74</H1F>
-              </Number>
-              <Content>
-                <PF style={{ marginTop: "5px" }}>
-                  Som vám k dispozícií neustále
-                </PF>
-              </Content>
-            </PhoneContactContainer>
-          </PhoneContainer>
-        </RowOneContainer>
         <RowTwoContainer>
           <AboutContainerModule>
             <Heading>
               <H1F>O mne</H1F>
             </Heading>
-            <Separator />
             <AboutContent>
               <PF>
                 <span>
@@ -90,43 +36,46 @@ const Footer = (props) => {
                 </span>
               </PF>
             </AboutContent>
-            <SocialContainer>
-              <SocialIconContainer>
-                <a href="https://www.facebook.com/" rel={"noopener"}>
-                  <Icon src={faFacebook} />
-                </a>
-              </SocialIconContainer>
-              <SocialIconContainer>
-                <a href="https://www.facebook.com/" rel={"noopener"}>
-                  <Icon src={faTwitter} />
-                </a>
-              </SocialIconContainer>
-              <SocialIconContainer>
-                <a href="https://www.facebook.com/" rel={"noopener"}>
-                  <Icon src={faGooglePlus} />
-                </a>
-              </SocialIconContainer>
-            </SocialContainer>
           </AboutContainerModule>
           <ScopeContainerModule>
             <Heading>
-              <H1F>Obsah</H1F>
+              <H1F>Sitemap</H1F>
             </Heading>
-            <Separator />
             <Menu>
-              <MenuNavigation
-                selectCard={props.selectCard}
-                activeCard={props.activeCard}
-                outSide={props.outSide}
-                setOutSide={props.setOutSide}
-              />
+              <NavLink to='/'>
+                <span>Domov</span>
+              </NavLink>
+              <NavLink to='/zivotopis'>
+                <span>Životpis</span>
+              </NavLink>
+              <NavLink to='/referencie'>
+                <span>Referencie</span>
+              </NavLink>
+              <NavLink to='/kontakt'>
+                <span>Kontkat</span>
+              </NavLink>
+            </Menu>
+          </ScopeContainerModule>
+          <ScopeContainerModule>
+            <Heading>
+              <H1F>Služby</H1F>
+            </Heading>
+            <Menu>
+             <NavLink to='/uradneoverenepreklady'>
+               <span>Úradné preklady</span>
+             </NavLink>
+              <NavLink to='/neuradneoverenepreklady'>
+                <span>Neúradné preklady</span>
+              </NavLink>
+              <NavLink to='/tlmocenie'>
+                <span>Tlmočenie</span>
+              </NavLink>
             </Menu>
           </ScopeContainerModule>
           <ContactContainerModule>
             <Heading>
               <H1F>Kontakt</H1F>
             </Heading>
-            <Separator />
             <ContactContent>
               <PF>
                 <span>Ambroseho 10, 851 02 Bratislava 5</span>
@@ -138,6 +87,9 @@ const Footer = (props) => {
             </ContactContent>
           </ContactContainerModule>
         </RowTwoContainer>
+        <RowThreeContainer>
+          <ThirdRowParagraph><span>© 2020 Superpreklady.sk | Všetky práva vyhradené</span></ThirdRowParagraph>
+        </RowThreeContainer>
       </FooterInnerContainer>
     </FooterContainer>
   );

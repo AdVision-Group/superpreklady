@@ -9,15 +9,13 @@ import {
   Heading,
   SubHeading,
   LogoImg,
-  SocialIconContainer,
-  Icon,
   H3,
   H4,
   Button,
 } from "./Header.styled";
 
 import MenuX from "./Menu";
-import Logo from "../../images/superpreklady-logo.png";
+import Logo from "../../images/superpreklady-about-image.jpg";
 import { Link } from "react-scroll";
 import {
   MenuEmailContainer,
@@ -26,14 +24,9 @@ import {
   MenuMainDiv,
   MenuNumberContainer,
   MenuSecondLineContainer,
-  MenuSocialContainer,
 } from "./Menu.Styled";
 import { useOnClickOutside } from "./navigation/navigation/hooks";
 import { Burger, Menu } from "./navigation/navigation";
-
-import faTwitter from "../../images/twitter-square-brands.svg";
-import faFacebook from "../../images/facebook-brands.svg";
-import faGooglePlus from "../../images/google-plus-g-brands.svg";
 import { NavLink } from "react-router-dom";
 
 const Header = (props) => {
@@ -62,10 +55,10 @@ const Header = (props) => {
         </LogoInnerContainer>
         <LogoInnerContainerContent>
           <Heading>
-            <H3>SUPERPREKLADY</H3>
+            <H3><b>SUPERPREKLADY</b></H3>
           </Heading>
           <SubHeading>
-            <H4>Ing.Pavel Polónyi</H4>
+            <H4><b>Ing.Pavel Polónyi</b></H4>
           </SubHeading>
         </LogoInnerContainerContent>
       </LogoContainer>
@@ -75,21 +68,54 @@ const Header = (props) => {
             <MenuFirstLineContainer>
               <MenuNumberContainer>
                 <p>
-                  <span style={{ color: "#9A9A9A" }}>
+                  <span style={{ color: "#000000" }}>
                     <b>Telefón:</b>
                   </span>{" "}
+                  <span style={{ color: "#b5b5b5" }}>
+                    <b>
                   +421 908 728 274
+                      </b>
+                  </span>
                 </p>
               </MenuNumberContainer>
               <MenuEmailContainer>
                 <p>
-                  <span style={{ color: "#9A9A9A" }}>
+                  <span style={{ color: "#000000" }}>
                     <b>E-mail:</b>
-                  </span>{" "}
-                  pavel@superpreklady.sk
+                  </span >{" "}
+                  <span style={{ color: "#b5b5b5" }}><b>
+                    pavel@superpreklady.sk
+                    </b>
+                  </span>
                 </p>
               </MenuEmailContainer>
-              <MenuSocialContainer>
+              <ButtonContainer>
+                <NavLink to="/kontakt" >
+                  <Button>Napíšte mi</Button>
+                </NavLink>
+              </ButtonContainer>
+            </MenuFirstLineContainer>
+            <MenuSecondLineContainer>
+              <MenuX
+                stylePadding={props.stylePadding}
+                selectCard={props.selectCard}
+                activeCard={props.activeCard}
+                outSide={props.outSide}
+                setOutSide={props.setOutSide}
+              />
+            </MenuSecondLineContainer>
+          </MenuInnerContainer>
+        </MenuMainDiv>
+      </MenuContainer>
+    </HeaderMainDiv>
+  );
+};
+
+export default Header;
+
+/*
+
+* <MenuSocialContainer>
                 <SocialIconContainer>
                   <a href="https://www.facebook.com/" rel={"noopener"}>
                     <Icon src={faFacebook} />
@@ -105,27 +131,4 @@ const Header = (props) => {
                     <Icon src={faGooglePlus} />
                   </a>
                 </SocialIconContainer>
-              </MenuSocialContainer>
-            </MenuFirstLineContainer>
-            <MenuSecondLineContainer>
-              <MenuX
-                stylePadding={props.stylePadding}
-                selectCard={props.selectCard}
-                activeCard={props.activeCard}
-                outSide={props.outSide}
-                setOutSide={props.setOutSide}
-              />
-            </MenuSecondLineContainer>
-          </MenuInnerContainer>
-        </MenuMainDiv>
-      </MenuContainer>
-      <ButtonContainer>
-        <Link to="sectionKontakt" smooth={true}>
-          <Button>Konktaktujte ma</Button>
-        </Link>
-      </ButtonContainer>
-    </HeaderMainDiv>
-  );
-};
-
-export default Header;
+              </MenuSocialContainer>*/

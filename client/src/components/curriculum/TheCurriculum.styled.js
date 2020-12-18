@@ -6,6 +6,7 @@ export const TheCurriculumContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 75px;
 `;
 
 export const TheCurriculumInnerContainer = styled.div`
@@ -43,8 +44,8 @@ export const H1 = styled.h1`
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
-  border: solid #dbdbdb 1px;
-  background-color: #fdfdfd;
+  //border: solid #dbdbdb 1px;
+  //background-color: #fdfdfd;
   min-width: 100%;
 `;
 
@@ -93,7 +94,7 @@ export const ThSeparator = styled.th`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.h2};
   vertical-align: baseline;
-  background-color: #eaeaea;
+  //background-color: #eaeaea;
   white-space: nowrap;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableSeparatorText};

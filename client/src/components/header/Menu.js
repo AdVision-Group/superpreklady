@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { MenuInnerNavigationContainer, MenuItem } from "./Menu.Styled";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { MenuItem } from "./Menu.Styled";
 
 const Menu = (props) => {
   function changeCard(card) {
@@ -24,42 +23,60 @@ const Menu = (props) => {
   return (
     <React.Fragment>
       <MenuItem style={props.stylePadding}>
-        <NavLink onClick={() => closeResponsiveMenu()} to="/">
+        <NavLink exact activeStyle={{
+            fontWeight: "bold",
+            color: "#3250d1"
+        }} onClick={() => closeResponsiveMenu()} to="/">
           <b>Domov</b>
         </NavLink>
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-          <NavLink onClick={() => closeResponsiveMenu()} to="/uradneoverenepreklady">
+          <NavLink activeStyle={{
+              fontWeight: "bold",
+              color: "#3250d1"
+          }} onClick={() => closeResponsiveMenu()} to="/uradneoverenepreklady">
             <b>Úradné preklady</b>
           </NavLink>
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-            <NavLink onClick={() => closeResponsiveMenu()} to="/neuradneoverenepreklady">
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "#3250d1"
+            }} onClick={() => closeResponsiveMenu()} to="/neuradneoverenepreklady">
             <b>Neúradné preklady</b>
           </NavLink>
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-            <NavLink onClick={() => closeResponsiveMenu()} to="/tlmocenie">
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "#3250d1"
+            }} onClick={() => closeResponsiveMenu()} to="/tlmocenie">
             <b>Tlmočenie</b>
           </NavLink>
       </MenuItem>
       <MenuItem style={props.stylePadding}>
-        {props.outSide ? (
-          <Link
-            onClick={() => closeResponsiveMenu()}
-            to="sectionOmne"
-            smooth={true}
+          <NavLink activeStyle={{
+              fontWeight: "bold",
+              color: "#3250d1"
+          }}
+            onClick={() => closeResponsiveMenu()} to="/zivotopis"
           >
-            <b>O mne</b>
-          </Link>
-        ) : (
-          <NavLink to="/">
-            <b>O mne</b>
+            <b>Životopis</b>
           </NavLink>
-        )}
       </MenuItem>
+        <MenuItem style={props.stylePadding}>
+            <NavLink activeStyle={{
+                fontWeight: "bold",
+                color: "#3250d1"
+            }} onClick={() => closeResponsiveMenu()} to="/referencie">
+                <b>Referencie</b>
+            </NavLink>
+        </MenuItem>
       <MenuItem style={props.stylePadding}>
-        <NavLink onClick={() => closeResponsiveMenu()} to="/kontakt">
+        <NavLink activeStyle={{
+            fontWeight: "bold",
+            color: "#3250d1"
+        }} onClick={() => closeResponsiveMenu()} to="/kontakt">
           <b>Kontakt</b>
         </NavLink>
       </MenuItem>

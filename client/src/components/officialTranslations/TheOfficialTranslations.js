@@ -5,8 +5,6 @@ import {
   HeadingContainer,
   ContentContainer,
   H1,
-  SubHeadingH3,
-    H3,
   Table,
   Tbody,
   Th,
@@ -23,15 +21,13 @@ const TheOfficialTranslations = () => {
         <HeadingContainer>
           <H1>Úradne overené preklady</H1>
         </HeadingContainer>
-        <SubHeadingH3>
-          <H3>Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu. Dodržiavam všetky podmienky vyplívajúce zo zákona.</H3>
-        </SubHeadingH3>
+
         <ContentContainer>
           <Table>
             <Tbody>
               <Tr>
                 <ThLeft>Kombinácia jazykov</ThLeft>
-                <Th>Angličtina, nemčina, slovenčina</Th>
+                <Th><span><span><b>Angličtina – nemčina – slovenčina</b></span><br/><ul><li>Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu. Dodržiavam všetky podmienky vyplývajúce zo zákona.</li></ul></span></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
@@ -39,39 +35,63 @@ const TheOfficialTranslations = () => {
               <Tr>
                 <ThLeft>Ponuka </ThLeft>
                 <Th>
-                  Vysvedčenia<br/>
-                  Potvrdenia<br/>
-                  Certifikáty<br/>
-                  Zmluvy<br/>
-                  Lekárske správy<br/>
-                  Finančné výkazy<br/>
-                  Technické správy<br/>
-                  Znalecké posudky<br/>
-                  Patenty<br/></Th>
+                  <ul>
+                    <li>Vysvedčenia</li>
+                    <li>Potvrdenia</li>
+                    <li>Certifikáty</li>
+                    <li>Zmluvy</li>
+                    <li>Lekárske správy</li>
+                    <li>Finančné výkazy</li>
+                    <li>Technické správy</li>
+                    <li>Znalecké posudky</li>
+                    <li>Patenty</li>
+                  </ul>
+                </Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Odbory</ThLeft>
-                <Th>Technika, právo, ekonomika, medicína </Th>
+                <Th><ul><li>Technika, právo, ekonomika, medicína</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
-                <ThLeft>Preberanie podkladov a odovzdanie hotových úradne overených prekladov</ThLeft>
-                <Th>Pri úradne overených prekladoch sa originál zväzuje s prekladom. Odporúča sa preto z diplomov, vysvedčení a pod. najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať preložiť. Pokiaľ zákazník pošle podklady vopred, napr. poštou alebo naskenované e-mailom, stačí, keď si príde osobne iba raz nechať si zviazať preklad s originálom trikolórou. Som flexibilný na preberanie a odovzdávanie úradne overených prekladov.</Th>
+                <ThLeft>Preberanie podkladov a odovzdávanie hotových úradne overených prekladov</ThLeft>
+                <Th><ul><li>Pri úradne overených prekladoch sa originál zväzuje s prekladom. Odporúča sa preto z diplomov, vysvedčení a pod. najprv nechať vyhotoviť úradne overenú kópiu a až tú nechať preložiť.</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Pokiaľ zákazník pošle podklady vopred, napr. poštou alebo naskenované e-mailom, stačí, keď si príde osobne iba raz nechať zviazať preklad s originálom trikolórou. Som flexibilný na preberanie a odovzdávanie úradne overených prekladov.</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Cenník</ThLeft>
-                <Th>
-                  preklad z nemčiny/angličtiny do slovenčiny a naopak − 20 EUR/normostrana<br/>
-                  preklad z nemčiny do angličtiny a naopak –26 EUR/normostrana<br/>
-                  Posledná začatá normostrana sa počíta ako celá. Okamžité vykonanie prekladu − 50% príplatok. Normostrana je 1 800 znakov vrátane medzislovných medzier. Cena sa počíta z hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.</Th>
+                <Th><ul><li><b>Preklad z nemčiny/angličtiny do slovenčiny a naopak  </b><br/>20 EUR/normostrana</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li><b>Preklad z nemčiny do angličtiny a naopak</b><br/>26 EUR/normostrana</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Posledná začatá normostrana sa počíta ako celá.</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Okamžité vykonanie prekladu − 50 % príplatok.</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Normostrana je 1 800 znakov vrátane medzislovných medzier.</li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Cena sa počíta z hotového prekladu, nie z originálu. Preklad môže byť dlhší ako originál: preklad zo slovenčiny do angličtiny je napr. dlhší asi o 10 percent, do nemčiny aj o 30 percent.</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>

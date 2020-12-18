@@ -11,6 +11,7 @@ import {
   Th,
   ThLeft,
   Tr,
+    Ul,
   TrSeparator,
   ThSeparator,
 } from "./TheComapnyInfo.styled";
@@ -30,46 +31,45 @@ const TheCompanyInfo = () => {
                 <ThSeparator />
               </TrSeparator>
               <Tr>
-                <ThLeft>Meno prekladateľa</ThLeft>
+                <ThLeft><Ul><li>Meno prekladateľa</li></Ul></ThLeft>
                 <Th>Ing. Pavel Polónyi</Th>
               </Tr>
               <Tr>
-                <ThLeft>Adresa prekladateľa</ThLeft>
+                <ThLeft><Ul><li>Adresa prekladateľa</li></Ul></ThLeft>
                 <Th>Ambroseho 10, 851 02 Bratislava 5</Th>
               </Tr>
               <Tr>
-                <ThLeft>Mobil</ThLeft>
-                <Th>+421 908 72 8 2 74</Th>
+                <ThLeft><Ul><li>Mobil</li></Ul></ThLeft>
+                <Th>+421 908 72 82 74</Th>
               </Tr>
               <Tr>
-                <ThLeft>E-mail</ThLeft>
-                <Th>pavel@superpreklady.sk</Th>
+                <ThLeft><Ul><li>E-mail</li></Ul></ThLeft>
+                <Th><a href="mailto:pavel@superpreklady.sk">pavel@superpreklady.sk</a></Th>
               </Tr>
               <Tr>
-                <ThLeft>Evidenčné číslo prekladateľa</ThLeft>
+                <ThLeft><Ul><li>Evidenčné číslo prekladateľa</li></Ul></ThLeft>
                 <Th>
-                  970952, vymenovaný Ministerstvom spravodlivosti SR. ; oOdbor:
-                  Slovenský slovenský jazyk – aAnglický jazyk – nNemecký jazyk.
+                  970952, vymenovaný Ministerstvom spravodlivosti SR; odbor: slovenský jazyk – anglický jazyk – nemecký jazyk
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>IČ DPH</ThLeft>
-                <Th>Nie som platcom DPH.</Th>
+                <ThLeft><Ul><li>IČ DPH</li></Ul></ThLeft>
+                <Th>Nie som platcom DPH</Th>
               </Tr>
               <Tr>
-                <ThLeft>Banka</ThLeft>
+                <ThLeft><Ul><li>Banka</li></Ul></ThLeft>
                 <Th>Tatrabanka, a. s., Hodžovo nám. 3, 811 06 Bratislava 1</Th>
               </Tr>
               <Tr>
-                <ThLeft>Číslo účtu</ThLeft>
-                <Th>262 1700 981 / 1100</Th>
+                <ThLeft><Ul><li>Číslo účtu</li></Ul></ThLeft>
+                <Th>262 1700 981/1100</Th>
               </Tr>
               <Tr>
-                <ThLeft>Swift (BIC) kód</ThLeft>
+                <ThLeft><Ul><li>Swift (BIC) kód</li></Ul></ThLeft>
                 <Th>TATR SK BX</Th>
               </Tr>
               <Tr>
-                <ThLeft>IBAN</ThLeft>
+                <ThLeft><Ul><li>IBAN</li></Ul></ThLeft>
                 <Th>SK81 1100 0000 0026 2170 0981</Th>
               </Tr>
               <TrSeparator>
@@ -77,54 +77,53 @@ const TheCompanyInfo = () => {
                 <ThSeparator />
               </TrSeparator>
               <Tr>
-                <ThLeft>Meno firmy</ThLeft>
+                <ThLeft><Ul><li>Meno firmy</li></Ul></ThLeft>
                 <Th>Superpreklady, s. r. o.</Th>
               </Tr>
               <Tr>
-                <ThLeft>Adresa firmy</ThLeft>
+                <ThLeft><Ul><li>Adresa firmy</li></Ul></ThLeft>
                 <Th>Ambroseho 10, 851 02 Bratislava 5</Th>
               </Tr>
               <Tr>
-                <ThLeft>Mobil</ThLeft>
+                <ThLeft><Ul><li>Mobil</li></Ul></ThLeft>
                 <Th>+421 908 72 82 74</Th>
               </Tr>
               <Tr>
-                <ThLeft>E-mail</ThLeft>
-                <Th>pavel@superpreklady.sk</Th>
+                <ThLeft><Ul><li>E-mail</li></Ul></ThLeft>
+                <Th><a href="mailto:pavel@superpreklady.sk">pavel@superpreklady.sk</a></Th>
               </Tr>
               <Tr>
-                <ThLeft>IČO</ThLeft>
+                <ThLeft><Ul><li>IČO</li></Ul></ThLeft>
                 <Th>36 660 809</Th>
               </Tr>
               <Tr>
-                <ThLeft>DIČ</ThLeft>
+                <ThLeft><Ul><li>DIČ</li></Ul></ThLeft>
                 <Th>2022223808</Th>
               </Tr>
               <Tr>
-                <ThLeft>IČ DPH</ThLeft>
+                <ThLeft><Ul><li>IČ DPH</li></Ul></ThLeft>
                 <Th>SK2022223808</Th>
               </Tr>
               <Tr>
-                <ThLeft>Obch. register</ThLeft>
+                <ThLeft><Ul><li>Obch. register</li></Ul></ThLeft>
                 <Th>
-                  Spoločnosť je zapísaná v Obchodnom registri Okresného súdu
-                  Bratislava I, oddiel: Sro, vložka č.: 41768/B.
+                  Spoločnosť je zapísaná v Obchodnom registri Okresného súdu Bratislava I, oddiel: Sro, vložka č.: 41768/B
                 </Th>
               </Tr>
               <Tr>
-                <ThLeft>Banka</ThLeft>
+                <ThLeft><Ul><li>Banka</li></Ul></ThLeft>
                 <Th>Tatrabanka, a. s., Hodžovo nám. 3, 811 06 Bratislava 1</Th>
               </Tr>
               <Tr>
-                <ThLeft>Číslo účtu</ThLeft>
-                <Th>262 4120 237 / 1100</Th>
+                <ThLeft><Ul><li>Číslo účtu</li></Ul></ThLeft>
+                <Th>262 4120 237/1100</Th>
               </Tr>
               <Tr>
-                <ThLeft>Swift (BIC) kód</ThLeft>
+                <ThLeft><Ul><li>Swift (BIC) kód</li></Ul></ThLeft>
                 <Th>TATR SK BX</Th>
               </Tr>
               <Tr>
-                <ThLeft>IBAN</ThLeft>
+                <ThLeft><Ul><li></li></Ul>IBAN</ThLeft>
                 <Th>SK66 1100 0000 0026 2412 0237</Th>
               </Tr>
               <TrSeparator>
@@ -132,51 +131,51 @@ const TheCompanyInfo = () => {
                 <ThSeparator />
               </TrSeparator>
               <Tr>
-                <ThLeft>Meno firmy</ThLeft>
+                <ThLeft><Ul><li>Meno firmy</li></Ul></ThLeft>
                 <Th>Ing. Pavel Polóny</Th>
               </Tr>
               <Tr>
-                <ThLeft>Adresa firmy</ThLeft>
+                <ThLeft><Ul><li>Adresa firmy</li></Ul></ThLeft>
                 <Th>Ambroseho 10, 851 02 Bratislava 5</Th>
               </Tr>
               <Tr>
-                <ThLeft>Mobil</ThLeft>
+                <ThLeft><Ul><li>Mobil</li></Ul></ThLeft>
                 <Th>+421 908 72 82 74</Th>
               </Tr>
               <Tr>
-                <ThLeft>E-mail</ThLeft>
-                <Th>pavel@superpreklady.sk</Th>
+                <ThLeft><Ul><li>E-mail</li></Ul></ThLeft>
+                <Th><a href="mailto:pavel@superpreklady.sk">pavel@superpreklady.sk</a></Th>
               </Tr>
               <Tr>
-                <ThLeft>IČO</ThLeft>
+                <ThLeft><Ul><li>IČO</li></Ul></ThLeft>
                 <Th>40 221 491</Th>
               </Tr>
               <Tr>
-                <ThLeft>DIČ</ThLeft>
+                <ThLeft><Ul><li>DIČ</li></Ul></ThLeft>
                 <Th>1025741255</Th>
               </Tr>
               <Tr>
-                <ThLeft>IČ DPH</ThLeft>
+                <ThLeft><Ul><li>IČ DPH</li></Ul></ThLeft>
                 <Th>Nie som platcom DPH.</Th>
               </Tr>
               <Tr>
-                <ThLeft>Živnost. oprávnenie</ThLeft>
+                <ThLeft><Ul><li>Živnost. oprávnenie</li></Ul></ThLeft>
                 <Th>Sp. č. ŽO −- 2002/02701/00002, reg. č. 1130/2002</Th>
               </Tr>
               <Tr>
-                <ThLeft>Banka</ThLeft>
+                <ThLeft><Ul><li>Banka</li></Ul></ThLeft>
                 <Th>Tatrabanka, a. s., Hodžovo nám. 3, 811 06 Bratislava 1</Th>
               </Tr>
               <Tr>
-                <ThLeft>Číslo účtu</ThLeft>
-                <Th>262 1700 981 / 1100</Th>
+                <ThLeft><Ul><li>Číslo účtu</li></Ul></ThLeft>
+                <Th>262 1700 981/1100</Th>
               </Tr>
               <Tr>
-                <ThLeft>Swift (BIC) kód</ThLeft>
+                <ThLeft><Ul><li>Swift (BIC) kód</li></Ul></ThLeft>
                 <Th>TATR SK BX</Th>
               </Tr>
               <Tr>
-                <ThLeft>IBAN</ThLeft>
+                <ThLeft><Ul><li>IBAN</li></Ul></ThLeft>
                 <Th>SK81 1100 0000 0026 2170 0981</Th>
               </Tr>
             </Tbody>

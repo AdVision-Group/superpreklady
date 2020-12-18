@@ -17,11 +17,16 @@ export default function Landing() {
     <div>
       <Header selectCard={setOption} activeCard={option} outSide={outSide} stylePadding={stylePadding} />
       <HeroSlider />
+      <Footer selectCard={setOption} activeCard={option} outSide={outSide} />
+    </div>
+  );
+}
+/*
+      <Header selectCard={setOption} activeCard={option} outSide={outSide} stylePadding={stylePadding} />
+      <HeroSlider />
       <About setOutSide={setOutSide} />
       <Services selectCard={setOption} activeCard={option} />
       <Reference/>
       <Contact />
       <Footer selectCard={setOption} activeCard={option} outSide={outSide} />
-    </div>
-  );
-}
+* */

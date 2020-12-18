@@ -12,10 +12,11 @@ export default function ContactMain() {
   return (
     <div>
       <Header outSide={outSide} setOutSide={setOutSide} stylePadding={stylePadding} />
+        <Contact />
       <div>
         <TheCompanyInfo />
       </div>
-      <Contact />
+
       <Footer />
     </div>
   );

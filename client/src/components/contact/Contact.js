@@ -1,16 +1,10 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import {
   ContactContainer,
   ContactInnerContainer,
   HeadingContactContainer,
   ContactFormContainer,
-  FormLeftSide,
-  CardHeading,
-  CardText,
-  CardSeparator,
   Heading,
-  ContactCardContainer,
   FormRightSide,
   FormContactFormular,
   RowOne,
@@ -18,15 +12,24 @@ import {
   RowThree,
   InputName,
   InputEmail,
+  InputDivContainerRight,
   InputText,
-  H3,
-  H3C,
   H1,
   Button,
-  P,
-  H1X,
   InputDivContainer,
+  LogoImg,
+  LogoInnerContainer,
+  LogoInnerContainerContent,
+  SubHeading,
+  H1F,
+  H3F,
+  LogoContainer,
+  LogoCenteringContainer
+
 } from "./Contact.styled";
+
+import Logo from '../../images/phone-black-18dp.png'
+
 
 const Contact = () => {
   return (
@@ -34,46 +37,10 @@ const Contact = () => {
       <section title="sectionKontakt" id="sectionKontakt" />
       <ContactInnerContainer>
         <HeadingContactContainer>
-          <H3C>KONTAKT</H3C>
-          <H1>Spojte sa so mnou</H1>
+          <H1>Kontakt</H1>
+          <span><b>Ambroseho 10, 851 02 Bratislava 5</b></span>
         </HeadingContactContainer>
         <ContactFormContainer>
-          <FormLeftSide>
-            <Heading>
-              <H1>Kontaktné Údaje</H1>
-            </Heading>
-            <ContactCardContainer>
-              <CardHeading>
-                <H3>Adresa</H3>
-              </CardHeading>
-              <CardText>
-                <P>Ambroseho 10 , 851 02 Bratislava 5</P>
-              </CardText>
-              <CardSeparator />
-            </ContactCardContainer>
-            <ContactCardContainer>
-              <CardHeading>
-                <H3>Telefón</H3>
-              </CardHeading>
-              <CardText>
-                <P>+421 908 72 82 74</P>
-              </CardText>
-              <CardSeparator />
-            </ContactCardContainer>
-            <ContactCardContainer>
-              <CardHeading>
-                <H3>E-mail</H3>
-              </CardHeading>
-              <CardText>
-                <P>pavel@superpreklady.sk</P>
-              </CardText>
-            </ContactCardContainer>
-            <div>
-              <NavLink to="/kontakt">
-                <Button>Kontakt</Button>
-              </NavLink>
-            </div>
-          </FormLeftSide>
           <FormRightSide>
             <Heading>
               <H1>Pošlite mi správu</H1>
@@ -83,9 +50,9 @@ const Contact = () => {
                 <InputDivContainer>
                   <InputName placeholder="Vaše meno" />
                 </InputDivContainer>
-                <InputDivContainer>
+                <InputDivContainerRight>
                   <InputEmail placeholder="Váš e-mail" />
-                </InputDivContainer>
+                </InputDivContainerRight>
               </RowOne>
               <RowTwo>
                 <div>
@@ -95,6 +62,21 @@ const Contact = () => {
               <RowThree>
                 <Button>Odoslať</Button>
               </RowThree>
+              <LogoContainer>
+                <LogoInnerContainerContent>
+                  <SubHeading>
+                    <H3F>Alebo mi zavolajte na</H3F>
+                  </SubHeading>
+                  <LogoCenteringContainer>
+                    <LogoInnerContainer style={{ paddingRight: "25px" }}>
+                      <LogoImg src={Logo} alt="mainLogo" />
+                    </LogoInnerContainer>
+                    <div>
+                      <p><span style={{fontSize: '30px'}}>+421 908 728 274</span></p>
+                    </div>
+                  </LogoCenteringContainer>
+                </LogoInnerContainerContent>
+              </LogoContainer>
             </FormContactFormular>
           </FormRightSide>
         </ContactFormContainer>

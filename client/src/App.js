@@ -10,6 +10,7 @@ import ScrollToTop from "../src/components/ScrollToTop";
 import OfficialTranslations from "./views/OfficialTranslations";
 import NonOfficialTranslations from "./views/NonOfficialTranslations";
 import Interpreting from "./views/Interpreting";
+import Reference from "./views/Reference";
 
 const App = () => {
   return (
@@ -25,6 +26,11 @@ const App = () => {
             exact
             path="/zivotopis"
             render={(props) => <Curriculum {...props} />}
+          />
+          <Route
+              exact
+              path="/referencie"
+              render={(props) => <Reference {...props} />}
           />
           <Route
             exact

@@ -6,14 +6,13 @@ import {
   HeadingContainer,
   ContentContainer,
   H1,
-  H3,
   Table,
   Tbody,
   Th,
   ThLeft,
   Tr,
   TrSeparator,
-  ThSeparator, SubHeadingH3,
+  ThSeparator
 } from "../translationsStyle/TheTranslations.styled";
 
 const TheNonOfficialTranslations = () => {
@@ -23,15 +22,12 @@ const TheNonOfficialTranslations = () => {
         <HeadingContainer>
           <H1>Neúradné preklady</H1>
         </HeadingContainer>
-        <SubHeadingH3>
-          <H3>Preklad v maximálnej miere obsahovo aj graficky zodpovedá originálu. Dodržiavam všetky podmienky vyplívajúce zo zákona.</H3>
-        </SubHeadingH3>
         <ContentContainer>
           <Table>
             <Tbody>
               <Tr>
                 <ThLeft>Kombinácia jazykov</ThLeft>
-                <Th>Angličtina, nemčina, slovenčina, čeština</Th>
+                <Th><b>Angličtina – nemčina – slovenčina – čeština</b><ul><li>Iné jazyky na dopyt.</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
@@ -39,29 +35,37 @@ const TheNonOfficialTranslations = () => {
               <Tr>
                 <ThLeft>Ponuka </ThLeft>
                 <Th>
-                  Manuály<br/>
-                  Technická dokumentácia<br/>
-                  Obchodná korešpondencia<br/>
-                  Ponuky,zmluvy<br/>
-                  Prospekty<br/>
-                  Katalógy<br/>
-                  Prezentácie<br/>
-                  Softvér<br/>
-                  Riadiace systémy strojov<br/></Th>
+                  <ul>
+                    <li>Manuály</li>
+                    <li>Technická dokumentácia</li>
+                    <li>Obchodná korešpondencia</li>
+                    <li>Ponuky</li>
+                    <li>Zmluvy</li>
+                    <li>Prospekty</li>
+                    <li>Katalógy</li>
+                    <li>Prezentácie</li>
+                    <li>Softvér</li>
+                    <li>Riadiace systémy strojov</li>
+                  </ul>
+                </Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Odbory</ThLeft>
-                <Th>Technika, právo, ekonomika, medicína</Th>
+                <Th><ul><li>Technika, právo, ekonomika, medicína</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
               </TrSeparator>
               <Tr>
                 <ThLeft>Kvalita prekladov</ThLeft>
-                <Th>Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom, ako v origináli. Terminológiu overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. Preklady marketingových materiálov odporúčam nechať kontrolovať kvalifikovanými rodenými hovorcami, ktorých zabezpečím. Cena okolo 7 EUR/normostrana.</Th>
+                <Th><ul><li>Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom ako v origináli. Terminológiu overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. </li></ul></Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th><ul><li>Preklady marketingových materiálov odporúčam nechať kontrolovať kvalifikovanými rodenými hovorcami, ktorých zabezpečím. Cena okolo 7 EUR/normostrana</li></ul></Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
@@ -69,10 +73,13 @@ const TheNonOfficialTranslations = () => {
               <Tr>
                 <ThLeft>Preberanie a odovzdávanie</ThLeft>
                 <Th>
-                  E-mailom<br/>
-                  Poštou<br/>
-                  Osobne<br/>
-                  možnosť pracovať priamo u zákazníka<br/></Th>
+                  <ul>
+                    <li>E-mailom</li>
+                    <li>Poštou</li>
+                    <li>Osobne</li>
+                    <li>možnosť pracovať priamo u zákazníka</li>
+                  </ul>
+                </Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
@@ -80,9 +87,26 @@ const TheNonOfficialTranslations = () => {
               <Tr>
                 <ThLeft>Cenník</ThLeft>
                 <Th>
-                  preklad z nemčiny/angličtiny do slovenčiny/češtiny a naopak − od 13 EUR/normostrana<br/>
-                  preklad z nemčiny do angličtiny a naopak − od 17 EUR/normostrana<br/>
-                  Normostrana je 1 800 znakov vrátane medzislovných medzier. Cena sa počíta z hotového prekladu, nie z originálu. Pred zadaním zákazky vyhotovujem aspoň orientačnú cenovú kalkuláciu, ktorá zohľadní aj rozsah zákazky po preklade.</Th>
+                  <ul><li><b>Preklad z nemčiny/angličtiny do slovenčiny/češtiny a naopak</b><br/>od 13 EUR/normostrana</li></ul>
+                  </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li><b>Preklad z nemčiny do angličtiny a naopak </b><br/>od 17 EUR/normostrana</li></ul>
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li>Normostrana je 1 800 znakov vrátane medzislovných medzier.</li></ul>
+                </Th>
+              </Tr>
+              <Tr>
+                <ThLeft></ThLeft>
+                <Th>
+                  <ul><li>Cena sa počíta z hotového prekladu, nie z originálu. Pred zadaním zákazky vyhotovujem aspoň orientačnú cenovú kalkuláciu, ktorá zohľadní aj rozsah zákazky po preklade</li></ul>
+                </Th>
               </Tr>
               <TrSeparator>
                 <ThSeparator/>
