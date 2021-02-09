@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/superpreklady/static/css/main.1c6ebe87.chunk.css",
-    "main.js": "/superpreklady/static/js/main.b97fe17f.chunk.js",
-    "main.js.map": "/superpreklady/static/js/main.b97fe17f.chunk.js.map",
+    "main.css": "/superpreklady/static/css/main.d738bb55.chunk.css",
+    "main.js": "/superpreklady/static/js/main.623452bd.chunk.js",
+    "main.js.map": "/superpreklady/static/js/main.623452bd.chunk.js.map",
     "runtime-main.js": "/superpreklady/static/js/runtime-main.03d6905b.js",
     "runtime-main.js.map": "/superpreklady/static/js/runtime-main.03d6905b.js.map",
     "static/css/2.e204067d.chunk.css": "/superpreklady/static/css/2.e204067d.chunk.css",
-    "static/js/2.d6b5741b.chunk.js": "/superpreklady/static/js/2.d6b5741b.chunk.js",
-    "static/js/2.d6b5741b.chunk.js.map": "/superpreklady/static/js/2.d6b5741b.chunk.js.map",
+    "static/js/2.a4d14ef6.chunk.js": "/superpreklady/static/js/2.a4d14ef6.chunk.js",
+    "static/js/2.a4d14ef6.chunk.js.map": "/superpreklady/static/js/2.a4d14ef6.chunk.js.map",
     "index.html": "/superpreklady/index.html",
-    "precache-manifest.982aa9e8031fee9548e1f092910f08a4.js": "/superpreklady/precache-manifest.982aa9e8031fee9548e1f092910f08a4.js",
+    "precache-manifest.e87beb3a0f9b0be349222019276471de.js": "/superpreklady/precache-manifest.e87beb3a0f9b0be349222019276471de.js",
     "service-worker.js": "/superpreklady/service-worker.js",
     "static/css/2.e204067d.chunk.css.map": "/superpreklady/static/css/2.e204067d.chunk.css.map",
-    "static/css/main.1c6ebe87.chunk.css.map": "/superpreklady/static/css/main.1c6ebe87.chunk.css.map",
-    "static/js/2.d6b5741b.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.d6b5741b.chunk.js.LICENSE.txt",
+    "static/css/main.d738bb55.chunk.css.map": "/superpreklady/static/css/main.d738bb55.chunk.css.map",
+    "static/js/2.a4d14ef6.chunk.js.LICENSE.txt": "/superpreklady/static/js/2.a4d14ef6.chunk.js.LICENSE.txt",
     "static/media/aumeta.svg": "/superpreklady/static/media/aumeta.2c3e818b.svg",
     "static/media/bottcher.png": "/superpreklady/static/media/bottcher.ea0c60e5.png",
     "static/media/heidelberg.png": "/superpreklady/static/media/heidelberg.57de4b40.png",
@@ -36,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.03d6905b.js",
     "static/css/2.e204067d.chunk.css",
-    "static/js/2.d6b5741b.chunk.js",
-    "static/css/main.1c6ebe87.chunk.css",
-    "static/js/main.b97fe17f.chunk.js"
+    "static/js/2.a4d14ef6.chunk.js",
+    "static/css/main.d738bb55.chunk.css",
+    "static/js/main.623452bd.chunk.js"
   ]
 }
