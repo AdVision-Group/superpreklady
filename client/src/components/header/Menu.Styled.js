@@ -20,9 +20,10 @@ export const MenuInnerContainer = styled.div``;
 export const MenuFirstLineContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 53px;
+padding-left: 20px;
  
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.stw}) {
     padding-top: 25px;
@@ -69,7 +70,6 @@ export const MenuInnerNavigationContainer = styled.nav`
 `;
 
 export const MenuItem = styled.div`
-  
   cursor: pointer;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     margin: 25px 20px 10px 20px;

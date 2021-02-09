@@ -53,21 +53,21 @@ const Header = (props) => {
             <LogoImg src={Logo} alt="mainLogo" />
           </NavLink>
         </LogoInnerContainer>
-        <LogoInnerContainerContent>
-          <Heading>
-            <H3><b>SUPERPREKLADY</b></H3>
-          </Heading>
-          <SubHeading>
-            <H4><b>Ing.Pavel Polónyi</b></H4>
-          </SubHeading>
-        </LogoInnerContainerContent>
       </LogoContainer>
       <MenuContainer>
         <MenuMainDiv>
           <MenuInnerContainer>
             <MenuFirstLineContainer>
+              <LogoInnerContainerContent>
+                <Heading>
+                  <H3><b>SUPERPREKLADY</b></H3>
+                </Heading>
+                <SubHeading>
+                  <H4><b>Ing.Pavel Polónyi</b></H4>
+                </SubHeading>
+              </LogoInnerContainerContent>
               <MenuNumberContainer>
-                <p>
+                <p style={{marginTop:'0'}}>
                   <span style={{ color: "#000000" }}>
                     <b>Telefón:</b>
                   </span>{" "}
@@ -79,7 +79,7 @@ const Header = (props) => {
                 </p>
               </MenuNumberContainer>
               <MenuEmailContainer>
-                <p>
+                <p style={{marginTop:'0'}}>
                   <span style={{ color: "#000000" }}>
                     <b>E-mail:</b>
                   </span >{" "}

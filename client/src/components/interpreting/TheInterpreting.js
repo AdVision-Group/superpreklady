@@ -14,7 +14,7 @@ import {
   TrSeparator,
   ThSeparator,
 } from "../translationsStyle/TheTranslations.styled";
-
+import  "../translationsStyle/TheTranslationsStyle.css"
 
 const TheInterpreting = () => {
   return (
@@ -28,11 +28,8 @@ const TheInterpreting = () => {
             <Tbody>
               <Tr>
                 <ThLeft>Kombinácia jazykov</ThLeft>
-                <Th>Angličtina – nemčina – slovenčina – čeština </Th>
+                <Th><b>Angličtina – nemčina – slovenčina – čeština </b></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Ponuka</ThLeft>
                 <Th><ul>
@@ -50,9 +47,6 @@ const TheInterpreting = () => {
                 </ul>
                 </Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Druhy tlmočenia</ThLeft>
                 <Th><ul>
@@ -61,23 +55,14 @@ const TheInterpreting = () => {
                   <li>Šušotáž (šepkanie do ucha)</li>
                 </ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Odbory</ThLeft>
                 <Th><ul><li>Prakticky všetky s výnimkou špeciálnej medicíny</li></ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Kvalita tlmočenia</ThLeft>
                 <Th><ul><li>V tlmočení mám mnohoročné skúsenosti, vďaka ktorým dokážem pružne reagovať na rôzne situácie, jazykovú kompetenciu, ktorá mi umožňuje vyjadrovať sa presne, entuziazmus, ktorý mi dáva výdrž, a kontakt na sieť iných tlmočníkov, ktorí ma môžu zastúpiť, keď mi napr. časovo kolidujú dve tlmočenia.</li></ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Cenník</ThLeft>
                 <Th>
@@ -101,12 +86,8 @@ const TheInterpreting = () => {
                 <Th>
                   <ul><li>Pre tlmočenia mimo Bratislavy sa účtujú cestovné náklady:<br/><p>Doprava vlastným autom 0,33 EUR/km tam aj späť plus prípadné diaľničné známky <b>alebo</b> cena dopravy verejnou dopravou podľa skutočných nákladov plus náhrada stratu času cestovaním − 15 EUR/hodina.</p><br/>
                     Ubytovanie a strava počas tlmočenia mimo Bratislavy idú na náklady zákazníka.</li></ul>
-
                 </Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
             </Tbody>
           </Table>
         </ContentContainer>

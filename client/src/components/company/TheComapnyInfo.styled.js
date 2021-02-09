@@ -42,8 +42,6 @@ export const H1 = styled.h1`
 export const Table = styled.table`
   text-align: left;
   border-spacing: 0;
-  //border: solid #dbdbdb 1px;
-  //background-color: #fdfdfd;
   min-width: 100%;
 `;
 
@@ -76,6 +74,7 @@ export const ThLeft = styled.th`
     width: inherit;
     padding: 0 0 0 5px;
   }
+  
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
     font-size: 13px;
     padding: 0;
@@ -96,7 +95,6 @@ export const ThSeparator = styled.th`
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.h2};
   vertical-align: baseline;
-  //background-color: #eaeaea;
   white-space: nowrap;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableSeparatorText};

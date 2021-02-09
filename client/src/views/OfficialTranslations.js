@@ -12,7 +12,6 @@ export default function OfficialTranslations() {
         <div>
             <Header stylePadding={stylePadding} />
             <TheOfficialTranslations/>
-            <Contact />
             <Footer />
         </div>
     );

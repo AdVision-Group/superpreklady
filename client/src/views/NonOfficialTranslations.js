@@ -12,7 +12,6 @@ export default function NonOfficialTranslations() {
         <div>
             <Header stylePadding={stylePadding} />
             <TheNonOfficialTranslations/>
-            <Contact />
             <Footer />
         </div>
     );

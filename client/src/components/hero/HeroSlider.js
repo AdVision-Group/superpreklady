@@ -24,9 +24,7 @@ const HeroSlider = () => {
           <HeroHeadingContainer>
             <H1>
               <b>
-                Dodám Vám navyššiu
-                <br />
-                kvalitu prekladov
+                O mne
               </b>
             </H1>
           </HeroHeadingContainer>
@@ -38,9 +36,6 @@ const HeroSlider = () => {
             </P>
           </HeroTextContainer>
           <HeroButtonContainer>
-            <NavLink to="/uradneoverenepreklady" >
-              <Button>Zisti viac</Button>
-            </NavLink>
           </HeroButtonContainer>
         </HeroLeftContainer>
         <HeroRightContainer>

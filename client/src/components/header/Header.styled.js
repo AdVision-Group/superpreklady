@@ -3,10 +3,10 @@ import styled from "styled-components";
 export const HeaderMainDiv = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   border: solid 2px #f6f6f6;
-  padding: 20px 0 55px 0;
+  padding: 40px 0 40px 0;
   @media only screen and (max-width: ${({theme}) => theme.brakePoints.stw}) {
     flex-direction: column;
   }
@@ -38,15 +38,14 @@ export const LogoInnerContainer = styled.div`
 `;
 
 export const LogoInnerContainerContent = styled.div`
-  padding: 2px;
-  margin: 1px;
+ 
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.ssmw}) {
     display: none;
   }
 `;
 
 export const LogoImg = styled.img`
-  height: 100px;
+  height: 130px;
   width: auto;
 `;
 export const Heading = styled.div``;
@@ -89,8 +88,6 @@ export const H3 = styled.div`
   font-weight: bold;
 `;
 export const H4 = styled.div`
-  padding: 2px 2px 2px 2px;
-  margin: 1px;
   font-size: 13px;
   color: #9a9a9a;
 `;
@@ -102,5 +99,4 @@ export const SocialIconContainer = styled.div`
 export const Icon = styled.img`
   height: 25px;
   width: auto;
-  
 `;

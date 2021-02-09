@@ -70,11 +70,11 @@ export const Table = styled.table`
 export const Tbody = styled.tbody``;
 
 export const Th = styled.th`
-  padding: 5px 0 5px 55px;
-  line-height: 1.5;
+  padding: 5px 0 0 55px;
+  line-height: 1.3;
   font-weight: normal;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
-  vertical-align: baseline;
+  vertical-align: top;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
     padding: 5px 0 5px 5px;
@@ -86,11 +86,11 @@ export const Th = styled.th`
 
 export const ThLeft = styled.th`
   width: 250px;
-  padding: 5px 0 5px 25px;
+  padding: 10px 0 0 25px;
   line-height: 1.3;
   font-weight: bold;
   font-size: ${({ theme }) => theme.fontSize.paragraphText};
-  vertical-align: baseline;
+  vertical-align: top;
   @media only screen and (max-width: ${({ theme }) => theme.brakePoints.mmw}) {
     font-size: ${({ theme }) => theme.responsiveFonts.tableParagraphText};
     width: inherit;

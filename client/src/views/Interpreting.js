@@ -12,7 +12,6 @@ export default function Interpreting() {
         <div>
             <Header stylePadding={stylePadding} />
             <TheInterpreting />
-            <Contact />
             <Footer />
         </div>
     );

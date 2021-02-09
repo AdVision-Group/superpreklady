@@ -14,6 +14,7 @@ import {
   TrSeparator,
   ThSeparator
 } from "../translationsStyle/TheTranslations.styled";
+import  "../translationsStyle/TheTranslationsStyle.css"
 
 const TheNonOfficialTranslations = () => {
   return (
@@ -29,9 +30,7 @@ const TheNonOfficialTranslations = () => {
                 <ThLeft>Kombinácia jazykov</ThLeft>
                 <Th><b>Angličtina – nemčina – slovenčina – čeština</b><ul><li>Iné jazyky na dopyt.</li></ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
+
               <Tr>
                 <ThLeft>Ponuka </ThLeft>
                 <Th>
@@ -49,16 +48,10 @@ const TheNonOfficialTranslations = () => {
                   </ul>
                 </Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Odbory</ThLeft>
                 <Th><ul><li>Technika, právo, ekonomika, medicína</li></ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Kvalita prekladov</ThLeft>
                 <Th><ul><li>Mojím cieľom je dodať preklad, v ktorom sa píše o tom istom ako v origináli. Terminológiu overujem pomocou slovníkov, internetu a konzultácie so zákazníkom. </li></ul></Th>
@@ -67,9 +60,6 @@ const TheNonOfficialTranslations = () => {
                 <ThLeft></ThLeft>
                 <Th><ul><li>Preklady marketingových materiálov odporúčam nechať kontrolovať kvalifikovanými rodenými hovorcami, ktorých zabezpečím. Cena okolo 7 EUR/normostrana</li></ul></Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Preberanie a odovzdávanie</ThLeft>
                 <Th>
@@ -81,9 +71,6 @@ const TheNonOfficialTranslations = () => {
                   </ul>
                 </Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
               <Tr>
                 <ThLeft>Cenník</ThLeft>
                 <Th>
@@ -108,9 +95,6 @@ const TheNonOfficialTranslations = () => {
                   <ul><li>Cena sa počíta z hotového prekladu, nie z originálu. Pred zadaním zákazky vyhotovujem aspoň orientačnú cenovú kalkuláciu, ktorá zohľadní aj rozsah zákazky po preklade</li></ul>
                 </Th>
               </Tr>
-              <TrSeparator>
-                <ThSeparator/>
-              </TrSeparator>
             </Tbody>
           </Table>
         </ContentContainer>
